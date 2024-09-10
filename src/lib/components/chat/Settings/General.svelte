@@ -17,7 +17,7 @@
 	let themes = ['dark', 'light', 'rose-pine dark', 'rose-pine-dawn light', 'oled-dark'];
 	let selectedTheme = 'system';
 
-	let languages = [];
+	let languages: Awaited<ReturnType<typeof getLanguages>> = [];
 	let lang = $i18n.language;
 	let notificationEnabled = false;
 	let system = '';
@@ -41,7 +41,7 @@
 
 	// Advanced
 	let requestFormat = '';
-	let keepAlive = null;
+	let keepAlive: string | null = null;
 
 	let params = {
 		// Advanced
@@ -59,7 +59,8 @@
 		num_ctx: null,
 		num_batch: null,
 		num_keep: null,
-		max_tokens: null
+		max_tokens: null,
+		num_gpu: null
 	};
 
 	const toggleRequestFormat = async () => {
@@ -133,7 +134,7 @@
 <div class="flex flex-col h-full justify-between text-sm">
 	<div class="  pr-1.5 overflow-y-scroll max-h-[25rem]">
 		<div class="">
-			<div class=" mb-1 text-sm font-medium">{$i18n.t('WebUI Settings')}</div>
+			<div class=" mb-1 text-sm font-medium">{$i18n.t('Settings')}</div>
 
 			<div class="flex w-full justify-between">
 				<div class=" self-center text-xs font-medium">{$i18n.t('Theme')}</div>
@@ -148,7 +149,8 @@
 						<option value="dark">🌑 {$i18n.t('Dark')}</option>
 						<option value="oled-dark">🌃 {$i18n.t('OLED Dark')}</option>
 						<option value="light">☀️ {$i18n.t('Light')}</option>
-						<option value="her">🌷 Her</option>
+						<option value="rose-pine-dawn light">🌷 {$i18n.t('Rosé Pine Dawn')}</option>
+						<option value="rose-pine dark">🪻 {$i18n.t('Rosé Pine')}</option>
 						<!-- <option value="rose-pine dark">🪻 {$i18n.t('Rosé Pine')}</option>
 						<option value="rose-pine-dawn light">🌷 {$i18n.t('Rosé Pine Dawn')}</option> -->
 					</select>
@@ -174,13 +176,13 @@
 			</div>
 			{#if $i18n.language === 'en-US'}
 				<div class="mb-2 text-xs text-gray-400 dark:text-gray-500">
-					Couldn't find your language?
+					
 					<a
 						class=" text-gray-300 font-medium underline"
-						href="https://github.com/open-webui/open-webui/blob/main/docs/CONTRIBUTING.md#-translations-and-internationalization"
+						href=""
 						target="_blank"
 					>
-						Help us translate Open WebUI!
+					
 					</a>
 				</div>
 			{/if}
@@ -321,7 +323,8 @@
 						max_tokens: params.max_tokens !== null ? params.max_tokens : undefined,
 						use_mmap: params.use_mmap !== null ? params.use_mmap : undefined,
 						use_mlock: params.use_mlock !== null ? params.use_mlock : undefined,
-						num_thread: params.num_thread !== null ? params.num_thread : undefined
+						num_thread: params.num_thread !== null ? params.num_thread : undefined,
+						num_gpu: params.num_gpu !== null ? params.num_gpu : undefined
 					},
 					keepAlive: keepAlive ? (isNaN(keepAlive) ? keepAlive : parseInt(keepAlive)) : undefined
 				});

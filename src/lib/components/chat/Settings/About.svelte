@@ -59,14 +59,14 @@
 						</Tooltip>
 
 						<a
-							href="https://github.com/open-webui/open-webui/releases/tag/v{version.latest}"
+							href="{version.latest}"
 							target="_blank"
 						>
 							{updateAvailable === null
-								? $i18n.t('Checking for updates...')
+								? $i18n.t('')
 								: updateAvailable
-								? `(v${version.latest} ${$i18n.t('available!')})`
-								: $i18n.t('(latest)')}
+									? `(v${version.latest} ${$i18n.t('')})`
+									: $i18n.t('')}
 						</a>
 					</div>
 
@@ -76,7 +76,7 @@
 							showChangelog.set(true);
 						}}
 					>
-						<div>{$i18n.t("See what's new")}</div>
+						<div>{$i18n.t("")}</div>
 					</button>
 				</div>
 
@@ -86,7 +86,7 @@
 						checkForVersionUpdates();
 					}}
 				>
-					{$i18n.t('Check for updates')}
+					{$i18n.t('')}
 				</button>
 			</div>
 		</div>
@@ -106,38 +106,17 @@
 
 		<hr class=" dark:border-gray-850" />
 
-		<div class="flex space-x-1">
-			<a href="https://discord.gg/5rJgQTnV4s" target="_blank">
-				<img
-					alt="Discord"
-					src="https://img.shields.io/badge/Discord-Open_WebUI-blue?logo=discord&logoColor=white"
-				/>
-			</a>
-
-			<a href="https://twitter.com/OpenWebUI" target="_blank">
-				<img
-					alt="X (formerly Twitter) Follow"
-					src="https://img.shields.io/twitter/follow/OpenWebUI"
-				/>
-			</a>
-
-			<a href="https://github.com/open-webui/open-webui" target="_blank">
-				<img
-					alt="Github Repo"
-					src="https://img.shields.io/github/stars/open-webui/open-webui?style=social&label=Star us on Github"
-				/>
-			</a>
-		</div>
+		
 
 		<div class="mt-2 text-xs text-gray-400 dark:text-gray-500">
-			{#if !$WEBUI_NAME.includes('Open WebUI')}
+			{#if !$WEBUI_NAME.includes('Version de prueba')}
 				<span class=" text-gray-500 dark:text-gray-300 font-medium">{$WEBUI_NAME}</span> -
 			{/if}
 			{$i18n.t('Created by')}
 			<a
 				class=" text-gray-500 dark:text-gray-300 font-medium"
-				href="https://github.com/tjbck"
-				target="_blank">Timothy J. Baek</a
+				href=""
+				target="_blank">Jhon</a
 			>
 		</div>
 	</div>
