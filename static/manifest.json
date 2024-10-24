@@ -1,0 +1,27 @@
+{
+    "name": "Version prueba",
+    "short_name": "Version prueba",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#171717",
+    "icons": [
+      {
+        "src": "%sveltekit.assets%/favicon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "%sveltekit.assets%/favicon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "%sveltekit.assets%/favicon.png",
+        "sizes": "400x400",
+        "type": "image/png"
+      }
+    ]
+  }
+  
+  
