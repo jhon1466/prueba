@@ -1,6 +1,11 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<<<<<<< HEAD
 <ShortName>Version prueba</ShortName>
 <Description>Search Version prueba</Description>
+=======
+<ShortName>Version de prueba</ShortName>
+<Description>Search Version de prueba</Description>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 <InputEncoding>UTF-8</InputEncoding>
 <Image width="16" height="16" type="image/x-icon">http://localhost:5137/favicon.png</Image>
 <Url type="text/html" method="get" template="http://localhost:5137/?q={searchTerms}"/>

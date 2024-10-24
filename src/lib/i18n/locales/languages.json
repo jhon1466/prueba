@@ -68,10 +68,13 @@
 		"title": "Indonesian (Bahasa Indonesia)"
 	},
 	{
+<<<<<<< HEAD
 		"code": "ie-GA",
 		"title": "Irish (Gaeilge)"
 	},
 	{
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		"code": "it-IT",
 		"title": "Italian (Italiano)"
 	},
@@ -162,5 +165,12 @@
 	{
 		"code": "zh-TW",
 		"title": "Chinese (繁體中文)"
+<<<<<<< HEAD
+=======
+	},
+	{
+		"code": "dg-DG",
+		"title": "Doge (🐶)"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	}
 ]

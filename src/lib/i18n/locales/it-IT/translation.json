@@ -9,7 +9,10 @@
 	"{{user}}'s Chats": "{{user}} Chat",
 	"{{webUIName}} Backend Required": "{{webUIName}} Backend richiesto",
 	"*Prompt node ID(s) are required for image generation": "",
+<<<<<<< HEAD
 	"A new version (v{{LATEST_VERSION}}) is now available.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"A task model is used when performing tasks such as generating titles for chats and web search queries": "Un modello di attività viene utilizzato durante l'esecuzione di attività come la generazione di titoli per chat e query di ricerca Web",
 	"a user": "un utente",
 	"About": "Informazioni",
@@ -23,8 +26,11 @@
 	"Add a short description about what this model does": "Aggiungi una breve descrizione di ciò che fa questo modello",
 	"Add a short title for this prompt": "Aggiungi un titolo breve per questo prompt",
 	"Add a tag": "Aggiungi un tag",
+<<<<<<< HEAD
 	"Add Content": "",
 	"Add content here": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add custom prompt": "Aggiungi un prompt custom",
 	"Add Docs": "Aggiungi documenti",
 	"Add Files": "Aggiungi file",
@@ -33,7 +39,10 @@
 	"Add Model": "Aggiungi modello",
 	"Add Tag": "",
 	"Add Tags": "Aggiungi tag",
+<<<<<<< HEAD
 	"Add text content": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add User": "Aggiungi utente",
 	"Adjusting these settings will apply changes universally to all users.": "La modifica di queste impostazioni applicherà le modifiche universalmente a tutti gli utenti.",
 	"admin": "amministratore",
@@ -68,8 +77,11 @@
 	"Archived Chats": "Chat archiviate",
 	"are allowed - Activate this command by typing": "sono consentiti - Attiva questo comando digitando",
 	"Are you sure?": "Sei sicuro?",
+<<<<<<< HEAD
 	"Artifacts": "",
 	"Ask a question": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Attach file": "Allega file",
 	"Attention to detail": "Attenzione ai dettagli",
 	"Audio": "Audio",
@@ -79,10 +91,14 @@
 	"AUTOMATIC1111 Api Auth String": "",
 	"AUTOMATIC1111 Base URL": "URL base AUTOMATIC1111",
 	"AUTOMATIC1111 Base URL is required.": "L'URL base AUTOMATIC1111 è obbligatorio.",
+<<<<<<< HEAD
 	"Available list": "",
 	"available!": "disponibile!",
 	"Azure AI Speech": "",
 	"Azure Region": "",
+=======
+	"available!": "disponibile!",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Back": "Indietro",
 	"Bad Response": "Risposta non valida",
 	"Banners": "Banner",
@@ -103,7 +119,10 @@
 	"Chat Bubble UI": "UI bolle chat",
 	"Chat Controls": "",
 	"Chat direction": "Direzione chat",
+<<<<<<< HEAD
 	"Chat Overview": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Chats": "Chat",
 	"Check Again": "Controlla di nuovo",
 	"Check for updates": "Controlla aggiornamenti",
@@ -152,13 +171,20 @@
 	"Copied shared chat URL to clipboard!": "URL della chat condivisa copiato negli appunti!",
 	"Copied to clipboard": "",
 	"Copy": "Copia",
+<<<<<<< HEAD
+=======
+	"Copy Code": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Copy last code block": "Copia ultimo blocco di codice",
 	"Copy last response": "Copia ultima risposta",
 	"Copy Link": "Copia link",
 	"Copying to clipboard was successful!": "Copia negli appunti riuscita!",
 	"Create a model": "Creare un modello",
 	"Create Account": "Crea account",
+<<<<<<< HEAD
 	"Create Knowledge": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Create new key": "Crea nuova chiave",
 	"Create new secret key": "Crea nuova chiave segreta",
 	"Created at": "Creato il",
@@ -198,11 +224,19 @@
 	"Description": "Descrizione",
 	"Didn't fully follow instructions": "Non ha seguito completamente le istruzioni",
 	"Disabled": "",
+<<<<<<< HEAD
 	"": "",
 	"": "Scopri un modello",
 	"": "Scopri un prompt",
 	"": "",
 	"": "",
+=======
+	"Discover a function": "",
+	"Discover a model": "Scopri un modello",
+	"Discover a prompt": "Scopri un prompt",
+	"Discover a tool": "",
+	"Discover, download, and explore custom functions": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Discover, download, and explore custom prompts": "Scopri, scarica ed esplora prompt personalizzati",
 	"Discover, download, and explore custom tools": "",
 	"Discover, download, and explore model presets": "Scopri, scarica ed esplora i preset del modello",
@@ -248,7 +282,10 @@
 	"Enter a detail about yourself for your LLMs to recall": "Inserisci un dettaglio su di te per che i LLM possano ricordare",
 	"Enter api auth string (e.g. username:password)": "",
 	"Enter Brave Search API Key": "Inserisci la chiave API di Brave Search",
+<<<<<<< HEAD
 	"Enter CFG Scale (e.g. 7.0)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Chunk Overlap": "Inserisci la sovrapposizione chunk",
 	"Enter Chunk Size": "Inserisci la dimensione chunk",
 	"Enter Github Raw URL": "Immettere l'URL grezzo di Github",
@@ -259,8 +296,11 @@
 	"Enter Model ID": "",
 	"Enter model tag (e.g. {{modelTag}})": "Inserisci il tag del modello (ad esempio {{modelTag}})",
 	"Enter Number of Steps (e.g. 50)": "Inserisci il numero di passaggi (ad esempio 50)",
+<<<<<<< HEAD
 	"Enter Sampler (e.g. Euler a)": "",
 	"Enter Scheduler (e.g. Karras)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Score": "Inserisci il punteggio",
 	"Enter SearchApi API Key": "",
 	"Enter SearchApi Engine": "",
@@ -297,6 +337,7 @@
 	"Failed to create API Key.": "Impossibile creare la chiave API.",
 	"Failed to read clipboard contents": "Impossibile leggere il contenuto degli appunti",
 	"Failed to update settings": "",
+<<<<<<< HEAD
 	"Failed to upload file.": "",
 	"February": "Febbraio",
 	"Feel free to add specific details": "Sentiti libero/a di aggiungere dettagli specifici",
@@ -306,6 +347,13 @@
 	"File Mode": "Modalità file",
 	"File not found.": "File non trovato.",
 	"File removed successfully.": "",
+=======
+	"February": "Febbraio",
+	"Feel free to add specific details": "Sentiti libero/a di aggiungere dettagli specifici",
+	"File": "",
+	"File Mode": "Modalità file",
+	"File not found.": "File non trovato.",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"File size should not exceed {{maxSize}} MB.": "",
 	"Files": "",
 	"Filter is now globally disabled": "",
@@ -380,11 +428,14 @@
 	"Keep Alive": "Mantieni attivo",
 	"Keyboard shortcuts": "Scorciatoie da tastiera",
 	"Knowledge": "",
+<<<<<<< HEAD
 	"Knowledge created successfully.": "",
 	"Knowledge deleted successfully.": "",
 	"Knowledge reset successfully.": "",
 	"Knowledge updated successfully": "",
 	"Landing Page Mode": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Language": "Lingua",
 	"large language models, locally.": "",
 	"Last Active": "Ultima attività",
@@ -396,7 +447,11 @@
 	"LLMs can make mistakes. Verify important information.": "Gli LLM possono commettere errori. Verifica le informazioni importanti.",
 	"Local Models": "",
 	"LTR": "LTR",
+<<<<<<< HEAD
 	"": "Realizzato dalla comunità OpenWebUI",
+=======
+	"Made by OpenWebUI Community": "Realizzato dalla comunità OpenWebUI",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Make sure to enclose them with": "Assicurati di racchiuderli con",
 	"Make sure to export a workflow.json file as API format from ComfyUI.": "",
 	"Manage": "",
@@ -430,8 +485,11 @@
 	"Model {{modelId}} not found": "Modello {{modelId}} non trovato",
 	"Model {{modelName}} is not vision capable": "Il modello {{modelName}} non è in grado di vedere",
 	"Model {{name}} is now {{status}}": "Il modello {{name}} è ora {{status}}",
+<<<<<<< HEAD
 	"Model {{name}} is now at the top": "",
 	"Model accepts image inputs": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Model created successfully!": "",
 	"Model filesystem path detected. Model shortname is required for update, cannot continue.": "Percorso del filesystem del modello rilevato. Il nome breve del modello è richiesto per l'aggiornamento, impossibile continuare.",
 	"Model ID": "ID modello",
@@ -443,16 +501,24 @@
 	"Modelfile Content": "Contenuto del file modello",
 	"Models": "Modelli",
 	"More": "Altro",
+<<<<<<< HEAD
 	"Move to Top": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Name": "Nome",
 	"Name Tag": "Nome tag",
 	"Name your model": "Assegna un nome al tuo modello",
 	"New Chat": "Nuova chat",
 	"New Password": "Nuova password",
 	"No content to speak": "",
+<<<<<<< HEAD
 	"No file selected": "",
 	"No HTML, CSS, or JavaScript content found.": "",
 	"No knowledge found": "",
+=======
+	"No documents found": "",
+	"No file selected": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"No results found": "Nessun risultato trovato",
 	"No search query generated": "Nessuna query di ricerca generata",
 	"No source available": "Nessuna fonte disponibile",
@@ -477,15 +543,23 @@
 	"On": "Attivato",
 	"Only": "Solo",
 	"Only alphanumeric characters and hyphens are allowed in the command string.": "Nella stringa di comando sono consentiti solo caratteri alfanumerici e trattini.",
+<<<<<<< HEAD
 	"Only collections can be edited, create a new knowledge base to edit/add documents.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Oops! Hold tight! Your files are still in the processing oven. We're cooking them up to perfection. Please be patient and we'll let you know once they're ready.": "Ops! Aspetta! I tuoi file sono ancora in fase di elaborazione. Li stiamo cucinando alla perfezione. Per favore sii paziente e ti faremo sapere quando saranno pronti.",
 	"Oops! Looks like the URL is invalid. Please double-check and try again.": "Ops! Sembra che l'URL non sia valido. Si prega di ricontrollare e riprovare.",
 	"Oops! There was an error in the previous response. Please try again or contact admin.": "",
 	"Oops! You're using an unsupported method (frontend only). Please serve the WebUI from the backend.": "Ops! Stai utilizzando un metodo non supportato (solo frontend). Si prega di servire la WebUI dal backend.",
+<<<<<<< HEAD
 	"Open file": "",
 	"Open in full screen": "",
 	"Open new chat": "Apri nuova chat",
 	"Version prueba version (v{{version_prueba_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+=======
+	"Open new chat": "Apri nuova chat",
+	"Version de prueba version (v{{OPEN_WEBUI_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"OpenAI": "OpenAI",
 	"OpenAI API": "API OpenAI",
 	"OpenAI API Config": "Configurazione API OpenAI",
@@ -493,9 +567,12 @@
 	"OpenAI URL/Key required.": "URL/Chiave OpenAI obbligatori.",
 	"or": "o",
 	"Other": "Altro",
+<<<<<<< HEAD
 	"Output format": "",
 	"Overview": "",
 	"page": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Password": "Password",
 	"PDF document (.pdf)": "Documento PDF (.pdf)",
 	"PDF Extract Images (OCR)": "Estrazione immagini PDF (OCR)",
@@ -514,12 +591,19 @@
 	"Plain text (.txt)": "Testo normale (.txt)",
 	"Playground": "Terreno di gioco",
 	"Please carefully review the following warnings:": "",
+<<<<<<< HEAD
 	"Please fill in all fields.": "",
 	"Please select a reason": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Positive attitude": "Attitudine positiva",
 	"Previous 30 days": "Ultimi 30 giorni",
 	"Previous 7 days": "Ultimi 7 giorni",
 	"Profile Image": "Immagine del profilo",
+<<<<<<< HEAD
+=======
+	"Prompt": "Prompt",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Prompt (e.g. Tell me a fun fact about the Roman Empire)": "Prompt (ad esempio Dimmi un fatto divertente sull'Impero Romano)",
 	"Prompt Content": "Contenuto del prompt",
 	"Prompt suggestions": "Suggerimenti prompt",
@@ -559,18 +643,31 @@
 	"Save": "Salva",
 	"Save & Create": "Salva e crea",
 	"Save & Update": "Salva e aggiorna",
+<<<<<<< HEAD
 	"Save As Copy": "",
 	"Save Tag": "",
 	"Saved": "",
 	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Il salvataggio dei registri della chat direttamente nell'archivio del browser non è più supportato. Si prega di dedicare un momento per scaricare ed eliminare i registri della chat facendo clic sul pulsante in basso. Non preoccuparti, puoi facilmente reimportare i registri della chat nel backend tramite",
+=======
+	"Save Tag": "",
+	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Il salvataggio dei registri della chat direttamente nell'archivio del browser non è più supportato. Si prega di dedicare un momento per scaricare ed eliminare i registri della chat facendo clic sul pulsante in basso. Non preoccuparti, puoi facilmente reimportare i registri della chat nel backend tramite",
+	"Scan": "Scansione",
+	"Scan complete!": "Scansione completata!",
+	"Scan for documents from {{path}}": "Cerca documenti da {{path}}",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Scroll to bottom when switching between branches": "",
 	"Search": "Cerca",
 	"Search a model": "Cerca un modello",
 	"Search Chats": "Cerca nelle chat",
+<<<<<<< HEAD
 	"Search Collection": "",
 	"Search Documents": "Cerca documenti",
 	"Search Functions": "",
 	"Search Knowledge": "",
+=======
+	"Search Documents": "Cerca documenti",
+	"Search Functions": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Search Models": "Cerca modelli",
 	"Search Prompts": "Cerca prompt",
 	"Search Query Generation Prompt": "",
@@ -595,29 +692,45 @@
 	"Select a pipeline url": "Selezionare l'URL di una pipeline",
 	"Select a tool": "",
 	"Select an Ollama instance": "Seleziona un'istanza Ollama",
+<<<<<<< HEAD
 	"Select Engine": "",
 	"Select Knowledge": "",
 	"Select model": "Seleziona modello",
 	"Select only one model to call": "",
 	"Select/Add Files": "",
+=======
+	"Select Documents": "",
+	"Select Engine": "",
+	"Select model": "Seleziona modello",
+	"Select only one model to call": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Selected model(s) do not support image inputs": "I modelli selezionati non supportano l'input di immagini",
 	"Send": "Invia",
 	"Send a Message": "Invia un messaggio",
 	"Send message": "Invia messaggio",
+<<<<<<< HEAD
 	"Sends `stream_options: { include_usage: true }` in the request.\nSupported providers will return token usage information in the response when set.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"September": "Settembre",
 	"Serper API Key": "Chiave API Serper",
 	"Serply API Key": "",
 	"Serpstack API Key": "Chiave API Serpstack",
 	"Server connection verified": "Connessione al server verificata",
 	"Set as default": "Imposta come predefinito",
+<<<<<<< HEAD
 	"Set CFG Scale": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Default Model": "Imposta modello predefinito",
 	"Set embedding model (e.g. {{model}})": "Imposta modello di embedding (ad esempio {{model}})",
 	"Set Image Size": "Imposta dimensione immagine",
 	"Set reranking model (e.g. {{model}})": "Imposta modello di riclassificazione (ad esempio {{model}})",
+<<<<<<< HEAD
 	"Set Sampler": "",
 	"Set Scheduler": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Steps": "Imposta passaggi",
 	"Set Task Model": "Imposta modello di attività",
 	"Set Voice": "Imposta voce",
@@ -634,6 +747,7 @@
 	"Show your support!": "",
 	"Showcased creativity": "Creatività messa in mostra",
 	"Sign in": "Accedi",
+<<<<<<< HEAD
 	"Sign in to {{WEBUI_NAME}}": "",
 	"Sign Out": "Esci",
 	"Sign up": "Registrati",
@@ -645,6 +759,15 @@
 	"Speech-to-Text Engine": "Motore da voce a testo",
 	"Stop Sequence": "Sequenza di arresto",
 	"Stream Chat Response": "",
+=======
+	"Sign Out": "Esci",
+	"Sign up": "Registrati",
+	"Signing in": "Accesso in corso",
+	"Source": "Fonte",
+	"Speech recognition error: {{error}}": "Errore di riconoscimento vocale: {{error}}",
+	"Speech-to-Text Engine": "Motore da voce a testo",
+	"Stop Sequence": "Sequenza di arresto",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"STT Model": "",
 	"STT Settings": "Impostazioni STT",
 	"Submit": "Invia",
@@ -654,7 +777,10 @@
 	"Suggested": "Suggerito",
 	"Support": "",
 	"Support this plugin:": "",
+<<<<<<< HEAD
 	"Sync directory": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"System": "Sistema",
 	"System Prompt": "Prompt di sistema",
 	"Tags": "Tag",
@@ -677,9 +803,13 @@
 	"This action cannot be undone. Do you wish to continue?": "",
 	"This ensures that your valuable conversations are securely saved to your backend database. Thank you!": "Ciò garantisce che le tue preziose conversazioni siano salvate in modo sicuro nel tuo database backend. Grazie!",
 	"This is an experimental feature, it may not function as expected and is subject to change at any time.": "",
+<<<<<<< HEAD
 	"This option will delete all existing files in the collection and replace them with newly uploaded files.": "",
 	"This will delete": "",
 	"This will reset the knowledge base and sync all files. Do you wish to continue?": "",
+=======
+	"This will delete": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Thorough explanation": "Spiegazione dettagliata",
 	"Tika": "",
 	"Tika Server URL required.": "",
@@ -689,10 +819,18 @@
 	"Title Auto-Generation": "Generazione automatica del titolo",
 	"Title cannot be an empty string.": "Il titolo non può essere una stringa vuota.",
 	"Title Generation Prompt": "Prompt di generazione del titolo",
+<<<<<<< HEAD
 	"To access the available model names for downloading,": "Per accedere ai nomi dei modelli disponibili per il download,",
 	"To access the GGUF models available for downloading,": "Per accedere ai modelli GGUF disponibili per il download,",
 	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "",
 	"To attach knowledge base here, add them to the \"Knowledge\" workspace first.": "",
+=======
+	"to": "a",
+	"To access the available model names for downloading,": "Per accedere ai nomi dei modelli disponibili per il download,",
+	"To access the GGUF models available for downloading,": "Per accedere ai modelli GGUF disponibili per il download,",
+	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "",
+	"To add documents here, upload them to the \"Documents\" workspace first.": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"to chat input.": "all'input della chat.",
 	"To select actions here, add them to the \"Functions\" workspace first.": "",
 	"To select filters here, add them to the \"Functions\" workspace first.": "",
@@ -722,21 +860,34 @@
 	"Type Hugging Face Resolve (Download) URL": "Digita l'URL di Hugging Face Resolve (Download)",
 	"Uh-oh! There was an issue connecting to {{provider}}.": "Uh-oh! Si è verificato un problema durante la connessione a {{provider}}.",
 	"UI": "",
+<<<<<<< HEAD
 	"Unpin": "",
 	"Update": "",
 	"Update and Copy Link": "Aggiorna e copia link",
 	"Update for the latest features and improvements.": "",
+=======
+	"Unknown file type '{{file_type}}'. Proceeding with the file upload anyway.": "",
+	"Unpin": "",
+	"Update": "",
+	"Update and Copy Link": "Aggiorna e copia link",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Update password": "Aggiorna password",
 	"Updated at": "",
 	"Upload": "",
 	"Upload a GGUF model": "Carica un modello GGUF",
+<<<<<<< HEAD
 	"Upload directory": "",
 	"Upload files": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Upload Files": "Carica file",
 	"Upload Pipeline": "",
 	"Upload Progress": "Avanzamento caricamento",
 	"URL Mode": "Modalità URL",
+<<<<<<< HEAD
 	"Use '#' in the prompt input to load and include your knowledge.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Use '#' in the prompt input to load and select your documents.": "Usa '#' nell'input del prompt per caricare e selezionare i tuoi documenti.",
 	"Use Gravatar": "Usa Gravatar",
 	"Use Initials": "Usa iniziali",
@@ -754,7 +905,10 @@
 	"variable": "variabile",
 	"variable to have them replaced with clipboard content.": "variabile per farli sostituire con il contenuto degli appunti.",
 	"Version": "Versione",
+<<<<<<< HEAD
 	"Version {{selectedVersion}} of {{totalVersions}}": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Voice": "",
 	"Warning": "Avvertimento",
 	"Warning:": "",
@@ -783,7 +937,11 @@
 	"You're a helpful assistant.": "Sei un assistente utile.",
 	"You're now logged in.": "Ora hai effettuato l'accesso.",
 	"Your account status is currently pending activation.": "",
+<<<<<<< HEAD
 	"Your entire contribution will go directly to the plugin developer; Version prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+=======
+	"Your entire contribution will go directly to the plugin developer; Version de prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Youtube": "Youtube",
 	"Youtube Loader Settings": "Impostazioni del caricatore Youtube"
 }

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { prompts } from '$lib/stores';
+<<<<<<< HEAD
 	import {
 		findWordIndices,
 		getUserPosition,
@@ -9,6 +10,9 @@
 		getUserTimezone,
 		getWeekday
 	} from '$lib/utils';
+=======
+	import { findWordIndices } from '$lib/utils';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import { tick, getContext } from 'svelte';
 	import { toast } from 'svelte-sonner';
 
@@ -47,6 +51,11 @@
 				return '{{CLIPBOARD}}';
 			});
 
+<<<<<<< HEAD
+=======
+			console.log(clipboardText);
+
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			const clipboardItems = await navigator.clipboard.read();
 
 			let imageUrl = null;
@@ -56,6 +65,10 @@
 					if (type.startsWith('image/')) {
 						const blob = await item.getType(type);
 						imageUrl = URL.createObjectURL(blob);
+<<<<<<< HEAD
+=======
+						console.log(`Image URL (${type}): ${imageUrl}`);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					}
 				}
 			}
@@ -70,6 +83,7 @@
 				];
 			}
 
+<<<<<<< HEAD
 			text = text.replaceAll('{{CLIPBOARD}}', clipboardText);
 		}
 
@@ -106,6 +120,9 @@
 		if (command.content.includes('{{CURRENT_WEEKDAY}}')) {
 			const weekday = getWeekday();
 			text = text.replaceAll('{{CURRENT_WEEKDAY}}', weekday);
+=======
+			text = command.content.replaceAll('{{CLIPBOARD}}', clipboardText);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		}
 
 		prompt = text;
@@ -132,11 +149,19 @@
 {#if filteredPrompts.length > 0}
 	<div
 		id="commands-container"
+<<<<<<< HEAD
 		class="pl-2 pr-14 mb-3 text-left w-full absolute bottom-0 left-0 right-0 z-10"
 	>
 		<div class="flex w-full dark:border dark:border-gray-850 rounded-lg">
 			<div class="  bg-gray-50 dark:bg-gray-850 w-10 rounded-l-lg text-center">
 				<div class=" text-lg font-medium mt-2">/</div>
+=======
+		class="pl-1 pr-12 mb-3 text-left w-full absolute bottom-0 left-0 right-0 z-10"
+	>
+		<div class="flex w-full dark:border dark:border-gray-850 rounded-lg">
+			<div class="  bg-gray-50 dark:bg-gray-850 w-10 rounded-l-lg text-center">
+				<div class=" text-lg font-semibold mt-2">/</div>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			</div>
 
 			<div

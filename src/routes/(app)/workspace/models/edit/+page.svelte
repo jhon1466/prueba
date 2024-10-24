@@ -5,6 +5,7 @@
 
 	import { onMount, getContext } from 'svelte';
 	import { page } from '$app/stores';
+<<<<<<< HEAD
 	import {
 		settings,
 		user,
@@ -14,6 +15,9 @@
 		functions,
 		knowledge as _knowledge
 	} from '$lib/stores';
+=======
+	import { settings, user, config, models, tools, functions } from '$lib/stores';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import { splitStream } from '$lib/utils';
 
 	import { getModelInfos, updateModelById } from '$lib/apis/models';
@@ -26,7 +30,10 @@
 	import ToolsSelector from '$lib/components/workspace/Models/ToolsSelector.svelte';
 	import FiltersSelector from '$lib/components/workspace/Models/FiltersSelector.svelte';
 	import ActionsSelector from '$lib/components/workspace/Models/ActionsSelector.svelte';
+<<<<<<< HEAD
 	import Capabilities from '$lib/components/workspace/Models/Capabilities.svelte';
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	const i18n = getContext('i18n');
 
@@ -169,6 +176,7 @@
 					: null;
 
 				if (model?.info?.meta?.knowledge) {
+<<<<<<< HEAD
 					console.log(model?.info?.meta?.knowledge);
 					knowledge = [...model?.info?.meta?.knowledge].map((item) => {
 						if (item?.collection_name) {
@@ -188,6 +196,9 @@
 							return item;
 						}
 					});
+=======
+					knowledge = [...model?.info?.meta?.knowledge];
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				}
 
 				if (model?.info?.meta?.toolIds) {
@@ -264,7 +275,11 @@
 					ctx.drawImage(img, offsetX, offsetY, newWidth, newHeight);
 
 					// Get the base64 representation of the compressed image
+<<<<<<< HEAD
 					const compressedSrc = canvas.toDataURL();
+=======
+					const compressedSrc = canvas.toDataURL('image/jpeg');
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 					// Display the compressed image
 					info.meta.profile_image_url = compressedSrc;
@@ -276,9 +291,13 @@
 			if (
 				inputFiles &&
 				inputFiles.length > 0 &&
+<<<<<<< HEAD
 				['image/gif', 'image/webp', 'image/jpeg', 'image/png', 'image/svg+xml'].includes(
 					inputFiles[0]['type']
 				)
+=======
+				['image/gif', 'image/webp', 'image/jpeg', 'image/png'].includes(inputFiles[0]['type'])
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			) {
 				reader.readAsDataURL(inputFiles[0]);
 			} else {
@@ -323,7 +342,11 @@
 					<button
 						class=" {info.meta.profile_image_url
 							? ''
+<<<<<<< HEAD
 							: 'p-4'} rounded-full border border-dashed border-gray-200 flex items-center"
+=======
+							: 'p-4'} rounded-full dark:bg-gray-700 border border-dashed border-gray-200 flex items-center"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						type="button"
 						on:click={() => {
 							filesInputElement.click();
@@ -584,7 +607,11 @@
 			</div>
 
 			<div class="my-2">
+<<<<<<< HEAD
 				<Knowledge bind:selectedKnowledge={knowledge} collections={$_knowledge} />
+=======
+				<Knowledge bind:knowledge />
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			</div>
 
 			<div class="my-2">
@@ -606,7 +633,29 @@
 			</div>
 
 			<div class="my-2">
+<<<<<<< HEAD
 				<Capabilities bind:capabilities />
+=======
+				<div class="flex w-full justify-between mb-1">
+					<div class=" self-center text-sm font-semibold">{$i18n.t('Capabilities')}</div>
+				</div>
+				<div class="flex flex-col">
+					{#each Object.keys(capabilities) as capability}
+						<div class=" flex items-center gap-2">
+							<Checkbox
+								state={capabilities[capability] ? 'checked' : 'unchecked'}
+								on:change={(e) => {
+									capabilities[capability] = e.detail === 'checked';
+								}}
+							/>
+
+							<div class=" py-0.5 text-sm w-full capitalize">
+								{$i18n.t(capability)}
+							</div>
+						</div>
+					{/each}
+				</div>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			</div>
 
 			<div class="my-1">

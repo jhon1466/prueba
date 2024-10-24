@@ -1,6 +1,10 @@
 fastapi==0.111.0
 uvicorn[standard]==0.30.6
+<<<<<<< HEAD
 pydantic==2.9.2
+=======
+pydantic==2.8.2
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 python-multipart==0.0.9
 
 Flask==3.0.3
@@ -11,7 +15,11 @@ python-jose==3.3.0
 passlib[bcrypt]==1.7.4
 
 requests==2.32.3
+<<<<<<< HEAD
 aiohttp==3.10.8
+=======
+aiohttp==3.10.5
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 sqlalchemy==2.0.32
 alembic==1.13.2
@@ -36,6 +44,7 @@ tiktoken
 
 langchain==0.2.15
 langchain-community==0.2.12
+<<<<<<< HEAD
 langchain-chroma==0.1.4
 
 fake-useragent==1.5.1
@@ -48,6 +57,13 @@ einops==0.8.0
 
 
 ftfy==6.2.3
+=======
+langchain-chroma==0.1.2
+
+fake-useragent==1.5.1
+chromadb==0.5.5
+sentence-transformers==3.0.1
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 pypdf==4.3.1
 docx2txt==0.8
 python-pptx==1.0.0
@@ -55,7 +71,11 @@ unstructured==0.15.9
 nltk==3.9.1
 Markdown==3.7
 pypandoc==1.13
+<<<<<<< HEAD
 pandas==2.2.3
+=======
+pandas==2.2.2
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 openpyxl==3.1.5
 pyxlsb==1.0.10
 xlrd==2.0.1
@@ -80,7 +100,11 @@ pytube==15.0.0
 
 extract_msg
 pydub
+<<<<<<< HEAD
 duckduckgo-search~=6.2.13
+=======
+duckduckgo-search~=6.2.11
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 ## Tests
 docker~=7.1.0

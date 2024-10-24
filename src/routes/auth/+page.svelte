@@ -9,7 +9,10 @@
 	import { generateInitialsImage, canvasPixelTest } from '$lib/utils';
 	import { page } from '$app/stores';
 	import { getBackendConfig } from '$lib/apis';
+<<<<<<< HEAD
 	import Modal from '$lib/components/Modal.svelte'; //ruta correcta
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	const i18n = getContext('i18n');
 
@@ -20,6 +23,7 @@
 	let email = '';
 	let password = '';
 
+<<<<<<< HEAD
 	let showModal = false;
   
 	const openModal = () => {
@@ -30,6 +34,8 @@
 	  showModal = false;
 	};
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	const setSessionUser = async (sessionUser) => {
 		if (sessionUser) {
 			console.log(sessionUser);
@@ -151,7 +157,13 @@
 						class="flex items-center justify-center gap-3 text-xl sm:text-2xl text-center font-semibold dark:text-gray-200"
 					>
 						<div>
+<<<<<<< HEAD
 							{$i18n.t('Signing in to {{WEBUI_NAME}}', { WEBUI_NAME: $WEBUI_NAME })}
+=======
+							{$i18n.t('Signing in')}
+							{$i18n.t('to')}
+							{$WEBUI_NAME}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						</div>
 
 						<div>
@@ -169,6 +181,7 @@
 					>
 						<div class="mb-1">
 							<div class=" text-2xl font-medium">
+<<<<<<< HEAD
 								{#if mode === 'signin'}
 									{$i18n.t(`Sign in to {{WEBUI_NAME}}`, { WEBUI_NAME: $WEBUI_NAME })}
 								{:else}
@@ -189,6 +202,22 @@
 				  </div>
 				{/if}
 			  </div>
+=======
+								{mode === 'signin' ? $i18n.t('Sign in') : $i18n.t('Sign up')}
+								{$i18n.t('to')}
+								{$WEBUI_NAME}
+							</div>
+
+							{#if mode === 'signup'}
+								<div class=" mt-1 text-xs font-medium text-gray-500">
+									ⓘ {$WEBUI_NAME}
+									{$i18n.t(
+										'does not make any external connections, and your data stays securely on your locally hosted server.'
+									)}
+								</div>
+							{/if}
+						</div>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 						{#if $config?.features.enable_login_form}
 							<div class="flex flex-col mt-4">
@@ -365,10 +394,13 @@
 			{/if}
 		</div>
 	</div>
+<<<<<<< HEAD
 	
 {#if showModal}
 <Modal on:close={closeModal} />
 {/if}
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 {/if}
 
 <style>

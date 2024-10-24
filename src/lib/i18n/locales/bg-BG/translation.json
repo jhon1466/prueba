@@ -9,7 +9,10 @@
 	"{{user}}'s Chats": "{{user}}'s чатове",
 	"{{webUIName}} Backend Required": "{{webUIName}} Изисква се Бекенд",
 	"*Prompt node ID(s) are required for image generation": "",
+<<<<<<< HEAD
 	"A new version (v{{LATEST_VERSION}}) is now available.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"A task model is used when performing tasks such as generating titles for chats and web search queries": "Моделът на задачите се използва при изпълнение на задачи като генериране на заглавия за чатове и заявки за търсене в мрежата",
 	"a user": "потребител",
 	"About": "Относно",
@@ -23,8 +26,11 @@
 	"Add a short description about what this model does": "Добавете кратко описание за това какво прави този модел",
 	"Add a short title for this prompt": "Добавяне на кратко заглавие за този промпт",
 	"Add a tag": "Добавяне на таг",
+<<<<<<< HEAD
 	"Add Content": "",
 	"Add content here": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add custom prompt": "Добавяне на собствен промпт",
 	"Add Docs": "Добавяне на Документи",
 	"Add Files": "Добавяне на Файлове",
@@ -33,7 +39,10 @@
 	"Add Model": "Добавяне на Модел",
 	"Add Tag": "",
 	"Add Tags": "добавяне на тагове",
+<<<<<<< HEAD
 	"Add text content": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add User": "Добавяне на потребител",
 	"Adjusting these settings will apply changes universally to all users.": "При промяна на тези настройки промените се прилагат за всички потребители.",
 	"admin": "админ",
@@ -68,8 +77,11 @@
 	"Archived Chats": "Архивирани Чатове",
 	"are allowed - Activate this command by typing": "са разрешени - Активирайте тази команда чрез въвеждане",
 	"Are you sure?": "Сигурни ли сте?",
+<<<<<<< HEAD
 	"Artifacts": "",
 	"Ask a question": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Attach file": "Прикачване на файл",
 	"Attention to detail": "Внимание към детайлите",
 	"Audio": "Аудио",
@@ -79,10 +91,14 @@
 	"AUTOMATIC1111 Api Auth String": "",
 	"AUTOMATIC1111 Base URL": "AUTOMATIC1111 Базов URL",
 	"AUTOMATIC1111 Base URL is required.": "AUTOMATIC1111 Базов URL е задължителен.",
+<<<<<<< HEAD
 	"Available list": "",
 	"available!": "наличен!",
 	"Azure AI Speech": "",
 	"Azure Region": "",
+=======
+	"available!": "наличен!",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Back": "Назад",
 	"Bad Response": "Невалиден отговор от API",
 	"Banners": "Банери",
@@ -103,7 +119,10 @@
 	"Chat Bubble UI": "UI за чат бублон",
 	"Chat Controls": "",
 	"Chat direction": "Направление на чата",
+<<<<<<< HEAD
 	"Chat Overview": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Chats": "Чатове",
 	"Check Again": "Проверете Още Веднъж",
 	"Check for updates": "Проверка за актуализации",
@@ -152,13 +171,20 @@
 	"Copied shared chat URL to clipboard!": "Копирана е връзката за чат!",
 	"Copied to clipboard": "",
 	"Copy": "Копирай",
+<<<<<<< HEAD
+=======
+	"Copy Code": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Copy last code block": "Копиране на последен код блок",
 	"Copy last response": "Копиране на последен отговор",
 	"Copy Link": "Копиране на връзка",
 	"Copying to clipboard was successful!": "Копирането в клипборда беше успешно!",
 	"Create a model": "Създаване на модел",
 	"Create Account": "Създаване на Акаунт",
+<<<<<<< HEAD
 	"Create Knowledge": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Create new key": "Създаване на нов ключ",
 	"Create new secret key": "Създаване на нов секретен ключ",
 	"Created at": "Създадено на",
@@ -198,11 +224,19 @@
 	"Description": "Описание",
 	"Didn't fully follow instructions": "Не следва инструкциите",
 	"Disabled": "",
+<<<<<<< HEAD
 	"": "",
 	"": "Открийте модел",
 	"": "Откриване на промпт",
 	"": "",
 	"": "",
+=======
+	"Discover a function": "",
+	"Discover a model": "Открийте модел",
+	"Discover a prompt": "Откриване на промпт",
+	"Discover a tool": "",
+	"Discover, download, and explore custom functions": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Discover, download, and explore custom prompts": "Откриване, сваляне и преглед на персонализирани промптове",
 	"Discover, download, and explore custom tools": "",
 	"Discover, download, and explore model presets": "Откриване, сваляне и преглед на пресетове на модели",
@@ -248,7 +282,10 @@
 	"Enter a detail about yourself for your LLMs to recall": "Въведете подробности за себе си, за да се herinnerат вашите LLMs",
 	"Enter api auth string (e.g. username:password)": "",
 	"Enter Brave Search API Key": "Въведете Brave Search API ключ",
+<<<<<<< HEAD
 	"Enter CFG Scale (e.g. 7.0)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Chunk Overlap": "Въведете Chunk Overlap",
 	"Enter Chunk Size": "Въведете Chunk Size",
 	"Enter Github Raw URL": "Въведете URL адреса на Github Raw",
@@ -259,8 +296,11 @@
 	"Enter Model ID": "",
 	"Enter model tag (e.g. {{modelTag}})": "Въведете таг на модел (напр. {{modelTag}})",
 	"Enter Number of Steps (e.g. 50)": "Въведете брой стъпки (напр. 50)",
+<<<<<<< HEAD
 	"Enter Sampler (e.g. Euler a)": "",
 	"Enter Scheduler (e.g. Karras)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Score": "Въведете оценка",
 	"Enter SearchApi API Key": "",
 	"Enter SearchApi Engine": "",
@@ -297,6 +337,7 @@
 	"Failed to create API Key.": "Неуспешно създаване на API ключ.",
 	"Failed to read clipboard contents": "Грешка при четене на съдържанието от клипборда",
 	"Failed to update settings": "",
+<<<<<<< HEAD
 	"Failed to upload file.": "",
 	"February": "Февруари",
 	"Feel free to add specific details": "Feel free to add specific details",
@@ -306,6 +347,13 @@
 	"File Mode": "Файл Мод",
 	"File not found.": "Файл не е намерен.",
 	"File removed successfully.": "",
+=======
+	"February": "Февруари",
+	"Feel free to add specific details": "Feel free to add specific details",
+	"File": "",
+	"File Mode": "Файл Мод",
+	"File not found.": "Файл не е намерен.",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"File size should not exceed {{maxSize}} MB.": "",
 	"Files": "",
 	"Filter is now globally disabled": "",
@@ -380,11 +428,14 @@
 	"Keep Alive": "Keep Alive",
 	"Keyboard shortcuts": "Клавиши за бърз достъп",
 	"Knowledge": "",
+<<<<<<< HEAD
 	"Knowledge created successfully.": "",
 	"Knowledge deleted successfully.": "",
 	"Knowledge reset successfully.": "",
 	"Knowledge updated successfully": "",
 	"Landing Page Mode": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Language": "Език",
 	"large language models, locally.": "",
 	"Last Active": "Последни активни",
@@ -396,7 +447,11 @@
 	"LLMs can make mistakes. Verify important information.": "LLMs могат да правят грешки. Проверете важните данни.",
 	"Local Models": "",
 	"LTR": "LTR",
+<<<<<<< HEAD
 	"": "Направено от OpenWebUI общността",
+=======
+	"Made by OpenWebUI Community": "Направено от OpenWebUI общността",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Make sure to enclose them with": "Уверете се, че са заключени с",
 	"Make sure to export a workflow.json file as API format from ComfyUI.": "",
 	"Manage": "",
@@ -430,8 +485,11 @@
 	"Model {{modelId}} not found": "Моделът {{modelId}} не е намерен",
 	"Model {{modelName}} is not vision capable": "Моделът {{modelName}} не може да се вижда",
 	"Model {{name}} is now {{status}}": "Моделът {{name}} сега е {{status}}",
+<<<<<<< HEAD
 	"Model {{name}} is now at the top": "",
 	"Model accepts image inputs": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Model created successfully!": "",
 	"Model filesystem path detected. Model shortname is required for update, cannot continue.": "Открит е път до файловата система на модела. За актуализацията се изисква съкратено име на модела, не може да продължи.",
 	"Model ID": "ИД на модел",
@@ -443,16 +501,24 @@
 	"Modelfile Content": "Съдържание на модфайл",
 	"Models": "Модели",
 	"More": "Повече",
+<<<<<<< HEAD
 	"Move to Top": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Name": "Име",
 	"Name Tag": "Име Таг",
 	"Name your model": "Дайте име на вашия модел",
 	"New Chat": "Нов чат",
 	"New Password": "Нова парола",
 	"No content to speak": "",
+<<<<<<< HEAD
 	"No file selected": "",
 	"No HTML, CSS, or JavaScript content found.": "",
 	"No knowledge found": "",
+=======
+	"No documents found": "",
+	"No file selected": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"No results found": "Няма намерени резултати",
 	"No search query generated": "Не е генерирана заявка за търсене",
 	"No source available": "Няма наличен източник",
@@ -477,15 +543,23 @@
 	"On": "Вкл.",
 	"Only": "Само",
 	"Only alphanumeric characters and hyphens are allowed in the command string.": "Само алфанумерични знаци и тире са разрешени в командния низ.",
+<<<<<<< HEAD
 	"Only collections can be edited, create a new knowledge base to edit/add documents.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Oops! Hold tight! Your files are still in the processing oven. We're cooking them up to perfection. Please be patient and we'll let you know once they're ready.": "Упс! Задръжте! Файловете ви все още са в пещта за обработка. Готвим ги до съвършенство. Моля, бъдете търпеливи и ще ви уведомим, когато са готови.",
 	"Oops! Looks like the URL is invalid. Please double-check and try again.": "Упс! Изглежда URL адресът е невалиден. Моля, проверете отново и опитайте пак.",
 	"Oops! There was an error in the previous response. Please try again or contact admin.": "",
 	"Oops! You're using an unsupported method (frontend only). Please serve the WebUI from the backend.": "Упс! Използвате неподдържан метод (само фронтенд). Моля, сервирайте WebUI от бекенда.",
+<<<<<<< HEAD
 	"Open file": "",
 	"Open in full screen": "",
 	"Open new chat": "Отвори нов чат",
 	"Version prueba version (v{{version_prueba_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+=======
+	"Open new chat": "Отвори нов чат",
+	"Version de prueba version (v{{OPEN_WEBUI_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"OpenAI": "OpenAI",
 	"OpenAI API": "OpenAI API",
 	"OpenAI API Config": "OpenAI API Config",
@@ -493,9 +567,12 @@
 	"OpenAI URL/Key required.": "OpenAI URL/Key е задължителен.",
 	"or": "или",
 	"Other": "Other",
+<<<<<<< HEAD
 	"Output format": "",
 	"Overview": "",
 	"page": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Password": "Парола",
 	"PDF document (.pdf)": "PDF документ (.pdf)",
 	"PDF Extract Images (OCR)": "PDF Extract Images (OCR)",
@@ -514,12 +591,19 @@
 	"Plain text (.txt)": "Plain text (.txt)",
 	"Playground": "Плейграунд",
 	"Please carefully review the following warnings:": "",
+<<<<<<< HEAD
 	"Please fill in all fields.": "",
 	"Please select a reason": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Positive attitude": "Позитивна ативност",
 	"Previous 30 days": "Предыдущите 30 дни",
 	"Previous 7 days": "Предыдущите 7 дни",
 	"Profile Image": "Профилна снимка",
+<<<<<<< HEAD
+=======
+	"Prompt": "Промпт",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Prompt (e.g. Tell me a fun fact about the Roman Empire)": "Промпт (напр. Обмисли ме забавна факт за Римската империя)",
 	"Prompt Content": "Съдържание на промпта",
 	"Prompt suggestions": "Промпт предложения",
@@ -559,18 +643,31 @@
 	"Save": "Запис",
 	"Save & Create": "Запис & Създаване",
 	"Save & Update": "Запис & Актуализиране",
+<<<<<<< HEAD
 	"Save As Copy": "",
 	"Save Tag": "",
 	"Saved": "",
 	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Запазването на чат логове директно в хранилището на вашия браузър вече не се поддържа. Моля, отделете малко време, за да изтеглите и изтриете чат логовете си, като щракнете върху бутона по-долу. Не се притеснявайте, можете лесно да импортирате отново чат логовете си в бекенда чрез",
+=======
+	"Save Tag": "",
+	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Запазването на чат логове директно в хранилището на вашия браузър вече не се поддържа. Моля, отделете малко време, за да изтеглите и изтриете чат логовете си, като щракнете върху бутона по-долу. Не се притеснявайте, можете лесно да импортирате отново чат логовете си в бекенда чрез",
+	"Scan": "Сканиране",
+	"Scan complete!": "Сканиране завършено!",
+	"Scan for documents from {{path}}": "Сканиране за документи в {{path}}",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Scroll to bottom when switching between branches": "",
 	"Search": "Търси",
 	"Search a model": "Търси модел",
 	"Search Chats": "Търсене на чатове",
+<<<<<<< HEAD
 	"Search Collection": "",
 	"Search Documents": "Търси Документи",
 	"Search Functions": "",
 	"Search Knowledge": "",
+=======
+	"Search Documents": "Търси Документи",
+	"Search Functions": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Search Models": "Търсене на модели",
 	"Search Prompts": "Търси Промптове",
 	"Search Query Generation Prompt": "",
@@ -594,29 +691,45 @@
 	"Select a pipeline url": "Избор на URL адрес на канал",
 	"Select a tool": "",
 	"Select an Ollama instance": "Изберете Ollama инстанция",
+<<<<<<< HEAD
 	"Select Engine": "",
 	"Select Knowledge": "",
 	"Select model": "Изберете модел",
 	"Select only one model to call": "",
 	"Select/Add Files": "",
+=======
+	"Select Documents": "",
+	"Select Engine": "",
+	"Select model": "Изберете модел",
+	"Select only one model to call": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Selected model(s) do not support image inputs": "Избраният(те) модел(и) не поддържа въвеждане на изображения",
 	"Send": "Изпрати",
 	"Send a Message": "Изпращане на Съобщение",
 	"Send message": "Изпращане на съобщение",
+<<<<<<< HEAD
 	"Sends `stream_options: { include_usage: true }` in the request.\nSupported providers will return token usage information in the response when set.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"September": "Септември",
 	"Serper API Key": "Serper API ключ",
 	"Serply API Key": "",
 	"Serpstack API Key": "Serpstack API ключ",
 	"Server connection verified": "Server connection verified",
 	"Set as default": "Задай по подразбиране",
+<<<<<<< HEAD
 	"Set CFG Scale": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Default Model": "Задай Модел По Подразбиране",
 	"Set embedding model (e.g. {{model}})": "Задай embedding model (e.g. {{model}})",
 	"Set Image Size": "Задай Размер на Изображението",
 	"Set reranking model (e.g. {{model}})": "Задай reranking model (e.g. {{model}})",
+<<<<<<< HEAD
 	"Set Sampler": "",
 	"Set Scheduler": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Steps": "Задай Стъпки",
 	"Set Task Model": "Задаване на модел на задача",
 	"Set Voice": "Задай Глас",
@@ -633,6 +746,7 @@
 	"Show your support!": "",
 	"Showcased creativity": "Показана креативност",
 	"Sign in": "Вписване",
+<<<<<<< HEAD
 	"Sign in to {{WEBUI_NAME}}": "",
 	"Sign Out": "Изход",
 	"Sign up": "Регистрация",
@@ -644,6 +758,15 @@
 	"Speech-to-Text Engine": "Speech-to-Text Engine",
 	"Stop Sequence": "Stop Sequence",
 	"Stream Chat Response": "",
+=======
+	"Sign Out": "Изход",
+	"Sign up": "Регистрация",
+	"Signing in": "Вписване",
+	"Source": "Източник",
+	"Speech recognition error: {{error}}": "Speech recognition error: {{error}}",
+	"Speech-to-Text Engine": "Speech-to-Text Engine",
+	"Stop Sequence": "Stop Sequence",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"STT Model": "",
 	"STT Settings": "STT Настройки",
 	"Submit": "Изпращане",
@@ -653,7 +776,10 @@
 	"Suggested": "Препоръчано",
 	"Support": "",
 	"Support this plugin:": "",
+<<<<<<< HEAD
 	"Sync directory": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"System": "Система",
 	"System Prompt": "Системен Промпт",
 	"Tags": "Тагове",
@@ -676,9 +802,13 @@
 	"This action cannot be undone. Do you wish to continue?": "",
 	"This ensures that your valuable conversations are securely saved to your backend database. Thank you!": "Това гарантира, че ценните ви разговори се запазват сигурно във вашата бекенд база данни. Благодарим ви!",
 	"This is an experimental feature, it may not function as expected and is subject to change at any time.": "",
+<<<<<<< HEAD
 	"This option will delete all existing files in the collection and replace them with newly uploaded files.": "",
 	"This will delete": "",
 	"This will reset the knowledge base and sync all files. Do you wish to continue?": "",
+=======
+	"This will delete": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Thorough explanation": "Това е подробно описание.",
 	"Tika": "",
 	"Tika Server URL required.": "",
@@ -688,10 +818,18 @@
 	"Title Auto-Generation": "Автоматично Генериране на Заглавие",
 	"Title cannot be an empty string.": "Заглавието не може да бъде празно.",
 	"Title Generation Prompt": "Промпт за Генериране на Заглавие",
+<<<<<<< HEAD
 	"To access the available model names for downloading,": "За да получите достъп до наличните имена на модели за изтегляне,",
 	"To access the GGUF models available for downloading,": "За да получите достъп до GGUF моделите, налични за изтегляне,",
 	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "",
 	"To attach knowledge base here, add them to the \"Knowledge\" workspace first.": "",
+=======
+	"to": "в",
+	"To access the available model names for downloading,": "За да получите достъп до наличните имена на модели за изтегляне,",
+	"To access the GGUF models available for downloading,": "За да получите достъп до GGUF моделите, налични за изтегляне,",
+	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "",
+	"To add documents here, upload them to the \"Documents\" workspace first.": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"to chat input.": "към чат входа.",
 	"To select actions here, add them to the \"Functions\" workspace first.": "",
 	"To select filters here, add them to the \"Functions\" workspace first.": "",
@@ -721,21 +859,34 @@
 	"Type Hugging Face Resolve (Download) URL": "Въведете Hugging Face Resolve (Download) URL",
 	"Uh-oh! There was an issue connecting to {{provider}}.": "О, не! Възникна проблем при свързването с {{provider}}.",
 	"UI": "",
+<<<<<<< HEAD
 	"Unpin": "",
 	"Update": "",
 	"Update and Copy Link": "Обнови и копирай връзка",
 	"Update for the latest features and improvements.": "",
+=======
+	"Unknown file type '{{file_type}}'. Proceeding with the file upload anyway.": "",
+	"Unpin": "",
+	"Update": "",
+	"Update and Copy Link": "Обнови и копирай връзка",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Update password": "Обновяване на парола",
 	"Updated at": "",
 	"Upload": "",
 	"Upload a GGUF model": "Качване на GGUF модел",
+<<<<<<< HEAD
 	"Upload directory": "",
 	"Upload files": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Upload Files": "Качване на файлове",
 	"Upload Pipeline": "",
 	"Upload Progress": "Прогрес на качването",
 	"URL Mode": "URL Mode",
+<<<<<<< HEAD
 	"Use '#' in the prompt input to load and include your knowledge.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Use '#' in the prompt input to load and select your documents.": "Използвайте '#' във промпта за да заредите и изберете вашите документи.",
 	"Use Gravatar": "Използвайте Gravatar",
 	"Use Initials": "Използвайте Инициали",
@@ -753,7 +904,10 @@
 	"variable": "променлива",
 	"variable to have them replaced with clipboard content.": "променливи да се заменят съдържанието от клипборд.",
 	"Version": "Версия",
+<<<<<<< HEAD
 	"Version {{selectedVersion}} of {{totalVersions}}": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Voice": "",
 	"Warning": "Предупреждение",
 	"Warning:": "",
@@ -782,7 +936,11 @@
 	"You're a helpful assistant.": "Вие сте полезен асистент.",
 	"You're now logged in.": "Сега, вие влязохте в системата.",
 	"Your account status is currently pending activation.": "",
+<<<<<<< HEAD
 	"Your entire contribution will go directly to the plugin developer; Version prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+=======
+	"Your entire contribution will go directly to the plugin developer; Version de prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Youtube": "Youtube",
 	"Youtube Loader Settings": "Youtube Loader Settings"
 }

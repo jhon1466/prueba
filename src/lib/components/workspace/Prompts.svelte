@@ -64,6 +64,7 @@
 	</title>
 </svelte:head>
 
+<<<<<<< HEAD
 <div class="mb-3">
 	<div class="flex justify-between items-center">
 		<div class="flex md:self-center text-lg font-medium px-0.5">
@@ -72,6 +73,10 @@
 			<span class="text-lg font-medium text-gray-500 dark:text-gray-300">{$prompts.length}</span>
 		</div>
 	</div>
+=======
+<div class="mb-3 flex justify-between items-center">
+	<div class=" text-lg font-semibold self-center">{$i18n.t('Prompts')}</div>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 </div>
 
 <div class=" flex w-full space-x-2">
@@ -115,8 +120,12 @@
 		</a>
 	</div>
 </div>
+<<<<<<< HEAD
 
 <hr class=" border-gray-50 dark:border-gray-850 my-2.5" />
+=======
+<hr class=" dark:border-gray-850 my-2.5" />
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 <div class="my-3 mb-5">
 	{#each $prompts.filter((p) => query === '' || p.command.includes(query)) as prompt}
@@ -281,6 +290,42 @@
 	</div>
 </div>
 
+<<<<<<< HEAD
+=======
+<div class=" my-16">
+	<div class=" text-lg font-semibold mb-3 line-clamp-1">
+		{$i18n.t('Made by OpenWebUI Community')}
+	</div>
+
+	<a
+		class=" flex space-x-4 cursor-pointer w-full mb-2 px-3 py-2"
+		href="https://openwebui.com/#open-webui-community"
+		target="_blank"
+	>
+		<div class=" self-center w-10 flex-shrink-0">
+			<div
+				class="w-full h-10 flex justify-center rounded-full bg-transparent dark:bg-gray-700 border border-dashed border-gray-200"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6">
+					<path
+						fill-rule="evenodd"
+						d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+						clip-rule="evenodd"
+					/>
+				</svg>
+			</div>
+		</div>
+
+		<div class=" self-center">
+			<div class=" font-semibold line-clamp-1">{$i18n.t('Discover a prompt')}</div>
+			<div class=" text-sm line-clamp-1">
+				{$i18n.t('Discover, download, and explore custom prompts')}
+			</div>
+		</div>
+	</a>
+</div>
+
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 <DeleteConfirmDialog
 	bind:show={showDeleteConfirm}
 	title={$i18n.t('Delete prompt?')}

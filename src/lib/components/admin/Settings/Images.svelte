@@ -27,6 +27,7 @@
 
 	let models = null;
 
+<<<<<<< HEAD
 	let samplers = [
 		'DPM++ 2M',
 		'DPM++ SDE',
@@ -64,6 +65,8 @@
 		'Beta'
 	];
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	let requiredWorkflowNodes = [
 		{
 			type: 'prompt',
@@ -363,6 +366,7 @@
 							</a>
 						</div>
 					</div>
+<<<<<<< HEAD
 
 					<!---Sampler-->
 					<div>
@@ -423,6 +427,8 @@
 							</div>
 						</div>
 					</div>
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				{:else if config?.engine === 'comfyui'}
 					<div class="">
 						<div class=" mb-2 text-sm font-medium">{$i18n.t('ComfyUI Base URL')}</div>

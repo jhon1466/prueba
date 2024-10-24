@@ -49,20 +49,32 @@
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div
 		bind:this={modalElement}
+<<<<<<< HEAD
 		class=" fixed top-0 right-0 left-0 bottom-0 bg-black/60 w-full h-screen max-h-[100dvh] flex justify-center z-[9999] overflow-hidden overscroll-contain"
+=======
+		class=" fixed top-0 right-0 left-0 bottom-0 bg-black/60 w-full min-h-screen h-screen flex justify-center z-[9999] overflow-hidden overscroll-contain"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		in:fade={{ duration: 10 }}
 		on:mousedown={() => {
 			show = false;
 		}}
 	>
 		<div
+<<<<<<< HEAD
 			class=" m-auto rounded-2xl max-w-full w-[32rem] mx-2 bg-gray-50 dark:bg-gray-950 max-h-[100dvh] shadow-3xl border border-gray-850"
+=======
+			class=" m-auto rounded-2xl max-w-full w-[32rem] mx-2 bg-gray-50 dark:bg-gray-950 shadow-3xl border border-gray-850"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			in:flyAndScale
 			on:mousedown={(e) => {
 				e.stopPropagation();
 			}}
 		>
+<<<<<<< HEAD
 			<div class="px-[1.75rem] py-6 flex flex-col">
+=======
+			<div class="px-[1.75rem] py-6">
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				<div class=" text-lg font-semibold dark:text-gray-200 mb-2.5">
 					{#if title !== ''}
 						{title}
@@ -72,7 +84,11 @@
 				</div>
 
 				<slot>
+<<<<<<< HEAD
 					<div class=" text-sm text-gray-500 flex-1">
+=======
+					<div class=" text-sm text-gray-500">
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						{#if message !== ''}
 							{message}
 						{:else}

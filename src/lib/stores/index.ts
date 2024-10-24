@@ -19,9 +19,13 @@ export const activeUserCount: Writable<null | number> = writable(null);
 export const USAGE_POOL: Writable<null | string[]> = writable(null);
 
 export const theme = writable('system');
+<<<<<<< HEAD
 
 export const chatId = writable('');
 export const chatTitle = writable('');
+=======
+export const chatId = writable('');
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 export const chats = writable([]);
 export const pinnedChats = writable([]);
@@ -29,7 +33,11 @@ export const tags = writable([]);
 
 export const models: Writable<Model[]> = writable([]);
 export const prompts: Writable<Prompt[]> = writable([]);
+<<<<<<< HEAD
 export const knowledge: Writable<Document[]> = writable([]);
+=======
+export const documents: Writable<Document[]> = writable([]);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 export const tools = writable([]);
 export const functions = writable([]);
@@ -42,10 +50,13 @@ export const showSidebar = writable(false);
 export const showSettings = writable(false);
 export const showArchivedChats = writable(false);
 export const showChangelog = writable(false);
+<<<<<<< HEAD
 
 export const showControls = writable(false);
 export const showOverview = writable(false);
 export const showArtifacts = writable(false);
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 export const showCallOverlay = writable(false);
 
 export const temporaryChatEnabled = writable(false);

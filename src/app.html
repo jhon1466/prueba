@@ -1,4 +1,5 @@
 <!doctype html>
+<<<<<<< HEAD
 <html lang="es">
 	<head>
 		<meta charset="utf-8" />
@@ -16,6 +17,20 @@
 			rel="search"
 			type="application/opensearchdescription+xml"
 			title="Version prueba"
+=======
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link rel="manifest" href="%sveltekit.assets%/manifest.json" crossorigin="use-credentials" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="robots" content="noindex,nofollow" />
+		<meta name="description" content="Version de prueba" />
+		<link
+			rel="search"
+			type="application/opensearchdescription+xml"
+			title="Version de prueba"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			href="/opensearch.xml"
 		/>
 
@@ -28,22 +43,30 @@
 		<script>
 			// On page load or when changing themes, best to add inline in `head` to avoid FOUC
 			(() => {
+<<<<<<< HEAD
 				const metaThemeColorTag = document.querySelector('meta[name="theme-color"]');
 				const prefersDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				if (!localStorage?.theme) {
 					localStorage.theme = 'system';
 				}
 
+<<<<<<< HEAD
 				if (localStorage.theme === 'system') {
 					document.documentElement.classList.add(prefersDarkTheme ? 'dark' : 'light');
 					metaThemeColorTag.setAttribute('content', prefersDarkTheme ? '#171717' : '#ffffff');
 				} else if (localStorage.theme === 'oled-dark') {
+=======
+				if (localStorage?.theme && localStorage?.theme.includes('oled')) {
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					document.documentElement.style.setProperty('--color-gray-800', '#101010');
 					document.documentElement.style.setProperty('--color-gray-850', '#050505');
 					document.documentElement.style.setProperty('--color-gray-900', '#000000');
 					document.documentElement.style.setProperty('--color-gray-950', '#000000');
 					document.documentElement.classList.add('dark');
+<<<<<<< HEAD
 					metaThemeColorTag.setAttribute('content', '#000000');
 				} else if (localStorage.theme === 'light') {
 					document.documentElement.classList.add('light');
@@ -55,6 +78,25 @@
 				} else {
 					document.documentElement.classList.add('dark');
 					metaThemeColorTag.setAttribute('content', '#171717');
+=======
+				} else if (
+					localStorage.theme === 'light' ||
+					(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: light)').matches)
+				) {
+					document.documentElement.classList.add('light');
+				} else if (localStorage.theme && localStorage.theme !== 'system') {
+					localStorage.theme.split(' ').forEach((e) => {
+						document.documentElement.classList.add(e);
+					});
+				} else if (localStorage.theme && localStorage.theme === 'system') {
+					systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+					document.documentElement.classList.add(systemTheme ? 'dark' : 'light');
+				} else if (localStorage.theme && localStorage.theme === 'her') {
+					document.documentElement.classList.add('dark');
+					document.documentElement.classList.add('her');
+				} else {
+					document.documentElement.classList.add('dark');
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				}
 
 				window.matchMedia('(prefers-color-scheme: dark)').addListener((e) => {
@@ -62,18 +104,28 @@
 						if (e.matches) {
 							document.documentElement.classList.add('dark');
 							document.documentElement.classList.remove('light');
+<<<<<<< HEAD
 							metaThemeColorTag.setAttribute('content', '#171717');
 						} else {
 							document.documentElement.classList.add('light');
 							document.documentElement.classList.remove('dark');
 							metaThemeColorTag.setAttribute('content', '#ffffff');
+=======
+						} else {
+							document.documentElement.classList.add('light');
+							document.documentElement.classList.remove('dark');
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						}
 					}
 				});
 			})();
 		</script>
 
+<<<<<<< HEAD
 		<title>Version prueba</title>
+=======
+		<title>Version de prueba</title>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 		%sveltekit.head%
 	</head>

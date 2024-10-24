@@ -13,13 +13,20 @@
 	import { synthesizeOpenAISpeech } from '$lib/apis/audio';
 	import { imageGenerations } from '$lib/apis/images';
 	import {
+<<<<<<< HEAD
 		copyToClipboard as _copyToClipboard,
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		approximateToHumanReadable,
 		extractParagraphsForAudio,
 		extractSentencesForAudio,
 		cleanText,
+<<<<<<< HEAD
 		getMessageContentParts,
 		sanitizeResponseContent
+=======
+		getMessageContentParts
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	} from '$lib/utils';
 	import { WEBUI_BASE_URL } from '$lib/constants';
 
@@ -38,7 +45,10 @@
 
 	import type { Writable } from 'svelte/store';
 	import type { i18n as i18nType } from 'i18next';
+<<<<<<< HEAD
 	import ContentRenderer from './ContentRenderer.svelte';
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	interface MessageType {
 		id: string;
@@ -75,11 +85,15 @@
 			prompt_eval_duration?: number;
 			total_duration?: number;
 			load_duration?: number;
+<<<<<<< HEAD
 			usage?: unknown;
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		};
 		annotation?: { type: string; rating: number };
 	}
 
+<<<<<<< HEAD
 	export let history;
 	export let messageId;
 
@@ -104,6 +118,25 @@
 	export let isLastMessage = true;
 	export let readOnly = false;
 
+=======
+	export let message: MessageType;
+	export let siblings;
+
+	export let isLastMessage = true;
+
+	export let readOnly = false;
+
+	export let updateChatMessages: Function;
+	export let confirmEditResponseMessage: Function;
+	export let showPreviousMessage: Function;
+	export let showNextMessage: Function;
+	export let rateMessage: Function;
+
+	export let copyToClipboard: Function;
+	export let continueGeneration: Function;
+	export let regenerateResponse: Function;
+
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	let model = null;
 	$: model = $models.find((m) => m.id === message.model);
 
@@ -120,6 +153,7 @@
 
 	let showRateComment = false;
 
+<<<<<<< HEAD
 	const copyToClipboard = async (text) => {
 		const res = await _copyToClipboard(text);
 		if (res) {
@@ -127,6 +161,8 @@
 		}
 	};
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	const playAudio = (idx: number) => {
 		return new Promise<void>((res) => {
 			speakingIdx = idx;
@@ -220,8 +256,11 @@
 					const blob = await res.blob();
 					const blobUrl = URL.createObjectURL(blob);
 					const audio = new Audio(blobUrl);
+<<<<<<< HEAD
 					audio.playbackRate = $settings.audio?.tts?.playbackRate ?? 1;
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					audioParts[idx] = audio;
 					loadingSpeech = false;
 					lastPlayedAudioPromise = lastPlayedAudioPromise.then(() => playAudio(idx));
@@ -244,7 +283,10 @@
 					console.log(voice);
 
 					const speak = new SpeechSynthesisUtterance(message.content);
+<<<<<<< HEAD
 					speak.rate = $settings.audio?.tts?.playbackRate ?? 1;
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 					console.log(speak);
 
@@ -276,6 +318,7 @@
 	};
 
 	const editMessageConfirmHandler = async () => {
+<<<<<<< HEAD
 		editMessage(message.id, editedContent ? editedContent : '', false);
 
 		edit = false;
@@ -286,6 +329,13 @@
 
 	const saveAsCopyHandler = async () => {
 		editMessage(message.id, editedContent ? editedContent : '');
+=======
+		if (editedContent === '') {
+			editedContent = ' ';
+		}
+
+		confirmEditResponseMessage(message.id, editedContent);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 		edit = false;
 		editedContent = '';
@@ -307,12 +357,20 @@
 		console.log(res);
 
 		if (res) {
+<<<<<<< HEAD
 			const files = res.map((image) => ({
+=======
+			message.files = res.map((image) => ({
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				type: 'image',
 				url: `${image.url}`
 			}));
 
+<<<<<<< HEAD
 			dispatch('save', { ...message, files: files });
+=======
+			dispatch('save', message);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		}
 
 		generatingImage = false;
@@ -325,8 +383,11 @@
 	}
 
 	onMount(async () => {
+<<<<<<< HEAD
 		console.log('ResponseMessage mounted');
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		await tick();
 	});
 </script>
@@ -342,7 +403,11 @@
 				($i18n.language === 'dg-DG' ? `/doge.png` : `${WEBUI_BASE_URL}/static/favicon.png`)}
 		/>
 
+<<<<<<< HEAD
 		<div class="flex-auto w-0 pl-1">
+=======
+		<div class="w-full overflow-hidden pl-1">
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			<Name>
 				{model?.name ?? message.model}
 
@@ -361,7 +426,11 @@
 						{#each message.files as file}
 							<div>
 								{#if file.type === 'image'}
+<<<<<<< HEAD
 									<Image src={file.url} alt={message.content} />
+=======
+									<Image src={file.url} />
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 								{/if}
 							</div>
 						{/each}
@@ -427,11 +496,16 @@
 										const isEnterPressed = e.key === 'Enter';
 
 										if (isCmdOrCtrlPressed && isEnterPressed) {
+<<<<<<< HEAD
 											document.getElementById('confirm-edit-message-button')?.click();
+=======
+											document.getElementById('save-edit-message-button')?.click();
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 										}
 									}}
 								/>
 
+<<<<<<< HEAD
 								<div class=" mt-2 mb-1 flex justify-between text-sm font-medium">
 									<div>
 										<button
@@ -470,11 +544,38 @@
 							</div>
 						{:else}
 							<div class="w-full flex flex-col relative" id="response-content-container">
+=======
+								<div class=" mt-2 mb-1 flex justify-end space-x-1.5 text-sm font-medium">
+									<button
+										id="close-edit-message-button"
+										class="px-4 py-2 bg-white hover:bg-gray-100 text-gray-800 transition rounded-3xl"
+										on:click={() => {
+											cancelEditMessage();
+										}}
+									>
+										{$i18n.t('Cancel')}
+									</button>
+
+									<button
+										id="save-edit-message-button"
+										class=" px-4 py-2 bg-gray-900 hover:bg-gray-850 text-gray-100 transition rounded-3xl"
+										on:click={() => {
+											editMessageConfirmHandler();
+										}}
+									>
+										{$i18n.t('Save')}
+									</button>
+								</div>
+							</div>
+						{:else}
+							<div class="w-full flex flex-col">
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 								{#if message.content === '' && !message.error}
 									<Skeleton />
 								{:else if message.content && message.error !== true}
 									<!-- always show message contents even if there's an error -->
 									<!-- unless message.error === true which is legacy error handling, where the error message is stored in message.content -->
+<<<<<<< HEAD
 									<ContentRenderer
 										id={message.id}
 										content={message.content}
@@ -507,6 +608,9 @@
 											}
 										}}
 									/>
+=======
+									<Markdown id={message.id} content={message.content} {model} />
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 								{/if}
 
 								{#if message.error}
@@ -655,12 +759,17 @@
 												fill="currentColor"
 												viewBox="0 0 24 24"
 												xmlns="http://www.w3.org/2000/svg"
+<<<<<<< HEAD
 											>
 												<style>
+=======
+												><style>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 													.spinner_S1WN {
 														animation: spinner_MGfb 0.8s linear infinite;
 														animation-delay: -0.8s;
 													}
+<<<<<<< HEAD
 
 													.spinner_Km9P {
 														animation-delay: -0.65s;
@@ -670,17 +779,35 @@
 														animation-delay: -0.5s;
 													}
 
+=======
+													.spinner_Km9P {
+														animation-delay: -0.65s;
+													}
+													.spinner_JApP {
+														animation-delay: -0.5s;
+													}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 													@keyframes spinner_MGfb {
 														93.75%,
 														100% {
 															opacity: 0.2;
 														}
 													}
+<<<<<<< HEAD
 												</style>
 												<circle class="spinner_S1WN" cx="4" cy="12" r="3" />
 												<circle class="spinner_S1WN spinner_Km9P" cx="12" cy="12" r="3" />
 												<circle class="spinner_S1WN spinner_JApP" cx="20" cy="12" r="3" />
 											</svg>
+=======
+												</style><circle class="spinner_S1WN" cx="4" cy="12" r="3" /><circle
+													class="spinner_S1WN spinner_Km9P"
+													cx="12"
+													cy="12"
+													r="3"
+												/><circle class="spinner_S1WN spinner_JApP" cx="20" cy="12" r="3" /></svg
+											>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 										{:else if speaking}
 											<svg
 												xmlns="http://www.w3.org/2000/svg"
@@ -733,12 +860,17 @@
 													fill="currentColor"
 													viewBox="0 0 24 24"
 													xmlns="http://www.w3.org/2000/svg"
+<<<<<<< HEAD
 												>
 													<style>
+=======
+													><style>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 														.spinner_S1WN {
 															animation: spinner_MGfb 0.8s linear infinite;
 															animation-delay: -0.8s;
 														}
+<<<<<<< HEAD
 
 														.spinner_Km9P {
 															animation-delay: -0.65s;
@@ -748,17 +880,35 @@
 															animation-delay: -0.5s;
 														}
 
+=======
+														.spinner_Km9P {
+															animation-delay: -0.65s;
+														}
+														.spinner_JApP {
+															animation-delay: -0.5s;
+														}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 														@keyframes spinner_MGfb {
 															93.75%,
 															100% {
 																opacity: 0.2;
 															}
 														}
+<<<<<<< HEAD
 													</style>
 													<circle class="spinner_S1WN" cx="4" cy="12" r="3" />
 													<circle class="spinner_S1WN spinner_Km9P" cx="12" cy="12" r="3" />
 													<circle class="spinner_S1WN spinner_JApP" cx="20" cy="12" r="3" />
 												</svg>
+=======
+													</style><circle class="spinner_S1WN" cx="4" cy="12" r="3" /><circle
+														class="spinner_S1WN spinner_Km9P"
+														cx="12"
+														cy="12"
+														r="3"
+													/><circle class="spinner_S1WN spinner_JApP" cx="20" cy="12" r="3" /></svg
+												>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 											{:else}
 												<svg
 													xmlns="http://www.w3.org/2000/svg"
@@ -782,6 +932,7 @@
 								{#if message.info}
 									<Tooltip
 										content={message.info.openai
+<<<<<<< HEAD
 											? message.info.usage
 												? `<pre>${sanitizeResponseContent(
 														JSON.stringify(message.info.usage, null, 2)
@@ -793,6 +944,9 @@
 															.join('\n')
 													)}</pre>`
 												: `prompt_tokens: ${message.info.prompt_tokens ?? 'N/A'}<br/>
+=======
+											? `prompt_tokens: ${message.info.prompt_tokens ?? 'N/A'}<br/>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 													completion_tokens: ${message.info.completion_tokens ?? 'N/A'}<br/>
 													total_tokens: ${message.info.total_tokens ?? 'N/A'}`
 											: `response_token/s: ${
@@ -902,11 +1056,18 @@
 													stroke-linejoin="round"
 													class="w-4 h-4"
 													xmlns="http://www.w3.org/2000/svg"
+<<<<<<< HEAD
 												>
 													<path
 														d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
 													/>
 												</svg>
+=======
+													><path
+														d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+													/></svg
+												>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 											</button>
 										</Tooltip>
 
@@ -952,11 +1113,18 @@
 													stroke-linejoin="round"
 													class="w-4 h-4"
 													xmlns="http://www.w3.org/2000/svg"
+<<<<<<< HEAD
 												>
 													<path
 														d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"
 													/>
 												</svg>
+=======
+													><path
+														d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"
+													/></svg
+												>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 											</button>
 										</Tooltip>
 									{/if}
@@ -970,7 +1138,11 @@
 													? 'visible'
 													: 'invisible group-hover:visible'} p-1.5 hover:bg-black/5 dark:hover:bg-white/5 rounded-lg dark:hover:text-white hover:text-black transition regenerate-response-button"
 												on:click={() => {
+<<<<<<< HEAD
 													continueResponse();
+=======
+													continueGeneration();
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 													(model?.actions ?? [])
 														.filter((action) => action?.__webui__ ?? false)
@@ -1085,6 +1257,7 @@
 
 					{#if message.done && showRateComment}
 						<RateComment
+<<<<<<< HEAD
 							bind:message
 							bind:show={showRateComment}
 							on:submit={(e) => {
@@ -1096,6 +1269,14 @@
 										reason: e.detail.reason
 									}
 								});
+=======
+							messageId={message.id}
+							bind:show={showRateComment}
+							bind:message
+							on:submit={(e) => {
+								updateChatMessages();
+
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 								(model?.actions ?? [])
 									.filter((action) => action?.__webui__ ?? false)
 									.forEach((action) => {
@@ -1129,7 +1310,10 @@
 		-ms-overflow-style: none; /* IE and Edge */
 		scrollbar-width: none; /* Firefox */
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	@keyframes shimmer {
 		0% {
 			background-position: 200% 0;

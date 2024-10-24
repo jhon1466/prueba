@@ -150,11 +150,22 @@
 				})()
 			]);
 
+<<<<<<< HEAD
+=======
+			OPENAI_API_BASE_URLS.forEach(async (url, idx) => {
+				const res = await getOpenAIModels(localStorage.token, idx);
+				if (res.pipelines) {
+					pipelineUrls[url] = true;
+				}
+			});
+
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			const ollamaConfig = await getOllamaConfig(localStorage.token);
 			const openaiConfig = await getOpenAIConfig(localStorage.token);
 
 			ENABLE_OPENAI_API = openaiConfig.ENABLE_OPENAI_API;
 			ENABLE_OLLAMA_API = ollamaConfig.ENABLE_OLLAMA_API;
+<<<<<<< HEAD
 
 			if (ENABLE_OPENAI_API) {
 				OPENAI_API_BASE_URLS.forEach(async (url, idx) => {
@@ -164,6 +175,8 @@
 					}
 				});
 			}
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		}
 	});
 </script>

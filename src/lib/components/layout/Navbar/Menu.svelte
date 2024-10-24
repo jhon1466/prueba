@@ -1,23 +1,35 @@
 <script lang="ts">
+<<<<<<< HEAD
 	import { toast } from 'svelte-sonner';
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import { DropdownMenu } from 'bits-ui';
 	import { getContext } from 'svelte';
 
 	import fileSaver from 'file-saver';
 	const { saveAs } = fileSaver;
 
+<<<<<<< HEAD
 	import { downloadChatAsPDF } from '$lib/apis/utils';
 	import { copyToClipboard, createMessagesList } from '$lib/utils';
 
 	import { showOverview, showControls, showArtifacts, mobile } from '$lib/stores';
+=======
+	import { showSettings } from '$lib/stores';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import { flyAndScale } from '$lib/utils/transitions';
 
 	import Dropdown from '$lib/components/common/Dropdown.svelte';
 	import Tags from '$lib/components/chat/Tags.svelte';
+<<<<<<< HEAD
 	import Map from '$lib/components/icons/Map.svelte';
 	import Clipboard from '$lib/components/icons/Clipboard.svelte';
 	import AdjustmentsHorizontal from '$lib/components/icons/AdjustmentsHorizontal.svelte';
 	import Cube from '$lib/components/icons/Cube.svelte';
+=======
+
+	import { downloadChatAsPDF } from '$lib/apis/utils';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	const i18n = getContext('i18n');
 
@@ -30,6 +42,7 @@
 	export let chat;
 	export let onClose: Function = () => {};
 
+<<<<<<< HEAD
 	const getChatAsText = async () => {
 		const _chat = chat.chat;
 
@@ -44,20 +57,40 @@
 	const downloadTxt = async () => {
 		const chatText = await getChatAsText();
 
+=======
+	const downloadTxt = async () => {
+		const _chat = chat.chat;
+		console.log('download', chat);
+
+		const chatText = _chat.messages.reduce((a, message, i, arr) => {
+			return `${a}### ${message.role.toUpperCase()}\n${message.content}\n\n`;
+		}, '');
+
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		let blob = new Blob([chatText], {
 			type: 'text/plain'
 		});
 
+<<<<<<< HEAD
 		saveAs(blob, `chat-${chat.chat.title}.txt`);
+=======
+		saveAs(blob, `chat-${_chat.title}.txt`);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	};
 
 	const downloadPdf = async () => {
 		const _chat = chat.chat;
+<<<<<<< HEAD
 		const messages = createMessagesList(_chat.history, _chat.history.currentId);
 
 		console.log('download', chat);
 
 		const blob = await downloadChatAsPDF(_chat.title, messages);
+=======
+		console.log('download', chat);
+
+		const blob = await downloadChatAsPDF(_chat);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 		// Create a URL for the blob
 		const url = window.URL.createObjectURL(blob);
@@ -131,6 +164,7 @@
 				<div class="flex items-center">{$i18n.t('Settings')}</div>
 			</DropdownMenu.Item> -->
 
+<<<<<<< HEAD
 			{#if $mobile}
 				<DropdownMenu.Item
 					class="flex gap-2 items-center px-3 py-2 text-sm  cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md"
@@ -189,6 +223,8 @@
 				<div class="flex items-center">{$i18n.t('Copy')}</div>
 			</DropdownMenu.Item>
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			<DropdownMenu.Item
 				class="flex gap-2 items-center px-3 py-2 text-sm  cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md"
 				id="chat-share-button"
@@ -210,7 +246,16 @@
 				</svg>
 				<div class="flex items-center">{$i18n.t('Share')}</div>
 			</DropdownMenu.Item>
+<<<<<<< HEAD
 
+=======
+			<!-- <DropdownMenu.Item
+					class="flex gap-2 items-center px-3 py-2 text-sm  font-medium cursor-pointer"
+					on:click={() => {
+						downloadHandler();
+					}}
+				/> -->
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			<DropdownMenu.Sub>
 				<DropdownMenu.SubTrigger
 					class="flex gap-2 items-center px-3 py-2 text-sm  cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md"

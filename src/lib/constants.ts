@@ -1,7 +1,11 @@
 import { browser, dev } from '$app/environment';
 // import { version } from '../../package.json';
 
+<<<<<<< HEAD
 export const APP_NAME = 'Version prueba';
+=======
+export const APP_NAME = 'Version de prueba';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 export const WEBUI_HOSTNAME = browser ? (dev ? `${location.hostname}:8080` : ``) : '';
 export const WEBUI_BASE_URL = browser ? (dev ? `http://${WEBUI_HOSTNAME}` : ``) : ``;
@@ -11,7 +15,11 @@ export const OLLAMA_API_BASE_URL = `${WEBUI_BASE_URL}/ollama`;
 export const OPENAI_API_BASE_URL = `${WEBUI_BASE_URL}/openai`;
 export const AUDIO_API_BASE_URL = `${WEBUI_BASE_URL}/audio/api/v1`;
 export const IMAGES_API_BASE_URL = `${WEBUI_BASE_URL}/images/api/v1`;
+<<<<<<< HEAD
 export const RETRIEVAL_API_BASE_URL = `${WEBUI_BASE_URL}/retrieval/api/v1`;
+=======
+export const RAG_API_BASE_URL = `${WEBUI_BASE_URL}/rag/api/v1`;
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 export const WEBUI_VERSION = APP_VERSION;
 export const WEBUI_BUILD_HASH = APP_BUILD_HASH;
@@ -31,9 +39,13 @@ export const SUPPORTED_FILE_TYPE = [
 	'application/x-javascript',
 	'text/markdown',
 	'audio/mpeg',
+<<<<<<< HEAD
 	'audio/wav',
 	'audio/ogg',
 	'audio/x-m4a'
+=======
+	'audio/wav'
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 ];
 
 export const SUPPORTED_FILE_EXTENSIONS = [

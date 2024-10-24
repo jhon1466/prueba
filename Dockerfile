@@ -17,7 +17,11 @@ ARG UID=0
 ARG GID=0
 
 ######## WebUI frontend ########
+<<<<<<< HEAD
 FROM --platform=$BUILDPLATFORM node:22-alpine3.20 AS build
+=======
+FROM --platform=$BUILDPLATFORM node:21-alpine3.19 as build
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 ARG BUILD_HASH
 
 WORKDIR /app
@@ -30,7 +34,11 @@ ENV APP_BUILD_HASH=${BUILD_HASH}
 RUN npm run build
 
 ######## WebUI backend ########
+<<<<<<< HEAD
 FROM python:3.11-slim-bookworm AS base
+=======
+FROM python:3.11-slim-bookworm as base
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 # Use args
 ARG USE_CUDA
@@ -74,15 +82,22 @@ ENV RAG_EMBEDDING_MODEL="$USE_EMBEDDING_MODEL_DOCKER" \
 
 ## Hugging Face download cache ##
 ENV HF_HOME="/app/backend/data/cache/embedding/models"
+<<<<<<< HEAD
 
 ## Torch Extensions ##
 # ENV TORCH_EXTENSIONS_DIR="/.cache/torch_extensions"
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 #### Other models ##########################################################
 
 WORKDIR /app/backend
 
+<<<<<<< HEAD
 ENV HOME=/root
+=======
+ENV HOME /root
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 # Create user and group if not root
 RUN if [ $UID -ne 0 ]; then \
     if [ $GID -ne 0 ]; then \
@@ -100,7 +115,11 @@ RUN chown -R $UID:$GID /app $HOME
 RUN if [ "$USE_OLLAMA" = "true" ]; then \
     apt-get update && \
     # Install pandoc and netcat
+<<<<<<< HEAD
     apt-get install -y --no-install-recommends git build-essential pandoc netcat-openbsd curl && \
+=======
+    apt-get install -y --no-install-recommends pandoc netcat-openbsd curl && \
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
     apt-get install -y --no-install-recommends gcc python3-dev && \
     # for RAG OCR
     apt-get install -y --no-install-recommends ffmpeg libsm6 libxext6 && \
@@ -113,7 +132,11 @@ RUN if [ "$USE_OLLAMA" = "true" ]; then \
     else \
     apt-get update && \
     # Install pandoc, netcat and gcc
+<<<<<<< HEAD
     apt-get install -y --no-install-recommends git build-essential pandoc gcc netcat-openbsd curl jq && \
+=======
+    apt-get install -y --no-install-recommends pandoc gcc netcat-openbsd curl jq && \
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
     apt-get install -y --no-install-recommends gcc python3-dev && \
     # for RAG OCR
     apt-get install -y --no-install-recommends ffmpeg libsm6 libxext6 && \
@@ -161,6 +184,9 @@ USER $UID:$GID
 
 ARG BUILD_HASH
 ENV WEBUI_BUILD_VERSION=${BUILD_HASH}
+<<<<<<< HEAD
 ENV DOCKER=true
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 CMD [ "bash", "start.sh"]

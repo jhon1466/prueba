@@ -8,6 +8,26 @@ import { TTS_RESPONSE_SPLIT } from '$lib/types';
 // Helper functions
 //////////////////////////
 
+<<<<<<< HEAD
+=======
+const convertLatexToSingleLine = (content) => {
+	// Patterns to match multiline LaTeX blocks
+	const patterns = [
+		/(\$\$\s[\s\S]*?\s\$\$)/g, // Match $$ ... $$
+		/(\\\[[\s\S]*?\\\])/g, // Match \[ ... \]
+		/(\\begin\{[a-z]+\}[\s\S]*?\\end\{[a-z]+\})/g // Match \begin{...} ... \end{...}
+	];
+
+	patterns.forEach((pattern) => {
+		content = content.replace(pattern, (match) => {
+			return match.replace(/\s*\n\s*/g, ' ').trim();
+		});
+	});
+
+	return content;
+};
+
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 export const replaceTokens = (content, char, user) => {
 	const charToken = /{{char}}/gi;
 	const userToken = /{{user}}/gi;
@@ -51,6 +71,10 @@ export const sanitizeResponseContent = (content: string) => {
 };
 
 export const processResponseContent = (content: string) => {
+<<<<<<< HEAD
+=======
+	content = convertLatexToSingleLine(content);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	return content.trim();
 };
 
@@ -646,6 +670,7 @@ export const promptTemplate = (
 		hour12: true
 	});
 
+<<<<<<< HEAD
 	// Get the current weekday
 	const currentWeekday = getWeekday();
 
@@ -655,6 +680,8 @@ export const promptTemplate = (
 	// Get the user's language
 	const userLanguage = localStorage.getItem('locale') || 'en-US';
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	// Replace {{CURRENT_DATETIME}} in the template with the formatted datetime
 	template = template.replace('{{CURRENT_DATETIME}}', `${formattedDate} ${currentTime}`);
 
@@ -664,6 +691,7 @@ export const promptTemplate = (
 	// Replace {{CURRENT_TIME}} in the template with the formatted time
 	template = template.replace('{{CURRENT_TIME}}', currentTime);
 
+<<<<<<< HEAD
 	// Replace {{CURRENT_WEEKDAY}} in the template with the current weekday
 	template = template.replace('{{CURRENT_WEEKDAY}}', currentWeekday);
 
@@ -673,6 +701,8 @@ export const promptTemplate = (
 	// Replace {{USER_LANGUAGE}} in the template with the user's language
 	template = template.replace('{{USER_LANGUAGE}}', userLanguage);
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	if (user_name) {
 		// Replace {{USER_NAME}} in the template with the user's name
 		template = template.replace('{{USER_NAME}}', user_name);
@@ -829,6 +859,7 @@ export const bestMatchingLanguage = (supportedLanguages, preferredLanguages, def
 		.map((prefLang) => languages.find((lang) => lang.startsWith(prefLang)))
 		.find(Boolean);
 
+<<<<<<< HEAD
 	return match || defaultLocale;
 };
 
@@ -892,3 +923,8 @@ export const getLineCount = (text) => {
 	console.log(typeof text);
 	return text ? text.split('\n').length : 0;
 };
+=======
+	console.log(languages, preferredLanguages, match, defaultLocale);
+	return match || defaultLocale;
+};
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24

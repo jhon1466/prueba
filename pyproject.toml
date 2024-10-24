@@ -1,8 +1,15 @@
 [project]
+<<<<<<< HEAD
 name = "Version prueba"
 description = "Version prueba"
 authors = [
     { name = "Jhon Rios", email = "" }
+=======
+name = "open-webui"
+description = "Version de prueba"
+authors = [
+    { name = "Timothy Jaeryang Baek", email = "tim@openwebui.com" }
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 ]
 license = { file = "LICENSE" }
 dependencies = [
@@ -46,6 +53,7 @@ dependencies = [
     "langchain-chroma==0.1.2",
 
     "fake-useragent==1.5.1",
+<<<<<<< HEAD
     "chromadb==0.5.9",
     "pymilvus==2.4.7",
 
@@ -55,6 +63,10 @@ dependencies = [
     
 
     "ftfy==6.2.3",
+=======
+    "chromadb==0.5.5",
+    "sentence-transformers==3.0.1",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
     "pypdf==4.3.1",
     "docx2txt==0.8",
     "python-pptx==1.0.0",
@@ -106,7 +118,11 @@ classifiers = [
 ]
 
 [project.scripts]
+<<<<<<< HEAD
 open-webui = "version_prueba:app"
+=======
+open-webui = "open_webui:app"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 [build-system]
 requires = ["hatchling"]
@@ -138,4 +154,8 @@ exclude = [
     "webui.db",
     "chroma.sqlite3",
 ]
+<<<<<<< HEAD
 force-include = { "CHANGELOG.md" = "version_prueba/CHANGELOG.md", build = "version_prueba/frontend" }
+=======
+force-include = { "CHANGELOG.md" = "open_webui/CHANGELOG.md", build = "open_webui/frontend" }
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24

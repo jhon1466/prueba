@@ -8,7 +8,11 @@
 	import { createNewDoc, deleteDocByName, getDocs } from '$lib/apis/documents';
 
 	import { SUPPORTED_FILE_TYPE, SUPPORTED_FILE_EXTENSIONS } from '$lib/constants';
+<<<<<<< HEAD
 	import { processFile } from '$lib/apis/retrieval';
+=======
+	import { processDocToVectorDB, uploadDocToVectorDB } from '$lib/apis/rag';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import { blobToFile, transformFileName } from '$lib/utils';
 
 	import Checkbox from '$lib/components/common/Checkbox.svelte';
@@ -55,7 +59,11 @@
 	const uploadDoc = async (file, tags?: object) => {
 		console.log(file);
 		// Check if the file is an audio file and transcribe/convert it to text file
+<<<<<<< HEAD
 		if (['audio/mpeg', 'audio/wav', 'audio/ogg', 'audio/x-m4a'].includes(file['type'])) {
+=======
+		if (['audio/mpeg', 'audio/wav'].includes(file['type'])) {
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			const transcribeRes = await transcribeAudio(localStorage.token, file).catch((error) => {
 				toast.error(error);
 				return null;
@@ -74,7 +82,11 @@
 			return null;
 		});
 
+<<<<<<< HEAD
 		const res = await processFile(localStorage.token, uploadedFile.id).catch((error) => {
+=======
+		const res = await processDocToVectorDB(localStorage.token, uploadedFile.id).catch((error) => {
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			toast.error(error);
 			return null;
 		});
@@ -215,11 +227,15 @@
 
 <div class="mb-3">
 	<div class="flex justify-between items-center">
+<<<<<<< HEAD
 		<div class="flex md:self-center text-lg font-medium px-0.5">
 			{$i18n.t('Documents')}
 			<div class="flex self-center w-[1px] h-6 mx-2.5 bg-gray-200 dark:bg-gray-700" />
 			<span class="text-lg font-medium text-gray-500 dark:text-gray-300">{$documents.length}</span>
 		</div>
+=======
+		<div class=" text-lg font-semibold self-center">{$i18n.t('Documents')}</div>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	</div>
 </div>
 

@@ -14,10 +14,14 @@
 		pinnedChats,
 		scrollPaginationEnabled,
 		currentChatPage,
+<<<<<<< HEAD
 		temporaryChatEnabled,
 		showArtifacts,
 		showOverview,
 		showControls
+=======
+		temporaryChatEnabled
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	} from '$lib/stores';
 	import { onMount, getContext, tick } from 'svelte';
 
@@ -56,8 +60,11 @@
 	let showDeleteConfirm = false;
 	let showDropdown = false;
 
+<<<<<<< HEAD
 	let selectedTagName = null;
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	let filteredChatList = [];
 
 	// Pagination variables
@@ -118,11 +125,15 @@
 			}
 		});
 
+<<<<<<< HEAD
 		showSidebar.set(!$mobile ? localStorage.sidebar === 'true' : false);
 		showSidebar.subscribe((value) => {
 			localStorage.sidebar = value;
 		});
 
+=======
+		showSidebar.set(window.innerWidth > BREAKPOINT);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		await pinnedChats.set(await getChatListByTagName(localStorage.token, 'pinned'));
 		await enablePagination();
 
@@ -249,7 +260,11 @@
 		deleteChatHandler(deleteChat.id);
 	}}
 >
+<<<<<<< HEAD
 	<div class=" text-sm text-gray-500 flex-1 line-clamp-3">
+=======
+	<div class=" text-sm text-gray-500">
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		{$i18n.t('This will delete')} <span class="  font-semibold">{deleteChat.title}</span>.
 	</div>
 </DeleteConfirmDialog>
@@ -389,6 +404,7 @@
 			</div>
 		{/if}
 
+<<<<<<< HEAD
 		<div
 			class="relative flex flex-col flex-1 overflow-y-auto {$temporaryChatEnabled
 				? 'opacity-20'
@@ -396,6 +412,13 @@
 		>
 			{#if $temporaryChatEnabled}
 				<div class="absolute z-40 w-full h-full flex justify-center"></div>
+=======
+		<div class="relative flex flex-col flex-1 overflow-y-auto">
+			{#if $temporaryChatEnabled}
+				<div
+					class="absolute z-40 w-full h-full bg-gray-50/90 dark:bg-black/90 flex justify-center"
+				></div>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			{/if}
 
 			<div class="px-2 mt-0.5 mb-2 flex justify-center space-x-2">
@@ -430,6 +453,7 @@
 			</div>
 
 			{#if $tags.filter((t) => t.name !== 'pinned').length > 0}
+<<<<<<< HEAD
 				<div class="px-3.5 mb-1 flex gap-0.5 flex-wrap">
 					<button
 						class="px-2.5 py-[1px] text-xs transition {selectedTagName === null
@@ -437,6 +461,12 @@
 							: ' '} rounded-md font-medium"
 						on:click={async () => {
 							selectedTagName = null;
+=======
+				<div class="px-2.5 mb-2 flex gap-1 flex-wrap">
+					<button
+						class="px-2.5 text-xs font-medium bg-gray-50 dark:bg-gray-900 dark:hover:bg-gray-800 transition rounded-full"
+						on:click={async () => {
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 							await enablePagination();
 						}}
 					>
@@ -444,11 +474,16 @@
 					</button>
 					{#each $tags.filter((t) => t.name !== 'pinned') as tag}
 						<button
+<<<<<<< HEAD
 							class="px-2.5 py-[1px] text-xs transition {selectedTagName === tag.name
 								? 'bg-gray-100 dark:bg-gray-900'
 								: ''}  rounded-md font-medium"
 							on:click={async () => {
 								selectedTagName = tag.name;
+=======
+							class="px-2.5 text-xs font-medium bg-gray-50 dark:bg-gray-900 dark:hover:bg-gray-800 transition rounded-full"
+							on:click={async () => {
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 								scrollPaginationEnabled.set(false);
 								let chatIds = await getChatListByTagName(localStorage.token, tag.name);
 								if (chatIds.length === 0) {
@@ -468,7 +503,11 @@
 				</div>
 			{/if}
 
+<<<<<<< HEAD
 			{#if !search && $pinnedChats.length > 0}
+=======
+			{#if $pinnedChats.length > 0}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				<div class="pl-2 py-2 flex flex-col space-y-1">
 					<div class="">
 						<div class="w-full pl-2.5 text-xs text-gray-500 dark:text-gray-500 font-medium pb-1.5">
@@ -568,7 +607,11 @@
 			</div>
 		</div>
 
+<<<<<<< HEAD
 		<div class="px-2.5 pb-safe-bottom">
+=======
+		<div class="px-2.5">
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			<!-- <hr class=" border-gray-900 mb-1 w-full" /> -->
 
 			<div class="flex flex-col font-primary">

@@ -9,14 +9,22 @@
 
 	let previewElement = null;
 
+<<<<<<< HEAD
 	const downloadImage = (url, filename, prefixName = '') => {
+=======
+	const downloadImage = (url, filename) => {
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		fetch(url)
 			.then((response) => response.blob())
 			.then((blob) => {
 				const objectUrl = window.URL.createObjectURL(blob);
 				const link = document.createElement('a');
 				link.href = objectUrl;
+<<<<<<< HEAD
 				link.download = `${prefixName}${filename}`;
+=======
+				link.download = filename;
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				document.body.appendChild(link);
 				link.click();
 				document.body.removeChild(link);
@@ -87,7 +95,11 @@
 				<button
 					class=" p-5"
 					on:click={() => {
+<<<<<<< HEAD
 						downloadImage(src, src.substring(src.lastIndexOf('/') + 1), alt);
+=======
+						downloadImage(src, src.substring(src.lastIndexOf('/') + 1));
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					}}
 				>
 					<svg

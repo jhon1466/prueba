@@ -10,7 +10,10 @@
 
 	export let params = {
 		// Advanced
+<<<<<<< HEAD
 		stream_response: null, // Set stream responses for this model individually
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		seed: null,
 		stop: null,
 		temperature: null,
@@ -42,6 +45,7 @@
 	}
 </script>
 
+<<<<<<< HEAD
 <div class=" space-y-1 text-xs pb-safe-bottom">
 	<div>
 		<div class=" py-0.5 flex w-full justify-between">
@@ -72,6 +76,9 @@
 		</div>
 	</div>
 
+=======
+<div class=" space-y-1 text-xs">
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	<div class=" py-0.5 w-full justify-between">
 		<div class="flex w-full justify-between">
 			<div class=" self-center text-xs font-medium">{$i18n.t('Seed')}</div>
@@ -764,7 +771,11 @@
 						id="steps-range"
 						type="range"
 						min="-2"
+<<<<<<< HEAD
 						max="131072"
+=======
+						max="16000"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						step="1"
 						bind:value={params.max_tokens}
 						class="w-full h-2 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
@@ -776,6 +787,10 @@
 						type="number"
 						class=" bg-transparent text-center w-14"
 						min="-2"
+<<<<<<< HEAD
+=======
+						max="16000"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						step="1"
 					/>
 				</div>

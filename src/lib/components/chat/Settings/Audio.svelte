@@ -23,10 +23,13 @@
 	let voices = [];
 	let voice = '';
 
+<<<<<<< HEAD
 	// Audio speed control
 	let playbackRate = 1;
 	const speedOptions = [2, 1.75, 1.5, 1.25, 1, 0.75, 0.5];
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	const getVoices = async () => {
 		if ($config.audio.tts.engine === '') {
 			const getVoicesLoop = setInterval(async () => {
@@ -60,7 +63,10 @@
 	};
 
 	onMount(async () => {
+<<<<<<< HEAD
 		playbackRate = $settings.audio?.tts?.playbackRate ?? 1;
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		conversationMode = $settings.conversationMode ?? false;
 		speechAutoSend = $settings.speechAutoSend ?? false;
 		responseAutoPlayback = $settings.responseAutoPlayback ?? false;
@@ -88,7 +94,10 @@
 					engine: STTEngine !== '' ? STTEngine : undefined
 				},
 				tts: {
+<<<<<<< HEAD
 					playbackRate: playbackRate,
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					voice: voice !== '' ? voice : undefined,
 					defaultVoice: $config?.audio?.tts?.voice ?? '',
 					nonLocalVoices: $config.audio.tts.engine === '' ? nonLocalVoices : undefined
@@ -159,6 +168,7 @@
 					{/if}
 				</button>
 			</div>
+<<<<<<< HEAD
 
 			<div class=" py-0.5 flex w-full justify-between">
 				<div class=" self-center text-xs font-medium">{$i18n.t('Speech Playback Speed')}</div>
@@ -174,6 +184,8 @@
 					</select>
 				</div>
 			</div>
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		</div>
 
 		<hr class=" dark:border-gray-850" />

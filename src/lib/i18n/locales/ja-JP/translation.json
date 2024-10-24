@@ -9,7 +9,10 @@
 	"{{user}}'s Chats": "{{user}} のチャット",
 	"{{webUIName}} Backend Required": "{{webUIName}} バックエンドが必要です",
 	"*Prompt node ID(s) are required for image generation": "",
+<<<<<<< HEAD
 	"A new version (v{{LATEST_VERSION}}) is now available.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"A task model is used when performing tasks such as generating titles for chats and web search queries": "タスクモデルは、チャットやWeb検索クエリのタイトルの生成などのタスクを実行するときに使用されます",
 	"a user": "ユーザー",
 	"About": "概要",
@@ -23,8 +26,11 @@
 	"Add a short description about what this model does": "このモデルの機能に関する簡単な説明を追加します",
 	"Add a short title for this prompt": "このプロンプトの短いタイトルを追加",
 	"Add a tag": "タグを追加",
+<<<<<<< HEAD
 	"Add Content": "",
 	"Add content here": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add custom prompt": "カスタムプロンプトを追加",
 	"Add Docs": "ドキュメントを追加",
 	"Add Files": "ファイルを追加",
@@ -33,7 +39,10 @@
 	"Add Model": "モデルを追加",
 	"Add Tag": "",
 	"Add Tags": "タグを追加",
+<<<<<<< HEAD
 	"Add text content": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add User": "ユーザーを追加",
 	"Adjusting these settings will apply changes universally to all users.": "これらの設定を調整すると、すべてのユーザーに普遍的に変更が適用されます。",
 	"admin": "管理者",
@@ -68,8 +77,11 @@
 	"Archived Chats": "チャット記録",
 	"are allowed - Activate this command by typing": "が許可されています - 次のように入力してこのコマンドをアクティブ化します",
 	"Are you sure?": "よろしいですか？",
+<<<<<<< HEAD
 	"Artifacts": "",
 	"Ask a question": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Attach file": "ファイルを添付する",
 	"Attention to detail": "詳細に注意する",
 	"Audio": "オーディオ",
@@ -79,10 +91,14 @@
 	"AUTOMATIC1111 Api Auth String": "",
 	"AUTOMATIC1111 Base URL": "AUTOMATIC1111 ベース URL",
 	"AUTOMATIC1111 Base URL is required.": "AUTOMATIC1111 ベース URL が必要です。",
+<<<<<<< HEAD
 	"Available list": "",
 	"available!": "利用可能！",
 	"Azure AI Speech": "",
 	"Azure Region": "",
+=======
+	"available!": "利用可能！",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Back": "戻る",
 	"Bad Response": "応答が悪い",
 	"Banners": "バナー",
@@ -103,7 +119,10 @@
 	"Chat Bubble UI": "チャットバブルUI",
 	"Chat Controls": "",
 	"Chat direction": "チャットの方向",
+<<<<<<< HEAD
 	"Chat Overview": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Chats": "チャット",
 	"Check Again": "再確認",
 	"Check for updates": "アップデートを確認",
@@ -152,13 +171,20 @@
 	"Copied shared chat URL to clipboard!": "共有チャットURLをクリップボードにコピーしました！",
 	"Copied to clipboard": "",
 	"Copy": "コピー",
+<<<<<<< HEAD
+=======
+	"Copy Code": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Copy last code block": "最後のコードブロックをコピー",
 	"Copy last response": "最後の応答をコピー",
 	"Copy Link": "リンクをコピー",
 	"Copying to clipboard was successful!": "クリップボードへのコピーが成功しました！",
 	"Create a model": "モデルを作成する",
 	"Create Account": "アカウントを作成",
+<<<<<<< HEAD
 	"Create Knowledge": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Create new key": "新しいキーを作成",
 	"Create new secret key": "新しいシークレットキーを作成",
 	"Created at": "作成日時",
@@ -198,11 +224,19 @@
 	"Description": "説明",
 	"Didn't fully follow instructions": "説明に沿って操作していませんでした",
 	"Disabled": "",
+<<<<<<< HEAD
 	"": "",
 	"": "モデルを検出する",
 	"": "プロンプトを見つける",
 	"": "",
 	"": "",
+=======
+	"Discover a function": "",
+	"Discover a model": "モデルを検出する",
+	"Discover a prompt": "プロンプトを見つける",
+	"Discover a tool": "",
+	"Discover, download, and explore custom functions": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Discover, download, and explore custom prompts": "カスタムプロンプトを見つけて、ダウンロードして、探索",
 	"Discover, download, and explore custom tools": "",
 	"Discover, download, and explore model presets": "モデルプリセットを見つけて、ダウンロードして、探索",
@@ -248,7 +282,10 @@
 	"Enter a detail about yourself for your LLMs to recall": "LLM が記憶するために、自分についての詳細を入力してください",
 	"Enter api auth string (e.g. username:password)": "",
 	"Enter Brave Search API Key": "Brave Search APIキーの入力",
+<<<<<<< HEAD
 	"Enter CFG Scale (e.g. 7.0)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Chunk Overlap": "チャンクオーバーラップを入力してください",
 	"Enter Chunk Size": "チャンクサイズを入力してください",
 	"Enter Github Raw URL": "Github Raw URLを入力",
@@ -259,8 +296,11 @@
 	"Enter Model ID": "",
 	"Enter model tag (e.g. {{modelTag}})": "モデルタグを入力してください (例: {{modelTag}})",
 	"Enter Number of Steps (e.g. 50)": "ステップ数を入力してください (例: 50)",
+<<<<<<< HEAD
 	"Enter Sampler (e.g. Euler a)": "",
 	"Enter Scheduler (e.g. Karras)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Score": "スコアを入力してください",
 	"Enter SearchApi API Key": "",
 	"Enter SearchApi Engine": "",
@@ -297,6 +337,7 @@
 	"Failed to create API Key.": "APIキーの作成に失敗しました。",
 	"Failed to read clipboard contents": "クリップボードの内容を読み取れませんでした",
 	"Failed to update settings": "",
+<<<<<<< HEAD
 	"Failed to upload file.": "",
 	"February": "2月",
 	"Feel free to add specific details": "詳細を追加してください",
@@ -306,6 +347,13 @@
 	"File Mode": "ファイルモード",
 	"File not found.": "ファイルが見つかりません。",
 	"File removed successfully.": "",
+=======
+	"February": "2月",
+	"Feel free to add specific details": "詳細を追加してください",
+	"File": "",
+	"File Mode": "ファイルモード",
+	"File not found.": "ファイルが見つかりません。",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"File size should not exceed {{maxSize}} MB.": "",
 	"Files": "",
 	"Filter is now globally disabled": "",
@@ -380,11 +428,14 @@
 	"Keep Alive": "キープアライブ",
 	"Keyboard shortcuts": "キーボードショートカット",
 	"Knowledge": "",
+<<<<<<< HEAD
 	"Knowledge created successfully.": "",
 	"Knowledge deleted successfully.": "",
 	"Knowledge reset successfully.": "",
 	"Knowledge updated successfully": "",
 	"Landing Page Mode": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Language": "言語",
 	"large language models, locally.": "",
 	"Last Active": "最終アクティブ",
@@ -396,7 +447,11 @@
 	"LLMs can make mistakes. Verify important information.": "LLM は間違いを犯す可能性があります。重要な情報を検証してください。",
 	"Local Models": "",
 	"LTR": "LTR",
+<<<<<<< HEAD
 	"": "OpenWebUI コミュニティによって作成",
+=======
+	"Made by OpenWebUI Community": "OpenWebUI コミュニティによって作成",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Make sure to enclose them with": "必ず次で囲んでください",
 	"Make sure to export a workflow.json file as API format from ComfyUI.": "",
 	"Manage": "",
@@ -430,8 +485,11 @@
 	"Model {{modelId}} not found": "モデル {{modelId}} が見つかりません",
 	"Model {{modelName}} is not vision capable": "モデル {{modelName}} は視覚に対応していません",
 	"Model {{name}} is now {{status}}": "モデル {{name}} は {{status}} になりました。",
+<<<<<<< HEAD
 	"Model {{name}} is now at the top": "",
 	"Model accepts image inputs": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Model created successfully!": "",
 	"Model filesystem path detected. Model shortname is required for update, cannot continue.": "モデルファイルシステムパスが検出されました。モデルの短縮名が必要です。更新できません。",
 	"Model ID": "モデルID",
@@ -443,16 +501,24 @@
 	"Modelfile Content": "モデルファイルの内容",
 	"Models": "モデル",
 	"More": "もっと見る",
+<<<<<<< HEAD
 	"Move to Top": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Name": "名前",
 	"Name Tag": "名前タグ",
 	"Name your model": "モデルに名前を付ける",
 	"New Chat": "新しいチャット",
 	"New Password": "新しいパスワード",
 	"No content to speak": "",
+<<<<<<< HEAD
 	"No file selected": "",
 	"No HTML, CSS, or JavaScript content found.": "",
 	"No knowledge found": "",
+=======
+	"No documents found": "",
+	"No file selected": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"No results found": "結果が見つかりません",
 	"No search query generated": "検索クエリは生成されません",
 	"No source available": "使用可能なソースがありません",
@@ -477,15 +543,23 @@
 	"On": "オン",
 	"Only": "のみ",
 	"Only alphanumeric characters and hyphens are allowed in the command string.": "コマンド文字列には英数字とハイフンのみが許可されています。",
+<<<<<<< HEAD
 	"Only collections can be edited, create a new knowledge base to edit/add documents.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Oops! Hold tight! Your files are still in the processing oven. We're cooking them up to perfection. Please be patient and we'll let you know once they're ready.": "おっと！ しばらくお待ちください！ ファイルはまだ処理中です。完璧に仕上げていますので、しばらくお待ちください。準備ができたらお知らせします。",
 	"Oops! Looks like the URL is invalid. Please double-check and try again.": "おっと！ URL が無効なようです。もう一度確認してやり直してください。",
 	"Oops! There was an error in the previous response. Please try again or contact admin.": "",
 	"Oops! You're using an unsupported method (frontend only). Please serve the WebUI from the backend.": "おっと！ サポートされていない方法 (フロントエンドのみ) を使用しています。バックエンドから WebUI を提供してください。",
+<<<<<<< HEAD
 	"Open file": "",
 	"Open in full screen": "",
 	"Open new chat": "新しいチャットを開く",
 	"Version prueba version (v{{version_prueba_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+=======
+	"Open new chat": "新しいチャットを開く",
+	"Version de prueba version (v{{OPEN_WEBUI_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"OpenAI": "OpenAI",
 	"OpenAI API": "OpenAI API",
 	"OpenAI API Config": "OpenAI API 設定",
@@ -493,9 +567,12 @@
 	"OpenAI URL/Key required.": "OpenAI URL/Key が必要です。",
 	"or": "または",
 	"Other": "その他",
+<<<<<<< HEAD
 	"Output format": "",
 	"Overview": "",
 	"page": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Password": "パスワード",
 	"PDF document (.pdf)": "PDF ドキュメント (.pdf)",
 	"PDF Extract Images (OCR)": "PDF 画像抽出 (OCR)",
@@ -514,12 +591,19 @@
 	"Plain text (.txt)": "プレーンテキスト (.txt)",
 	"Playground": "プレイグラウンド",
 	"Please carefully review the following warnings:": "",
+<<<<<<< HEAD
 	"Please fill in all fields.": "",
 	"Please select a reason": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Positive attitude": "陽気な態度",
 	"Previous 30 days": "前の30日間",
 	"Previous 7 days": "前の7日間",
 	"Profile Image": "プロフィール画像",
+<<<<<<< HEAD
+=======
+	"Prompt": "プロンプト",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Prompt (e.g. Tell me a fun fact about the Roman Empire)": "プロンプト（例：ローマ帝国についての楽しい事を教えてください）",
 	"Prompt Content": "プロンプトの内容",
 	"Prompt suggestions": "プロンプトの提案",
@@ -559,18 +643,31 @@
 	"Save": "保存",
 	"Save & Create": "保存して作成",
 	"Save & Update": "保存して更新",
+<<<<<<< HEAD
 	"Save As Copy": "",
 	"Save Tag": "",
 	"Saved": "",
 	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "チャットログをブラウザのストレージに直接保存する機能はサポートされなくなりました。下のボタンをクリックして、チャットログをダウンロードして削除してください。ご心配なく。チャットログは、次の方法でバックエンドに簡単に再インポートできます。",
+=======
+	"Save Tag": "",
+	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "チャットログをブラウザのストレージに直接保存する機能はサポートされなくなりました。下のボタンをクリックして、チャットログをダウンロードして削除してください。ご心配なく。チャットログは、次の方法でバックエンドに簡単に再インポートできます。",
+	"Scan": "スキャン",
+	"Scan complete!": "スキャン完了！",
+	"Scan for documents from {{path}}": "{{path}} からドキュメントをスキャン",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Scroll to bottom when switching between branches": "",
 	"Search": "検索",
 	"Search a model": "モデルを検索",
 	"Search Chats": "チャットの検索",
+<<<<<<< HEAD
 	"Search Collection": "",
 	"Search Documents": "ドキュメントを検索",
 	"Search Functions": "",
 	"Search Knowledge": "",
+=======
+	"Search Documents": "ドキュメントを検索",
+	"Search Functions": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Search Models": "モデル検索",
 	"Search Prompts": "プロンプトを検索",
 	"Search Query Generation Prompt": "",
@@ -593,29 +690,45 @@
 	"Select a pipeline url": "パイプラインの URL を選択する",
 	"Select a tool": "",
 	"Select an Ollama instance": "Ollama インスタンスを選択",
+<<<<<<< HEAD
 	"Select Engine": "",
 	"Select Knowledge": "",
 	"Select model": "モデルを選択",
 	"Select only one model to call": "",
 	"Select/Add Files": "",
+=======
+	"Select Documents": "",
+	"Select Engine": "",
+	"Select model": "モデルを選択",
+	"Select only one model to call": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Selected model(s) do not support image inputs": "一部のモデルは画像入力をサポートしていません",
 	"Send": "送信",
 	"Send a Message": "メッセージを送信",
 	"Send message": "メッセージを送信",
+<<<<<<< HEAD
 	"Sends `stream_options: { include_usage: true }` in the request.\nSupported providers will return token usage information in the response when set.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"September": "9月",
 	"Serper API Key": "Serper APIキー",
 	"Serply API Key": "",
 	"Serpstack API Key": "Serpstack APIキー",
 	"Server connection verified": "サーバー接続が確認されました",
 	"Set as default": "デフォルトに設定",
+<<<<<<< HEAD
 	"Set CFG Scale": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Default Model": "デフォルトモデルを設定",
 	"Set embedding model (e.g. {{model}})": "埋め込みモデルを設定します（例：{{model}}）",
 	"Set Image Size": "画像サイズを設定",
 	"Set reranking model (e.g. {{model}})": "モデルを設定します（例：{{model}}）",
+<<<<<<< HEAD
 	"Set Sampler": "",
 	"Set Scheduler": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Steps": "ステップを設定",
 	"Set Task Model": "タスクモデルの設定",
 	"Set Voice": "音声を設定",
@@ -632,6 +745,7 @@
 	"Show your support!": "",
 	"Showcased creativity": "創造性を披露",
 	"Sign in": "サインイン",
+<<<<<<< HEAD
 	"Sign in to {{WEBUI_NAME}}": "",
 	"Sign Out": "サインアウト",
 	"Sign up": "サインアップ",
@@ -643,6 +757,15 @@
 	"Speech-to-Text Engine": "音声テキスト変換エンジン",
 	"Stop Sequence": "ストップシーケンス",
 	"Stream Chat Response": "",
+=======
+	"Sign Out": "サインアウト",
+	"Sign up": "サインアップ",
+	"Signing in": "サインイン中",
+	"Source": "ソース",
+	"Speech recognition error: {{error}}": "音声認識エラー: {{error}}",
+	"Speech-to-Text Engine": "音声テキスト変換エンジン",
+	"Stop Sequence": "ストップシーケンス",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"STT Model": "",
 	"STT Settings": "STT 設定",
 	"Submit": "送信",
@@ -652,7 +775,10 @@
 	"Suggested": "提案",
 	"Support": "",
 	"Support this plugin:": "",
+<<<<<<< HEAD
 	"Sync directory": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"System": "システム",
 	"System Prompt": "システムプロンプト",
 	"Tags": "タグ",
@@ -675,9 +801,13 @@
 	"This action cannot be undone. Do you wish to continue?": "",
 	"This ensures that your valuable conversations are securely saved to your backend database. Thank you!": "これは、貴重な会話がバックエンドデータベースに安全に保存されることを保証します。ありがとうございます！",
 	"This is an experimental feature, it may not function as expected and is subject to change at any time.": "",
+<<<<<<< HEAD
 	"This option will delete all existing files in the collection and replace them with newly uploaded files.": "",
 	"This will delete": "",
 	"This will reset the knowledge base and sync all files. Do you wish to continue?": "",
+=======
+	"This will delete": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Thorough explanation": "詳細な説明",
 	"Tika": "",
 	"Tika Server URL required.": "",
@@ -687,10 +817,18 @@
 	"Title Auto-Generation": "タイトル自動生成",
 	"Title cannot be an empty string.": "タイトルは空文字列にできません。",
 	"Title Generation Prompt": "タイトル生成プロンプト",
+<<<<<<< HEAD
 	"To access the available model names for downloading,": "ダウンロード可能なモデル名にアクセスするには、",
 	"To access the GGUF models available for downloading,": "ダウンロード可能な GGUF モデルにアクセスするには、",
 	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "",
 	"To attach knowledge base here, add them to the \"Knowledge\" workspace first.": "",
+=======
+	"to": "まで",
+	"To access the available model names for downloading,": "ダウンロード可能なモデル名にアクセスするには、",
+	"To access the GGUF models available for downloading,": "ダウンロード可能な GGUF モデルにアクセスするには、",
+	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "",
+	"To add documents here, upload them to the \"Documents\" workspace first.": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"to chat input.": "チャット入力へ。",
 	"To select actions here, add them to the \"Functions\" workspace first.": "",
 	"To select filters here, add them to the \"Functions\" workspace first.": "",
@@ -720,21 +858,34 @@
 	"Type Hugging Face Resolve (Download) URL": "Hugging Face Resolve (ダウンロード) URL を入力してください",
 	"Uh-oh! There was an issue connecting to {{provider}}.": "おっと！ {{provider}} への接続に問題が発生しました。",
 	"UI": "",
+<<<<<<< HEAD
 	"Unpin": "",
 	"Update": "",
 	"Update and Copy Link": "リンクの更新とコピー",
 	"Update for the latest features and improvements.": "",
+=======
+	"Unknown file type '{{file_type}}'. Proceeding with the file upload anyway.": "",
+	"Unpin": "",
+	"Update": "",
+	"Update and Copy Link": "リンクの更新とコピー",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Update password": "パスワードを更新",
 	"Updated at": "",
 	"Upload": "",
 	"Upload a GGUF model": "GGUF モデルをアップロード",
+<<<<<<< HEAD
 	"Upload directory": "",
 	"Upload files": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Upload Files": "ファイルのアップロード",
 	"Upload Pipeline": "",
 	"Upload Progress": "アップロードの進行状況",
 	"URL Mode": "URL モード",
+<<<<<<< HEAD
 	"Use '#' in the prompt input to load and include your knowledge.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Use '#' in the prompt input to load and select your documents.": "プロンプト入力で '#' を使用して、ドキュメントを読み込んで選択します。",
 	"Use Gravatar": "Gravatar を使用する",
 	"Use Initials": "初期値を使用する",
@@ -752,7 +903,10 @@
 	"variable": "変数",
 	"variable to have them replaced with clipboard content.": "クリップボードの内容に置き換える変数。",
 	"Version": "バージョン",
+<<<<<<< HEAD
 	"Version {{selectedVersion}} of {{totalVersions}}": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Voice": "",
 	"Warning": "警告",
 	"Warning:": "",
@@ -781,7 +935,11 @@
 	"You're a helpful assistant.": "あなたは役に立つアシスタントです。",
 	"You're now logged in.": "ログインしました。",
 	"Your account status is currently pending activation.": "",
+<<<<<<< HEAD
 	"Your entire contribution will go directly to the plugin developer; Version prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+=======
+	"Your entire contribution will go directly to the plugin developer; Version de prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Youtube": "YouTube",
 	"Youtube Loader Settings": "Youtubeローダー設定"
 }

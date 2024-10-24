@@ -62,6 +62,7 @@
 				>
 
 				<a
+<<<<<<< HEAD
 					class="min-w-fit rounded-lg p-1.5 px-3 {$page.url.pathname.includes(
 						'/workspace/knowledge'
 					)
@@ -73,6 +74,8 @@
 				</a>
 
 				<a
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					class="min-w-fit rounded-lg p-1.5 px-3 {$page.url.pathname.includes('/workspace/prompts')
 						? 'bg-gray-50 dark:bg-gray-850'
 						: ''} transition"
@@ -80,6 +83,20 @@
 				>
 
 				<a
+<<<<<<< HEAD
+=======
+					class="min-w-fit rounded-lg p-1.5 px-3 {$page.url.pathname.includes(
+						'/workspace/documents'
+					)
+						? 'bg-gray-50 dark:bg-gray-850'
+						: ''} transition"
+					href="/workspace/documents"
+				>
+					{$i18n.t('Documents')}
+				</a>
+
+				<a
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					class="min-w-fit rounded-lg p-1.5 px-3 {$page.url.pathname.includes('/workspace/tools')
 						? 'bg-gray-50 dark:bg-gray-850'
 						: ''} transition"
@@ -101,7 +118,11 @@
 			</div>
 		</div>
 
+<<<<<<< HEAD
 		<hr class=" my-2 border-gray-100 dark:border-gray-850" />
+=======
+		<hr class=" my-2 dark:border-gray-850" />
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 		<div class=" py-1 px-5 flex-1 max-h-full overflow-y-auto">
 			<slot />

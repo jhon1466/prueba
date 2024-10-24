@@ -1,6 +1,9 @@
 <script lang="ts">
+<<<<<<< HEAD
 	import { marked } from 'marked';
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import { toast } from 'svelte-sonner';
 	import Sortable from 'sortablejs';
 
@@ -96,6 +99,7 @@
 		window.addEventListener('message', messageHandler, false);
 	};
 
+<<<<<<< HEAD
 	const moveToTopHandler = async (model) => {
 		// find models with position 0 and set them to 1
 		const topModels = _models.filter((m) => m.info?.meta?.position === 0);
@@ -148,6 +152,8 @@
 		_models = $models;
 	};
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	const hideModelHandler = async (model) => {
 		let info = model.info;
 
@@ -294,6 +300,7 @@
 	}}
 />
 
+<<<<<<< HEAD
 <div class="mb-3">
 	<div class="flex justify-between items-center">
 		<div class="flex md:self-center text-lg font-medium px-0.5">
@@ -303,6 +310,9 @@
 		</div>
 	</div>
 </div>
+=======
+<div class=" text-lg font-semibold mb-3">{$i18n.t('Models')}</div>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 <div class=" flex w-full space-x-2">
 	<div class="flex flex-1">
@@ -345,10 +355,16 @@
 		</a>
 	</div>
 </div>
+<<<<<<< HEAD
 
 <hr class=" border-gray-50 dark:border-gray-850 my-2.5" />
 
 <a class=" flex space-x-4 cursor-pointer w-full mb-2 px-3 py-1" href="/workspace/models/create">
+=======
+<hr class=" dark:border-gray-850 my-2.5" />
+
+<a class=" flex space-x-4 cursor-pointer w-full mb-2 px-3 py-2" href="/workspace/models/create">
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	<div class=" self-center w-10 flex-shrink-0">
 		<div
 			class="w-full h-10 flex justify-center rounded-full bg-transparent dark:bg-gray-700 border border-dashed border-gray-200"
@@ -369,7 +385,11 @@
 	</div>
 </a>
 
+<<<<<<< HEAD
 <hr class=" border-gray-50 dark:border-gray-850 my-2.5" />
+=======
+<hr class=" dark:border-gray-850" />
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 <div class=" my-2 mb-5" id="model-list">
 	{#each _models.filter((m) => searchValue === '' || m.name
@@ -385,7 +405,11 @@
 			>
 				<div class=" self-start w-8 pt-0.5">
 					<div
+<<<<<<< HEAD
 						class=" rounded-full object-cover {(model?.info?.meta?.hidden ?? false)
+=======
+						class=" rounded-full bg-stone-700 {(model?.info?.meta?.hidden ?? false)
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 							? 'brightness-90 dark:brightness-50'
 							: ''} "
 					>
@@ -400,6 +424,7 @@
 				<div
 					class=" flex-1 self-center {(model?.info?.meta?.hidden ?? false) ? 'text-gray-500' : ''}"
 				>
+<<<<<<< HEAD
 					<Tooltip
 						content={marked.parse(
 							model?.ollama?.digest
@@ -415,6 +440,11 @@
 						{!!model?.info?.meta?.description
 							? model?.info?.meta?.description
 							: (model?.ollama?.digest ?? model.id)}
+=======
+					<div class="  font-semibold line-clamp-1">{model.name}</div>
+					<div class=" text-xs overflow-hidden text-ellipsis line-clamp-1">
+						{!!model?.info?.meta?.description ? model?.info?.meta?.description : model.id}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					</div>
 				</div>
 			</a>
@@ -515,9 +545,12 @@
 						exportHandler={() => {
 							exportModelHandler(model);
 						}}
+<<<<<<< HEAD
 						moveToTopHandler={() => {
 							moveToTopHandler(model);
 						}}
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						hideHandler={() => {
 							hideModelHandler(model);
 						}}
@@ -666,4 +699,39 @@
 	{/if}
 </div>
 
+<<<<<<< HEAD
 
+=======
+<div class=" my-16">
+	<div class=" text-lg font-semibold mb-3 line-clamp-1">
+		{$i18n.t('Made by OpenWebUI Community')}
+	</div>
+
+	<a
+		class=" flex space-x-4 cursor-pointer w-full mb-2 px-3 py-2"
+		href="https://openwebui.com/#open-webui-community"
+		target="_blank"
+	>
+		<div class=" self-center w-10 flex-shrink-0">
+			<div
+				class="w-full h-10 flex justify-center rounded-full bg-transparent dark:bg-gray-700 border border-dashed border-gray-200"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6">
+					<path
+						fill-rule="evenodd"
+						d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+						clip-rule="evenodd"
+					/>
+				</svg>
+			</div>
+		</div>
+
+		<div class=" self-center">
+			<div class=" font-semibold line-clamp-1">{$i18n.t('Discover a model')}</div>
+			<div class=" text-sm line-clamp-1">
+				{$i18n.t('Discover, download, and explore model presets')}
+			</div>
+		</div>
+	</a>
+</div>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24

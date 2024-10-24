@@ -1,8 +1,15 @@
 <script lang="ts">
+<<<<<<< HEAD
 	import { getRAGConfig, updateRAGConfig } from '$lib/apis/retrieval';
 	import Switch from '$lib/components/common/Switch.svelte';
 
 	import { models } from '$lib/stores';
+=======
+	import { getRAGConfig, updateRAGConfig } from '$lib/apis/rag';
+	import Switch from '$lib/components/common/Switch.svelte';
+
+	import { documents, models } from '$lib/stores';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import { onMount, getContext } from 'svelte';
 	import { toast } from 'svelte-sonner';
 	import SensitiveInput from '$lib/components/common/SensitiveInput.svelte';

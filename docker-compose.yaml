@@ -21,7 +21,11 @@ services:
     depends_on:
       - ollama
     ports:
+<<<<<<< HEAD
       - ${version_prueba_PORT-3000}:8080
+=======
+      - ${OPEN_WEBUI_PORT-3000}:8080
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
     environment:
       - 'OLLAMA_BASE_URL=http://ollama:11434'
       - 'WEBUI_SECRET_KEY='

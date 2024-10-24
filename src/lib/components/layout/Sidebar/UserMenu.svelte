@@ -5,7 +5,11 @@
 	import { flyAndScale } from '$lib/utils/transitions';
 	import { goto } from '$app/navigation';
 	import ArchiveBox from '$lib/components/icons/ArchiveBox.svelte';
+<<<<<<< HEAD
 	import { showSettings, activeUserCount, USAGE_POOL, mobile, showSidebar } from '$lib/stores';
+=======
+	import { showSettings, activeUserCount, USAGE_POOL } from '$lib/stores';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import { fade, slide } from 'svelte/transition';
 	import Tooltip from '$lib/components/common/Tooltip.svelte';
 
@@ -41,10 +45,13 @@
 				on:click={async () => {
 					await showSettings.set(true);
 					show = false;
+<<<<<<< HEAD
 
 					if ($mobile) {
 						showSidebar.set(false);
 					}
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				}}
 			>
 				<div class=" self-center mr-3">
@@ -76,10 +83,13 @@
 				on:click={() => {
 					dispatch('show', 'archived-chat');
 					show = false;
+<<<<<<< HEAD
 
 					if ($mobile) {
 						showSidebar.set(false);
 					}
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				}}
 			>
 				<div class=" self-center mr-3">
@@ -94,10 +104,13 @@
 					on:click={() => {
 						goto('/playground');
 						show = false;
+<<<<<<< HEAD
 
 						if ($mobile) {
 							showSidebar.set(false);
 						}
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					}}
 				>
 					<div class=" self-center mr-3">
@@ -124,10 +137,13 @@
 					on:click={() => {
 						goto('/admin');
 						show = false;
+<<<<<<< HEAD
 
 						if ($mobile) {
 							showSidebar.set(false);
 						}
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					}}
 				>
 					<div class=" self-center mr-3">

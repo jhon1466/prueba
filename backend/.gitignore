@@ -8,5 +8,9 @@ _test
 Pipfile
 !/data
 /data/*
+<<<<<<< HEAD
 /version_prueba/data/*
+=======
+/open_webui/data/*
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 .webui_secret_key

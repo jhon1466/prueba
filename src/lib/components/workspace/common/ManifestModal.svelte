@@ -52,7 +52,11 @@
 
 						<div class="my-2">
 							{$i18n.t(
+<<<<<<< HEAD
 								'Your entire contribution will go directly to the plugin developer; Open WebUI does not take any percentage. However, the chosen funding platform might have its own fees.'
+=======
+								'Your entire contribution will go directly to the plugin developer; Version de prueba does not take any percentage. However, the chosen funding platform might have its own fees.'
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 							)}
 						</div>
 

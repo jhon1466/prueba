@@ -7,6 +7,7 @@
 	import { indentWithTab } from '@codemirror/commands';
 
 	import { indentUnit } from '@codemirror/language';
+<<<<<<< HEAD
 	import { languages } from '@codemirror/language-data';
 
 	// import { python } from '@codemirror/lang-python';
@@ -16,6 +17,12 @@
 
 	import { onMount, createEventDispatcher, getContext, tick } from 'svelte';
 
+=======
+	import { python } from '@codemirror/lang-python';
+	import { oneDark } from '@codemirror/theme-one-dark';
+
+	import { onMount, createEventDispatcher, getContext } from 'svelte';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import { formatPythonCode } from '$lib/apis/utils';
 	import { toast } from 'svelte-sonner';
 
@@ -24,6 +31,7 @@
 
 	export let boilerplate = '';
 	export let value = '';
+<<<<<<< HEAD
 	let _value = '';
 
 	$: if (value) {
@@ -43,11 +51,14 @@
 
 	export let id = '';
 	export let lang = '';
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	let codeEditor;
 
 	let isDarkMode = false;
 	let editorTheme = new Compartment();
+<<<<<<< HEAD
 	let editorLanguage = new Compartment();
 
 	const getLang = async () => {
@@ -58,6 +69,12 @@
 	export const formatPythonCodeHandler = async () => {
 		if (codeEditor) {
 			const res = await formatPythonCode(_value).catch((error) => {
+=======
+
+	export const formatPythonCodeHandler = async () => {
+		if (codeEditor) {
+			const res = await formatPythonCode(value).catch((error) => {
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				toast.error(error);
 				return null;
 			});
@@ -68,10 +85,13 @@
 					changes: [{ from: 0, to: codeEditor.state.doc.length, insert: formattedCode }]
 				});
 
+<<<<<<< HEAD
 				_value = formattedCode;
 				dispatch('change', { value: _value });
 				await tick();
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				toast.success($i18n.t('Code formatted successfully'));
 				return true;
 			}
@@ -83,10 +103,15 @@
 	let extensions = [
 		basicSetup,
 		keymap.of([{ key: 'Tab', run: acceptCompletion }, indentWithTab]),
+<<<<<<< HEAD
+=======
+		python(),
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		indentUnit.of('    '),
 		placeholder('Enter your code here...'),
 		EditorView.updateListener.of((e) => {
 			if (e.docChanged) {
+<<<<<<< HEAD
 				_value = e.state.doc.toString();
 				dispatch('change', { value: _value });
 			}
@@ -108,24 +133,42 @@
 		}
 	};
 
+=======
+				value = e.state.doc.toString();
+			}
+		}),
+		editorTheme.of([])
+	];
+
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	onMount(() => {
 		console.log(value);
 		if (value === '') {
 			value = boilerplate;
 		}
 
+<<<<<<< HEAD
 		_value = value;
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		// Check if html class has dark mode
 		isDarkMode = document.documentElement.classList.contains('dark');
 
 		// python code editor, highlight python code
 		codeEditor = new EditorView({
 			state: EditorState.create({
+<<<<<<< HEAD
 				doc: _value,
 				extensions: extensions
 			}),
 			parent: document.getElementById(`code-textarea-${id}`)
+=======
+				doc: value,
+				extensions: extensions
+			}),
+			parent: document.getElementById('code-textarea')
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		});
 
 		if (isDarkMode) {
@@ -183,4 +226,8 @@
 	});
 </script>
 
+<<<<<<< HEAD
 <div id="code-textarea-{id}" class="h-full w-full" />
+=======
+<div id="code-textarea" class="h-full w-full" />
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24

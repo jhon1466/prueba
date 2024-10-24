@@ -9,7 +9,10 @@
 	"{{user}}'s Chats": "{{user}}'s Chats",
 	"{{webUIName}} Backend Required": "{{webUIName}} Yêu cầu Backend",
 	"*Prompt node ID(s) are required for image generation": "",
+<<<<<<< HEAD
 	"A new version (v{{LATEST_VERSION}}) is now available.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"A task model is used when performing tasks such as generating titles for chats and web search queries": "Mô hình tác vụ được sử dụng khi thực hiện các tác vụ như tạo tiêu đề cho cuộc trò chuyện và truy vấn tìm kiếm trên web",
 	"a user": "người sử dụng",
 	"About": "Giới thiệu",
@@ -23,8 +26,11 @@
 	"Add a short description about what this model does": "Thêm mô tả ngắn về những khả năng của model",
 	"Add a short title for this prompt": "Thêm tiêu đề ngắn cho prompt này",
 	"Add a tag": "Thêm thẻ (tag)",
+<<<<<<< HEAD
 	"Add Content": "",
 	"Add content here": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add custom prompt": "Thêm prompt tùy chỉnh",
 	"Add Docs": "Thêm tài liệu",
 	"Add Files": "Thêm tệp",
@@ -33,7 +39,10 @@
 	"Add Model": "Thêm model",
 	"Add Tag": "Thêm thẻ",
 	"Add Tags": "thêm thẻ",
+<<<<<<< HEAD
 	"Add text content": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add User": "Thêm người dùng",
 	"Adjusting these settings will apply changes universally to all users.": "Các thay đổi cài đặt này sẽ áp dụng cho tất cả người sử dụng.",
 	"admin": "quản trị viên",
@@ -68,8 +77,11 @@
 	"Archived Chats": "Lưu các cuộc Chat",
 	"are allowed - Activate this command by typing": "được phép - Kích hoạt lệnh này bằng cách gõ",
 	"Are you sure?": "Bạn có chắc chắn không?",
+<<<<<<< HEAD
 	"Artifacts": "",
 	"Ask a question": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Attach file": "Đính kèm file",
 	"Attention to detail": "Có sự chú ý đến chi tiết của vấn đề",
 	"Audio": "Âm thanh",
@@ -79,10 +91,14 @@
 	"AUTOMATIC1111 Api Auth String": "",
 	"AUTOMATIC1111 Base URL": "Đường dẫn kết nối tới AUTOMATIC1111 (Base URL)",
 	"AUTOMATIC1111 Base URL is required.": "Base URL của AUTOMATIC1111 là bắt buộc.",
+<<<<<<< HEAD
 	"Available list": "",
 	"available!": "có sẵn!",
 	"Azure AI Speech": "",
 	"Azure Region": "",
+=======
+	"available!": "có sẵn!",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Back": "Quay lại",
 	"Bad Response": "Trả lời KHÔNG tốt",
 	"Banners": "Biểu ngữ",
@@ -103,7 +119,10 @@
 	"Chat Bubble UI": "Bảng chat",
 	"Chat Controls": "Điều khiển Chats",
 	"Chat direction": "Hướng chat",
+<<<<<<< HEAD
 	"Chat Overview": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Chats": "Chat",
 	"Check Again": "Kiểm tra Lại",
 	"Check for updates": "Kiểm tra cập nhật",
@@ -152,13 +171,20 @@
 	"Copied shared chat URL to clipboard!": "Đã sao chép link chia sẻ trò chuyện vào clipboard!",
 	"Copied to clipboard": "",
 	"Copy": "Sao chép",
+<<<<<<< HEAD
+=======
+	"Copy Code": "Sao chép Code",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Copy last code block": "Sao chép khối mã cuối cùng",
 	"Copy last response": "Sao chép phản hồi cuối cùng",
 	"Copy Link": "Sao chép link",
 	"Copying to clipboard was successful!": "Sao chép vào clipboard thành công!",
 	"Create a model": "Tạo model",
 	"Create Account": "Tạo Tài khoản",
+<<<<<<< HEAD
 	"Create Knowledge": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Create new key": "Tạo key mới",
 	"Create new secret key": "Tạo key bí mật mới",
 	"Created at": "Được tạo vào lúc",
@@ -198,11 +224,19 @@
 	"Description": "Mô tả",
 	"Didn't fully follow instructions": "Không tuân theo chỉ dẫn một cách đầy đủ",
 	"Disabled": "Đã tắt",
+<<<<<<< HEAD
 	"": "Khám phá function",
 	"": "Khám phá model",
 	"": "Khám phá thêm prompt mới",
 	"": "Khám phá tool",
 	"": "Tìm kiếm, tải về và khám phá thêm các function tùy chỉnh",
+=======
+	"Discover a function": "Khám phá function",
+	"Discover a model": "Khám phá model",
+	"Discover a prompt": "Khám phá thêm prompt mới",
+	"Discover a tool": "Khám phá tool",
+	"Discover, download, and explore custom functions": "Tìm kiếm, tải về và khám phá thêm các function tùy chỉnh",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Discover, download, and explore custom prompts": "Tìm kiếm, tải về và khám phá thêm các prompt tùy chỉnh",
 	"Discover, download, and explore custom tools": "Tìm kiếm, tải về và khám phá thêm các tool tùy chỉnh",
 	"Discover, download, and explore model presets": "Tìm kiếm, tải về và khám phá thêm các model presets",
@@ -248,7 +282,10 @@
 	"Enter a detail about yourself for your LLMs to recall": "Nhập chi tiết về bản thân của bạn để LLMs có thể nhớ",
 	"Enter api auth string (e.g. username:password)": "Nhập chuỗi xác thực api (ví dụ: username: mật khẩu)",
 	"Enter Brave Search API Key": "Nhập API key cho Brave Search",
+<<<<<<< HEAD
 	"Enter CFG Scale (e.g. 7.0)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Chunk Overlap": "Nhập Chunk chồng lấn (overlap)",
 	"Enter Chunk Size": "Nhập Kích thước Chunk",
 	"Enter Github Raw URL": "Nhập URL cho Github Raw",
@@ -259,8 +296,11 @@
 	"Enter Model ID": "",
 	"Enter model tag (e.g. {{modelTag}})": "Nhập thẻ mô hình (vd: {{modelTag}})",
 	"Enter Number of Steps (e.g. 50)": "Nhập số Steps (vd: 50)",
+<<<<<<< HEAD
 	"Enter Sampler (e.g. Euler a)": "",
 	"Enter Scheduler (e.g. Karras)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Score": "Nhập Score",
 	"Enter SearchApi API Key": "",
 	"Enter SearchApi Engine": "",
@@ -297,6 +337,7 @@
 	"Failed to create API Key.": "Lỗi khởi tạo API Key",
 	"Failed to read clipboard contents": "Không thể đọc nội dung clipboard",
 	"Failed to update settings": "Lỗi khi cập nhật các cài đặt",
+<<<<<<< HEAD
 	"Failed to upload file.": "",
 	"February": "Tháng 2",
 	"Feel free to add specific details": "Mô tả chi tiết về chất lượng của câu hỏi và phương án trả lời",
@@ -306,6 +347,13 @@
 	"File Mode": "Chế độ Tệp văn bản",
 	"File not found.": "Không tìm thấy tệp.",
 	"File removed successfully.": "",
+=======
+	"February": "Tháng 2",
+	"Feel free to add specific details": "Mô tả chi tiết về chất lượng của câu hỏi và phương án trả lời",
+	"File": "Tệp",
+	"File Mode": "Chế độ Tệp văn bản",
+	"File not found.": "Không tìm thấy tệp.",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"File size should not exceed {{maxSize}} MB.": "",
 	"Files": "Tệp",
 	"Filter is now globally disabled": "Bộ lọc hiện đã bị vô hiệu hóa trên toàn hệ thống",
@@ -380,11 +428,14 @@
 	"Keep Alive": "Giữ kết nối",
 	"Keyboard shortcuts": "Phím tắt",
 	"Knowledge": "Kiến thức",
+<<<<<<< HEAD
 	"Knowledge created successfully.": "",
 	"Knowledge deleted successfully.": "",
 	"Knowledge reset successfully.": "",
 	"Knowledge updated successfully": "",
 	"Landing Page Mode": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Language": "Ngôn ngữ",
 	"large language models, locally.": "các mô hình ngôn ngữ lớn, mang tính địa phương",
 	"Last Active": "Truy cập gần nhất",
@@ -396,7 +447,11 @@
 	"LLMs can make mistakes. Verify important information.": "Hệ thống có thể tạo ra nội dung không chính xác hoặc sai. Hãy kiểm chứng kỹ lưỡng thông tin trước khi tiếp nhận và sử dụng.",
 	"Local Models": "",
 	"LTR": "LTR",
+<<<<<<< HEAD
 	"": "Được tạo bởi Cộng đồng OpenWebUI",
+=======
+	"Made by OpenWebUI Community": "Được tạo bởi Cộng đồng OpenWebUI",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Make sure to enclose them with": "Hãy chắc chắn bao quanh chúng bằng",
 	"Make sure to export a workflow.json file as API format from ComfyUI.": "Đảm bảo xuất tệp Workflow.json đúng format API của ComfyUI.",
 	"Manage": "Quản lý",
@@ -430,8 +485,11 @@
 	"Model {{modelId}} not found": "Không tìm thấy Mô hình {{modelId}}",
 	"Model {{modelName}} is not vision capable": "Model {{modelName}} không có khả năng nhìn",
 	"Model {{name}} is now {{status}}": "Model {{name}} bây giờ là {{status}}",
+<<<<<<< HEAD
 	"Model {{name}} is now at the top": "",
 	"Model accepts image inputs": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Model created successfully!": "Model đã được tạo thành công",
 	"Model filesystem path detected. Model shortname is required for update, cannot continue.": "Đường dẫn hệ thống tệp mô hình được phát hiện. Tên viết tắt mô hình là bắt buộc để cập nhật, không thể tiếp tục.",
 	"Model ID": "ID mẫu",
@@ -443,16 +501,24 @@
 	"Modelfile Content": "Nội dung Tệp Mô hình",
 	"Models": "Mô hình",
 	"More": "Thêm",
+<<<<<<< HEAD
 	"Move to Top": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Name": "Tên",
 	"Name Tag": "Tên Thẻ",
 	"Name your model": "Tên model",
 	"New Chat": "Tạo chat mới",
 	"New Password": "Mật khẩu mới",
 	"No content to speak": "Không có nội dung để nói",
+<<<<<<< HEAD
 	"No file selected": "Chưa có tệp nào được chọn",
 	"No HTML, CSS, or JavaScript content found.": "",
 	"No knowledge found": "",
+=======
+	"No documents found": "Không tìm thấy tài liệu nào",
+	"No file selected": "Chưa có tệp nào được chọn",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"No results found": "Không tìm thấy kết quả",
 	"No search query generated": "Không có truy vấn tìm kiếm nào được tạo ra",
 	"No source available": "Không có nguồn",
@@ -477,15 +543,23 @@
 	"On": "Bật",
 	"Only": "Only",
 	"Only alphanumeric characters and hyphens are allowed in the command string.": "Chỉ ký tự số và gạch nối được phép trong chuỗi lệnh.",
+<<<<<<< HEAD
 	"Only collections can be edited, create a new knowledge base to edit/add documents.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Oops! Hold tight! Your files are still in the processing oven. We're cooking them up to perfection. Please be patient and we'll let you know once they're ready.": "Vui lòng kiên nhẫn chờ đợi! Các tệp của bạn vẫn đang trong được phân tích và xử lý. Chúng tôi đang cố gắng hoàn thành chúng. Vui lòng kiên nhẫn và chúng tôi sẽ cho bạn biết khi chúng sẵn sàng.",
 	"Oops! Looks like the URL is invalid. Please double-check and try again.": "Rất tiếc! URL dường như không hợp lệ. Vui lòng kiểm tra lại và thử lại.",
 	"Oops! There was an error in the previous response. Please try again or contact admin.": "Rất tiếc! Đã xảy ra lỗi trong phản hồi trước đó. Vui lòng thử lại hoặc liên hệ với quản trị viên.",
 	"Oops! You're using an unsupported method (frontend only). Please serve the WebUI from the backend.": "Rất tiếc! Bạn đang sử dụng một phương thức không được hỗ trợ (chỉ dành cho frontend). Vui lòng cung cấp phương thức cho WebUI từ phía backend.",
+<<<<<<< HEAD
 	"Open file": "",
 	"Open in full screen": "",
 	"Open new chat": "Mở nội dung chat mới",
 	"Version prueba version (v{{version_prueba_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "Phiên bản Version prueba (v{{version_prueba_VERSION}}) hiện thấp hơn phiên bản bắt buộc (v{{REQUIRED_VERSION}})",
+=======
+	"Open new chat": "Mở nội dung chat mới",
+	"Version de prueba version (v{{OPEN_WEBUI_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "Phiên bản Version de prueba (v{{OPEN_WEBUI_VERSION}}) hiện thấp hơn phiên bản bắt buộc (v{{REQUIRED_VERSION}})",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"OpenAI": "OpenAI",
 	"OpenAI API": "API OpenAI",
 	"OpenAI API Config": "Cấu hình API OpenAI",
@@ -493,9 +567,12 @@
 	"OpenAI URL/Key required.": "Yêu cầu URL/Key API OpenAI.",
 	"or": "hoặc",
 	"Other": "Khác",
+<<<<<<< HEAD
 	"Output format": "",
 	"Overview": "",
 	"page": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Password": "Mật khẩu",
 	"PDF document (.pdf)": "Tập tin PDF (.pdf)",
 	"PDF Extract Images (OCR)": "Trích xuất ảnh từ PDF (OCR)",
@@ -514,12 +591,19 @@
 	"Plain text (.txt)": "Văn bản thô (.txt)",
 	"Playground": "Thử nghiệm (Playground)",
 	"Please carefully review the following warnings:": "Vui lòng xem xét cẩn thận các cảnh báo sau:",
+<<<<<<< HEAD
 	"Please fill in all fields.": "",
 	"Please select a reason": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Positive attitude": "Thái độ tích cực",
 	"Previous 30 days": "30 ngày trước",
 	"Previous 7 days": "7 ngày trước",
 	"Profile Image": "Ảnh đại diện",
+<<<<<<< HEAD
+=======
+	"Prompt": "Prompt",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Prompt (e.g. Tell me a fun fact about the Roman Empire)": "Prompt (ví dụ: Hãy kể cho tôi một sự thật thú vị về Đế chế La Mã)",
 	"Prompt Content": "Nội dung prompt",
 	"Prompt suggestions": "Gợi ý prompt",
@@ -559,18 +643,31 @@
 	"Save": "Lưu",
 	"Save & Create": "Lưu & Tạo",
 	"Save & Update": "Lưu & Cập nhật",
+<<<<<<< HEAD
 	"Save As Copy": "",
 	"Save Tag": "Lưu Thẻ",
 	"Saved": "",
 	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Không còn hỗ trợ lưu trữ lịch sử chat trực tiếp vào bộ nhớ trình duyệt của bạn. Vui lòng dành thời gian để tải xuống và xóa lịch sử chat của bạn bằng cách nhấp vào nút bên dưới. Đừng lo lắng, bạn có thể dễ dàng nhập lại lịch sử chat của mình vào backend thông qua",
+=======
+	"Save Tag": "Lưu Thẻ",
+	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Không còn hỗ trợ lưu trữ lịch sử chat trực tiếp vào bộ nhớ trình duyệt của bạn. Vui lòng dành thời gian để tải xuống và xóa lịch sử chat của bạn bằng cách nhấp vào nút bên dưới. Đừng lo lắng, bạn có thể dễ dàng nhập lại lịch sử chat của mình vào backend thông qua",
+	"Scan": "Quét tài liệu",
+	"Scan complete!": "Quét hoàn tất!",
+	"Scan for documents from {{path}}": "Quét tài liệu từ đường dẫn: {{path}}",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Scroll to bottom when switching between branches": "Cuộn xuống dưới cùng khi chuyển đổi giữa các nhánh",
 	"Search": "Tìm kiếm",
 	"Search a model": "Tìm model",
 	"Search Chats": "Tìm kiếm các cuộc Chat",
+<<<<<<< HEAD
 	"Search Collection": "",
 	"Search Documents": "Tìm tài liệu",
 	"Search Functions": "Tìm kiếm Functions",
 	"Search Knowledge": "",
+=======
+	"Search Documents": "Tìm tài liệu",
+	"Search Functions": "Tìm kiếm Functions",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Search Models": "Tìm model",
 	"Search Prompts": "Tìm prompt",
 	"Search Query Generation Prompt": "Prompt tạo câu truy vấn, tìm kiếm",
@@ -593,29 +690,45 @@
 	"Select a pipeline url": "Chọn url quy trình",
 	"Select a tool": "Chọn tool",
 	"Select an Ollama instance": "Chọn một thực thể Ollama",
+<<<<<<< HEAD
 	"Select Engine": "Chọn Engine",
 	"Select Knowledge": "",
 	"Select model": "Chọn model",
 	"Select only one model to call": "Chọn model để gọi",
 	"Select/Add Files": "",
+=======
+	"Select Documents": "Chọn tài liệu",
+	"Select Engine": "Chọn Engine",
+	"Select model": "Chọn model",
+	"Select only one model to call": "Chọn model để gọi",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Selected model(s) do not support image inputs": "Model được lựa chọn không hỗ trợ đầu vào là hình ảnh",
 	"Send": "Gửi",
 	"Send a Message": "Gửi yêu cầu",
 	"Send message": "Gửi yêu cầu",
+<<<<<<< HEAD
 	"Sends `stream_options: { include_usage: true }` in the request.\nSupported providers will return token usage information in the response when set.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"September": "Tháng 9",
 	"Serper API Key": "Khóa API Serper",
 	"Serply API Key": "",
 	"Serpstack API Key": "Khóa API Serpstack",
 	"Server connection verified": "Kết nối máy chủ đã được xác minh",
 	"Set as default": "Đặt làm mặc định",
+<<<<<<< HEAD
 	"Set CFG Scale": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Default Model": "Đặt Mô hình Mặc định",
 	"Set embedding model (e.g. {{model}})": "Thiết lập mô hình embedding (ví dụ: {{model}})",
 	"Set Image Size": "Đặt Kích thước ảnh",
 	"Set reranking model (e.g. {{model}})": "Thiết lập mô hình reranking (ví dụ: {{model}})",
+<<<<<<< HEAD
 	"Set Sampler": "",
 	"Set Scheduler": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Steps": "Đặt Số Bước",
 	"Set Task Model": "Đặt Mô hình Tác vụ",
 	"Set Voice": "Đặt Giọng nói",
@@ -632,6 +745,7 @@
 	"Show your support!": "Thể hiện sự ủng hộ của bạn!",
 	"Showcased creativity": "Thể hiện sự sáng tạo",
 	"Sign in": "Đăng nhập",
+<<<<<<< HEAD
 	"Sign in to {{WEBUI_NAME}}": "",
 	"Sign Out": "Đăng xuất",
 	"Sign up": "Đăng ký",
@@ -643,6 +757,15 @@
 	"Speech-to-Text Engine": "Công cụ Nhận dạng Giọng nói",
 	"Stop Sequence": "Trình tự Dừng",
 	"Stream Chat Response": "",
+=======
+	"Sign Out": "Đăng xuất",
+	"Sign up": "Đăng ký",
+	"Signing in": "Đăng nhập",
+	"Source": "Nguồn",
+	"Speech recognition error: {{error}}": "Lỗi nhận dạng giọng nói: {{error}}",
+	"Speech-to-Text Engine": "Công cụ Nhận dạng Giọng nói",
+	"Stop Sequence": "Trình tự Dừng",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"STT Model": "",
 	"STT Settings": "Cài đặt Nhận dạng Giọng nói",
 	"Submit": "Gửi",
@@ -652,7 +775,10 @@
 	"Suggested": "Gợi ý một số mẫu prompt",
 	"Support": "Hỗ trợ",
 	"Support this plugin:": "Hỗ trợ plugin này:",
+<<<<<<< HEAD
 	"Sync directory": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"System": "Hệ thống",
 	"System Prompt": "Prompt Hệ thống (System Prompt)",
 	"Tags": "Thẻ",
@@ -675,9 +801,13 @@
 	"This action cannot be undone. Do you wish to continue?": "Hành động này không thể được hoàn tác. Bạn có muốn tiếp tục không?",
 	"This ensures that your valuable conversations are securely saved to your backend database. Thank you!": "Điều này đảm bảo rằng các nội dung chat có giá trị của bạn được lưu an toàn vào cơ sở dữ liệu backend của bạn. Cảm ơn bạn!",
 	"This is an experimental feature, it may not function as expected and is subject to change at any time.": "Đây là tính năng thử nghiệm, có thể không hoạt động như mong đợi và có thể thay đổi bất kỳ lúc nào.",
+<<<<<<< HEAD
 	"This option will delete all existing files in the collection and replace them with newly uploaded files.": "",
 	"This will delete": "Chat này sẽ bị xóa",
 	"This will reset the knowledge base and sync all files. Do you wish to continue?": "",
+=======
+	"This will delete": "Chat này sẽ bị xóa",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Thorough explanation": "Giải thích kỹ lưỡng",
 	"Tika": "",
 	"Tika Server URL required.": "Bắt buộc phải nhập URL cho Tika Server ",
@@ -687,10 +817,18 @@
 	"Title Auto-Generation": "Tự động Tạo Tiêu đề",
 	"Title cannot be an empty string.": "Tiêu đề không được phép bỏ trống",
 	"Title Generation Prompt": "Prompt tạo tiêu đề",
+<<<<<<< HEAD
 	"To access the available model names for downloading,": "Để truy cập các tên mô hình có sẵn để tải xuống,",
 	"To access the GGUF models available for downloading,": "Để truy cập các mô hình GGUF có sẵn để tải xuống,",
 	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "Để truy cập vui lòng liên hệ với quản trị viên.",
 	"To attach knowledge base here, add them to the \"Knowledge\" workspace first.": "",
+=======
+	"to": " - ",
+	"To access the available model names for downloading,": "Để truy cập các tên mô hình có sẵn để tải xuống,",
+	"To access the GGUF models available for downloading,": "Để truy cập các mô hình GGUF có sẵn để tải xuống,",
+	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "Để truy cập vui lòng liên hệ với quản trị viên.",
+	"To add documents here, upload them to the \"Documents\" workspace first.": "Để thêm tài liệu, trước tiên hãy upload chúng lên khu vực \"Tài liệu\".",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"to chat input.": "đến đầu vào trò chuyện.",
 	"To select actions here, add them to the \"Functions\" workspace first.": "Để chọn các tác vụ, bạn phải thêm chúng vào workspace \"Functions\" trước.",
 	"To select filters here, add them to the \"Functions\" workspace first.": "Để chọn các filters, bạn phải thêm chúng vào workspace \"Functions\" trước.",
@@ -720,21 +858,34 @@
 	"Type Hugging Face Resolve (Download) URL": "Nhập URL Hugging Face Resolve (Tải xuống)",
 	"Uh-oh! There was an issue connecting to {{provider}}.": "Ồ! Đã xảy ra sự cố khi kết nối với {{provider}}.",
 	"UI": "Giao diện",
+<<<<<<< HEAD
 	"Unpin": "Bỏ ghim",
 	"Update": "Cập nhật",
 	"Update and Copy Link": "Cập nhật và sao chép link",
 	"Update for the latest features and improvements.": "",
+=======
+	"Unknown file type '{{file_type}}'. Proceeding with the file upload anyway.": "Loại tệp không xác định '{{file_type}}'. Vẫn tiếp tục tải tập tin lên.",
+	"Unpin": "Bỏ ghim",
+	"Update": "Cập nhật",
+	"Update and Copy Link": "Cập nhật và sao chép link",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Update password": "Cập nhật mật khẩu",
 	"Updated at": "Cập nhật lúc",
 	"Upload": "",
 	"Upload a GGUF model": "Tải lên mô hình GGUF",
+<<<<<<< HEAD
 	"Upload directory": "",
 	"Upload files": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Upload Files": "Tải tệp lên máy chủ",
 	"Upload Pipeline": "",
 	"Upload Progress": "Tiến trình tải tệp lên hệ thống",
 	"URL Mode": "Chế độ URL",
+<<<<<<< HEAD
 	"Use '#' in the prompt input to load and include your knowledge.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Use '#' in the prompt input to load and select your documents.": "Sử dụng '#' trong đầu vào của prompt để tải về và lựa chọn tài liệu của bạn cần truy vấn.",
 	"Use Gravatar": "Sử dụng Gravatar",
 	"Use Initials": "Sử dụng tên viết tắt",
@@ -752,7 +903,10 @@
 	"variable": "biến",
 	"variable to have them replaced with clipboard content.": "biến để có chúng được thay thế bằng nội dung clipboard.",
 	"Version": "Version",
+<<<<<<< HEAD
 	"Version {{selectedVersion}} of {{totalVersions}}": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Voice": "Giọng nói",
 	"Warning": "Cảnh báo",
 	"Warning:": "Cảnh báo:",
@@ -781,7 +935,11 @@
 	"You're a helpful assistant.": "Bạn là một trợ lý hữu ích.",
 	"You're now logged in.": "Bạn đã đăng nhập.",
 	"Your account status is currently pending activation.": "Tài khoản của bạn hiện đang ở trạng thái chờ kích hoạt.",
+<<<<<<< HEAD
 	"Your entire contribution will go directly to the plugin developer; Version prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "Toàn bộ đóng góp của bạn sẽ được chuyển trực tiếp đến nhà phát triển plugin; Version prueba không lấy bất kỳ tỷ lệ phần trăm nào. Tuy nhiên, nền tảng được chọn tài trợ có thể có phí riêng.",
+=======
+	"Your entire contribution will go directly to the plugin developer; Version de prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "Toàn bộ đóng góp của bạn sẽ được chuyển trực tiếp đến nhà phát triển plugin; Version de prueba không lấy bất kỳ tỷ lệ phần trăm nào. Tuy nhiên, nền tảng được chọn tài trợ có thể có phí riêng.",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Youtube": "Youtube",
 	"Youtube Loader Settings": "Cài đặt Youtube Loader"
 }

@@ -44,7 +44,10 @@
 		return `${minutes}:${formattedSeconds}`;
 	};
 
+<<<<<<< HEAD
 	let stream;
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	let speechRecognition;
 
 	let mediaRecorder;
@@ -160,7 +163,11 @@
 	const startRecording = async () => {
 		startDurationCounter();
 
+<<<<<<< HEAD
 		stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+=======
+		const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		mediaRecorder = new MediaRecorder(stream);
 		mediaRecorder.onstart = () => {
 			console.log('Recording started');
@@ -252,6 +259,7 @@
 		}
 		stopDurationCounter();
 		audioChunks = [];
+<<<<<<< HEAD
 
 		if (stream) {
 			const tracks = stream.getTracks();
@@ -259,6 +267,8 @@
 		}
 
 		stream = null;
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	};
 
 	const confirmRecording = async () => {

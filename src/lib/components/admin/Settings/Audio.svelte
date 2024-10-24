@@ -31,8 +31,11 @@
 	let TTS_MODEL = '';
 	let TTS_VOICE = '';
 	let TTS_SPLIT_ON: TTS_RESPONSE_SPLIT = TTS_RESPONSE_SPLIT.PUNCTUATION;
+<<<<<<< HEAD
 	let TTS_AZURE_SPEECH_REGION = '';
 	let TTS_AZURE_SPEECH_OUTPUT_FORMAT = '';
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	let STT_OPENAI_API_BASE_URL = '';
 	let STT_OPENAI_API_KEY = '';
@@ -66,7 +69,10 @@
 				// do your loop
 				if (voices.length > 0) {
 					clearInterval(getVoicesLoop);
+<<<<<<< HEAD
 					voices.sort((a, b) => a.name.localeCompare(b.name, $i18n.resolvedLanguage));
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				}
 			}, 100);
 		} else {
@@ -77,7 +83,10 @@
 			if (res) {
 				console.log(res);
 				voices = res.voices;
+<<<<<<< HEAD
 				voices.sort((a, b) => a.name.localeCompare(b.name, $i18n.resolvedLanguage));
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			}
 		}
 	};
@@ -91,9 +100,13 @@
 				ENGINE: TTS_ENGINE,
 				MODEL: TTS_MODEL,
 				VOICE: TTS_VOICE,
+<<<<<<< HEAD
 				SPLIT_ON: TTS_SPLIT_ON,
 				AZURE_SPEECH_REGION: TTS_AZURE_SPEECH_REGION,
 				AZURE_SPEECH_OUTPUT_FORMAT: TTS_AZURE_SPEECH_OUTPUT_FORMAT
+=======
+				SPLIT_ON: TTS_SPLIT_ON
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			},
 			stt: {
 				OPENAI_API_BASE_URL: STT_OPENAI_API_BASE_URL,
@@ -126,9 +139,12 @@
 
 			TTS_SPLIT_ON = res.tts.SPLIT_ON || TTS_RESPONSE_SPLIT.PUNCTUATION;
 
+<<<<<<< HEAD
 			TTS_AZURE_SPEECH_OUTPUT_FORMAT = res.tts.AZURE_SPEECH_OUTPUT_FORMAT;
 			TTS_AZURE_SPEECH_REGION = res.tts.AZURE_SPEECH_REGION;
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			STT_OPENAI_API_BASE_URL = res.stt.OPENAI_API_BASE_URL;
 			STT_OPENAI_API_KEY = res.stt.OPENAI_API_KEY;
 
@@ -233,7 +249,10 @@
 							<option value="">{$i18n.t('Web API')}</option>
 							<option value="openai">{$i18n.t('OpenAI')}</option>
 							<option value="elevenlabs">{$i18n.t('ElevenLabs')}</option>
+<<<<<<< HEAD
 							<option value="azure">{$i18n.t('Azure AI Speech')}</option>
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						</select>
 					</div>
 				</div>
@@ -262,6 +281,7 @@
 							/>
 						</div>
 					</div>
+<<<<<<< HEAD
 				{:else if TTS_ENGINE === 'azure'}
 					<div>
 						<div class="mt-1 flex gap-2 mb-1">
@@ -279,6 +299,8 @@
 							/>
 						</div>
 					</div>
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				{/if}
 
 				<hr class=" dark:border-gray-850 my-2" />
@@ -297,8 +319,12 @@
 										<option
 											value={voice.voiceURI}
 											class="bg-gray-100 dark:bg-gray-700"
+<<<<<<< HEAD
 											selected={TTS_VOICE === voice.voiceURI}
 											>{voice.name.replace('+', ', ')}</option
+=======
+											selected={TTS_VOICE === voice.voiceURI}>{voice.name}</option
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 										>
 									{/each}
 								</select>
@@ -387,6 +413,7 @@
 							</div>
 						</div>
 					</div>
+<<<<<<< HEAD
 				{:else if TTS_ENGINE === 'azure'}
 					<div class=" flex gap-2">
 						<div class="w-full">
@@ -430,6 +457,8 @@
 							</div>
 						</div>
 					</div>
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				{/if}
 
 				<hr class="dark:border-gray-850 my-2" />

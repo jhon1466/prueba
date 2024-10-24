@@ -4,7 +4,16 @@
 
 	const dispatch = createEventDispatcher();
 
+<<<<<<< HEAD
 	import { blobToFile } from '$lib/utils';
+=======
+	import {
+		blobToFile,
+		calculateSHA256,
+		extractSentencesForAudio,
+		findWordIndices
+	} from '$lib/utils';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import { generateEmoji } from '$lib/apis';
 	import { synthesizeOpenAISpeech, transcribeAudio } from '$lib/apis/audio';
 
@@ -32,10 +41,18 @@
 	let assistantSpeaking = false;
 
 	let emoji = null;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	let camera = false;
 	let cameraStream = null;
 
 	let chatStreaming = false;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	let rmsLevel = 0;
 	let hasStartedSpeaking = false;
 	let mediaRecorder;
@@ -215,6 +232,7 @@
 	};
 
 	const startRecording = async () => {
+<<<<<<< HEAD
 		if ($showCallOverlay) {
 			if (!audioStream) {
 				audioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
@@ -257,6 +275,37 @@
 			track.stop();
 		});
 
+=======
+		audioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+		mediaRecorder = new MediaRecorder(audioStream);
+
+		mediaRecorder.onstart = () => {
+			console.log('Recording started');
+			audioChunks = [];
+			analyseAudio(audioStream);
+		};
+
+		mediaRecorder.ondataavailable = (event) => {
+			if (hasStartedSpeaking) {
+				audioChunks.push(event.data);
+			}
+		};
+
+		mediaRecorder.onstop = (e) => {
+			console.log('Recording stopped', e);
+			stopRecordingCallback();
+		};
+
+		mediaRecorder.start();
+	};
+
+	const stopAudioStream = async () => {
+		if (audioStream) {
+			const tracks = audioStream.getTracks();
+			tracks.forEach((track) => track.stop());
+		}
+
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		audioStream = null;
 	};
 
@@ -366,7 +415,10 @@
 								?.at(0) ?? undefined;
 
 						currentUtterance = new SpeechSynthesisUtterance(content);
+<<<<<<< HEAD
 						currentUtterance.rate = $settings.audio?.tts?.playbackRate ?? 1;
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 						if (voice) {
 							currentUtterance.voice = voice;
@@ -388,12 +440,19 @@
 	const playAudio = (audio) => {
 		if ($showCallOverlay) {
 			return new Promise((resolve) => {
+<<<<<<< HEAD
 				const audioElement = document.getElementById('audioElement') as HTMLAudioElement;
+=======
+				const audioElement = document.getElementById('audioElement');
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 				if (audioElement) {
 					audioElement.src = audio.src;
 					audioElement.muted = true;
+<<<<<<< HEAD
 					audioElement.playbackRate = $settings.audio?.tts?.playbackRate ?? 1;
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 					audioElement
 						.play()
@@ -456,9 +515,13 @@
 				if ($config.audio.tts.engine !== '') {
 					const res = await synthesizeOpenAISpeech(
 						localStorage.token,
+<<<<<<< HEAD
 						$settings?.audio?.tts?.defaultVoice === $config.audio.tts.voice
 							? ($settings?.audio?.tts?.voice ?? $config?.audio?.tts?.voice)
 							: $config?.audio?.tts?.voice,
+=======
+						$settings?.audio?.tts?.voice ?? $config?.audio?.tts?.voice,
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						content
 					).catch((error) => {
 						console.error(error);
@@ -535,6 +598,7 @@
 		console.log(`Audio monitoring and playing stopped for message ID ${id}`);
 	};
 
+<<<<<<< HEAD
 	const chatStartHandler = async (e) => {
 		const { id } = e.detail;
 
@@ -589,6 +653,8 @@
 		chatStreaming = false;
 	};
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	onMount(async () => {
 		const setWakeLock = async () => {
 			try {
@@ -622,15 +688,75 @@
 
 		startRecording();
 
+<<<<<<< HEAD
+=======
+		const chatStartHandler = async (e) => {
+			const { id } = e.detail;
+
+			chatStreaming = true;
+
+			if (currentMessageId !== id) {
+				console.log(`Received chat start event for message ID ${id}`);
+
+				currentMessageId = id;
+				if (audioAbortController) {
+					audioAbortController.abort();
+				}
+				audioAbortController = new AbortController();
+
+				assistantSpeaking = true;
+				// Start monitoring and playing audio for the message ID
+				monitorAndPlayAudio(id, audioAbortController.signal);
+			}
+		};
+
+		const chatEventHandler = async (e) => {
+			const { id, content } = e.detail;
+			// "id" here is message id
+			// if "id" is not the same as "currentMessageId" then do not process
+			// "content" here is a sentence from the assistant,
+			// there will be many sentences for the same "id"
+
+			if (currentMessageId === id) {
+				console.log(`Received chat event for message ID ${id}: ${content}`);
+
+				try {
+					if (messages[id] === undefined) {
+						messages[id] = [content];
+					} else {
+						messages[id].push(content);
+					}
+
+					console.log(content);
+
+					fetchAudio(content);
+				} catch (error) {
+					console.error('Failed to fetch or play audio:', error);
+				}
+			}
+		};
+
+		const chatFinishHandler = async (e) => {
+			const { id, content } = e.detail;
+			// "content" here is the entire message from the assistant
+			finishedMessages[id] = true;
+
+			chatStreaming = false;
+		};
+
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		eventTarget.addEventListener('chat:start', chatStartHandler);
 		eventTarget.addEventListener('chat', chatEventHandler);
 		eventTarget.addEventListener('chat:finish', chatFinishHandler);
 
 		return async () => {
+<<<<<<< HEAD
 			await stopAllAudio();
 
 			stopAudioStream();
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			eventTarget.removeEventListener('chat:start', chatStartHandler);
 			eventTarget.removeEventListener('chat', chatEventHandler);
 			eventTarget.removeEventListener('chat:finish', chatFinishHandler);
@@ -649,6 +775,7 @@
 		await stopAllAudio();
 		await stopRecordingCallback(false);
 		await stopCamera();
+<<<<<<< HEAD
 
 		await stopAudioStream();
 		eventTarget.removeEventListener('chat:start', chatStartHandler);
@@ -659,6 +786,8 @@
 		await tick();
 
 		await stopAllAudio();
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	});
 </script>
 
@@ -948,10 +1077,13 @@
 					on:click={async () => {
 						await stopAudioStream();
 						await stopVideoStream();
+<<<<<<< HEAD
 
 						console.log(audioStream);
 						console.log(cameraStream);
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						showCallOverlay.set(false);
 						dispatch('close');
 					}}

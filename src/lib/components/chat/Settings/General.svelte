@@ -45,7 +45,10 @@
 
 	let params = {
 		// Advanced
+<<<<<<< HEAD
 		stream_response: null,
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		seed: null,
 		temperature: null,
 		frequency_penalty: null,
@@ -115,6 +118,7 @@
 			document.documentElement.classList.add(e);
 		});
 
+<<<<<<< HEAD
 		const metaThemeColor = document.querySelector('meta[name="theme-color"]');
 		if (metaThemeColor) {
 			if (_theme.includes('system')) {
@@ -138,6 +142,8 @@
 			}
 		}
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		console.log(_theme);
 	};
 
@@ -173,7 +179,12 @@
 						<option value="dark">🌑 {$i18n.t('Dark')}</option>
 						<option value="oled-dark">🌃 {$i18n.t('OLED Dark')}</option>
 						<option value="light">☀️ {$i18n.t('Light')}</option>
+<<<<<<< HEAD
 						<option value="her">🌷 Her</option>
+=======
+						<option value="rose-pine-dawn light">🌷 {$i18n.t('Rosé Pine Dawn')}</option>
+						<option value="rose-pine dark">🪻 {$i18n.t('Rosé Pine')}</option>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						<!-- <option value="rose-pine dark">🪻 {$i18n.t('Rosé Pine')}</option>
 						<option value="rose-pine-dawn light">🌷 {$i18n.t('Rosé Pine Dawn')}</option> -->
 					</select>
@@ -197,7 +208,11 @@
 					</select>
 				</div>
 			</div>
+<<<<<<< HEAD
 			{#if $i18n.language === 'es-ES'}
+=======
+			{#if $i18n.language === 'en-US'}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				<div class="mb-2 text-xs text-gray-400 dark:text-gray-500">
 					
 					<a
@@ -205,7 +220,11 @@
 						href=""
 						target="_blank"
 					>
+<<<<<<< HEAD
 						
+=======
+					
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					</a>
 				</div>
 			{/if}
@@ -328,7 +347,10 @@
 				saveSettings({
 					system: system !== '' ? system : undefined,
 					params: {
+<<<<<<< HEAD
 						stream_response: params.stream_response !== null ? params.stream_response : undefined,
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						seed: (params.seed !== null ? params.seed : undefined) ?? undefined,
 						stop: params.stop ? params.stop.split(',').filter((e) => e) : undefined,
 						temperature: params.temperature !== null ? params.temperature : undefined,

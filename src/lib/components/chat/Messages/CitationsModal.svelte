@@ -1,7 +1,10 @@
 <script lang="ts">
 	import { getContext, onMount, tick } from 'svelte';
 	import Modal from '$lib/components/common/Modal.svelte';
+<<<<<<< HEAD
 	import Tooltip from '$lib/components/common/Tooltip.svelte';
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	const i18n = getContext('i18n');
 
 	export let show = false;
@@ -56,6 +59,7 @@
 						</div>
 
 						{#if document.source?.name}
+<<<<<<< HEAD
 							<Tooltip
 								content={$i18n.t('Open file')}
 								placement="left"
@@ -78,6 +82,20 @@
 										: ''}
 								</div>
 							</Tooltip>
+=======
+							<div class="text-sm dark:text-gray-400">
+								<a
+									href={document?.metadata?.file_id
+										? `/api/v1/files/${document?.metadata?.file_id}/content`
+										: document.source.name.includes('http')
+											? document.source.name
+											: `#`}
+									target="_blank"
+								>
+									{document?.metadata?.name ?? document.source.name}
+								</a>
+							</div>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						{:else}
 							<div class="text-sm dark:text-gray-400">
 								{$i18n.t('No source available')}

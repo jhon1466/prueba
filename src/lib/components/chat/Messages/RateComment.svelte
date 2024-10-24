@@ -7,8 +7,14 @@
 
 	const dispatch = createEventDispatcher();
 
+<<<<<<< HEAD
 	export let message;
 	export let show = false;
+=======
+	export let messageId = null;
+	export let show = false;
+	export let message;
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	let LIKE_REASONS = [];
 	let DISLIKE_REASONS = [];
@@ -53,10 +59,15 @@
 	const submitHandler = () => {
 		console.log('submitHandler');
 
+<<<<<<< HEAD
 		if (!selectedReason) {
 			toast.error($i18n.t('Please select a reason'));
 			return;
 		}
+=======
+		message.annotation.reason = selectedReason;
+		message.annotation.comment = comment;
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 		dispatch('submit', {
 			reason: selectedReason,
@@ -70,7 +81,11 @@
 
 <div
 	class=" my-2.5 rounded-xl px-4 py-3 border dark:border-gray-850"
+<<<<<<< HEAD
 	id="message-feedback-{message.id}"
+=======
+	id="message-feedback-{messageId}"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 >
 	<div class="flex justify-between items-center">
 		<div class=" text-sm">{$i18n.t('Tell us more:')}</div>

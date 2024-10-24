@@ -29,7 +29,10 @@
 	let defaultModelId = '';
 	let showUsername = false;
 
+<<<<<<< HEAD
 	let landingPageMode = '';
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	let chatBubble = true;
 	let chatDirection: 'LTR' | 'RTL' = 'LTR';
 
@@ -57,11 +60,14 @@
 		saveSettings({ chatBubble: chatBubble });
 	};
 
+<<<<<<< HEAD
 	const toggleLandingPageMode = async () => {
 		landingPageMode = landingPageMode === '' ? 'chat' : '';
 		saveSettings({ landingPageMode: landingPageMode });
 	};
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	const toggleShowUsername = async () => {
 		showUsername = !showUsername;
 		saveSettings({ showUsername: showUsername });
@@ -156,7 +162,10 @@
 		showEmojiInCall = $settings.showEmojiInCall ?? false;
 		voiceInterruption = $settings.voiceInterruption ?? false;
 
+<<<<<<< HEAD
 		landingPageMode = $settings.landingPageMode ?? '';
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		chatBubble = $settings.chatBubble ?? true;
 		widescreenMode = $settings.widescreenMode ?? false;
 		splitLargeChunks = $settings.splitLargeChunks ?? false;
@@ -238,6 +247,7 @@
 
 			<div>
 				<div class=" py-0.5 flex w-full justify-between">
+<<<<<<< HEAD
 					<div class=" self-center text-xs">{$i18n.t('Landing Page Mode')}</div>
 
 					<button
@@ -258,6 +268,8 @@
 
 			<div>
 				<div class=" py-0.5 flex w-full justify-between">
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					<div class=" self-center text-xs">{$i18n.t('Chat Bubble UI')}</div>
 
 					<button

@@ -9,7 +9,10 @@
 	"{{user}}'s Chats": "Obrolan {{user}}",
 	"{{webUIName}} Backend Required": "{{webUIName}} Diperlukan Backend",
 	"*Prompt node ID(s) are required for image generation": "",
+<<<<<<< HEAD
 	"A new version (v{{LATEST_VERSION}}) is now available.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"A task model is used when performing tasks such as generating titles for chats and web search queries": "Model tugas digunakan saat melakukan tugas seperti membuat judul untuk obrolan dan kueri penelusuran web",
 	"a user": "seorang pengguna",
 	"About": "Tentang",
@@ -23,8 +26,11 @@
 	"Add a short description about what this model does": "Tambahkan deskripsi singkat tentang apa yang dilakukan model ini",
 	"Add a short title for this prompt": "Tambahkan judul singkat untuk prompt ini",
 	"Add a tag": "Menambahkan tag",
+<<<<<<< HEAD
 	"Add Content": "",
 	"Add content here": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add custom prompt": "Tambahkan prompt khusus",
 	"Add Docs": "Tambahkan Dokumen",
 	"Add Files": "Menambahkan File",
@@ -33,7 +39,10 @@
 	"Add Model": "Tambahkan Model",
 	"Add Tag": "",
 	"Add Tags": "Tambahkan Tag",
+<<<<<<< HEAD
 	"Add text content": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add User": "Tambah Pengguna",
 	"Adjusting these settings will apply changes universally to all users.": "Menyesuaikan pengaturan ini akan menerapkan perubahan secara universal ke semua pengguna.",
 	"admin": "admin",
@@ -68,8 +77,11 @@
 	"Archived Chats": "Obrolan yang Diarsipkan",
 	"are allowed - Activate this command by typing": "diizinkan - Aktifkan perintah ini dengan mengetik",
 	"Are you sure?": "Apakah Anda yakin?",
+<<<<<<< HEAD
 	"Artifacts": "",
 	"Ask a question": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Attach file": "Lampirkan file",
 	"Attention to detail": "Perhatian terhadap detail",
 	"Audio": "Audio",
@@ -79,10 +91,14 @@
 	"AUTOMATIC1111 Api Auth String": "AUTOMATIC1111 Api Auth String",
 	"AUTOMATIC1111 Base URL": "URL Dasar AUTOMATIC1111",
 	"AUTOMATIC1111 Base URL is required.": "AUTOMATIC1111 URL Dasar diperlukan.",
+<<<<<<< HEAD
 	"Available list": "",
 	"available!": "tersedia!",
 	"Azure AI Speech": "",
 	"Azure Region": "",
+=======
+	"available!": "tersedia!",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Back": "Kembali",
 	"Bad Response": "Respons Buruk",
 	"Banners": "Spanduk",
@@ -103,7 +119,10 @@
 	"Chat Bubble UI": "UI Gelembung Obrolan",
 	"Chat Controls": "",
 	"Chat direction": "Arah obrolan",
+<<<<<<< HEAD
 	"Chat Overview": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Chats": "Obrolan",
 	"Check Again": "Periksa Lagi",
 	"Check for updates": "Memeriksa pembaruan",
@@ -152,13 +171,20 @@
 	"Copied shared chat URL to clipboard!": "Menyalin URL obrolan bersama ke papan klip!",
 	"Copied to clipboard": "",
 	"Copy": "Menyalin",
+<<<<<<< HEAD
+=======
+	"Copy Code": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Copy last code block": "Salin blok kode terakhir",
 	"Copy last response": "Salin tanggapan terakhir",
 	"Copy Link": "Salin Tautan",
 	"Copying to clipboard was successful!": "Penyalinan ke papan klip berhasil!",
 	"Create a model": "Buat model",
 	"Create Account": "Buat Akun",
+<<<<<<< HEAD
 	"Create Knowledge": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Create new key": "Buat kunci baru",
 	"Create new secret key": "Buat kunci rahasia baru",
 	"Created at": "Dibuat di",
@@ -198,11 +224,19 @@
 	"Description": "Deskripsi",
 	"Didn't fully follow instructions": "Tidak sepenuhnya mengikuti instruksi",
 	"Disabled": "",
+<<<<<<< HEAD
 	"": "Menemukan sebuah fungsi",
 	"": "Menemukan sebuah model",
 	"": "Temukan petunjuk",
 	"": "Menemukan alat",
 	"": "Menemukan, mengunduh, dan menjelajahi fungsi khusus",
+=======
+	"Discover a function": "Menemukan sebuah fungsi",
+	"Discover a model": "Menemukan sebuah model",
+	"Discover a prompt": "Temukan petunjuk",
+	"Discover a tool": "Menemukan alat",
+	"Discover, download, and explore custom functions": "Menemukan, mengunduh, dan menjelajahi fungsi khusus",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Discover, download, and explore custom prompts": "Temukan, unduh, dan jelajahi prompt khusus",
 	"Discover, download, and explore custom tools": "Menemukan, mengunduh, dan menjelajahi alat khusus",
 	"Discover, download, and explore model presets": "Menemukan, mengunduh, dan menjelajahi preset model",
@@ -248,7 +282,10 @@
 	"Enter a detail about yourself for your LLMs to recall": "Masukkan detail tentang diri Anda untuk diingat oleh LLM Anda",
 	"Enter api auth string (e.g. username:password)": "Masukkan string pengesahan API (misalnya nama pengguna: kata sandi)",
 	"Enter Brave Search API Key": "Masukkan Kunci API Pencarian Berani",
+<<<<<<< HEAD
 	"Enter CFG Scale (e.g. 7.0)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Chunk Overlap": "Masukkan Tumpang Tindih Chunk",
 	"Enter Chunk Size": "Masukkan Ukuran Potongan",
 	"Enter Github Raw URL": "Masukkan URL Mentah Github",
@@ -259,8 +296,11 @@
 	"Enter Model ID": "",
 	"Enter model tag (e.g. {{modelTag}})": "Masukkan tag model (misalnya {{modelTag}})",
 	"Enter Number of Steps (e.g. 50)": "Masukkan Jumlah Langkah (mis. 50)",
+<<<<<<< HEAD
 	"Enter Sampler (e.g. Euler a)": "",
 	"Enter Scheduler (e.g. Karras)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Score": "Masukkan Skor",
 	"Enter SearchApi API Key": "",
 	"Enter SearchApi Engine": "",
@@ -297,6 +337,7 @@
 	"Failed to create API Key.": "Gagal membuat API Key.",
 	"Failed to read clipboard contents": "Gagal membaca konten papan klip",
 	"Failed to update settings": "Gagal memperbarui pengaturan",
+<<<<<<< HEAD
 	"Failed to upload file.": "",
 	"February": "Februari",
 	"Feel free to add specific details": "Jangan ragu untuk menambahkan detail spesifik",
@@ -306,6 +347,13 @@
 	"File Mode": "Mode File",
 	"File not found.": "File tidak ditemukan.",
 	"File removed successfully.": "",
+=======
+	"February": "Februari",
+	"Feel free to add specific details": "Jangan ragu untuk menambahkan detail spesifik",
+	"File": "Berkas",
+	"File Mode": "Mode File",
+	"File not found.": "File tidak ditemukan.",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"File size should not exceed {{maxSize}} MB.": "",
 	"Files": "",
 	"Filter is now globally disabled": "Filter sekarang dinonaktifkan secara global",
@@ -380,11 +428,14 @@
 	"Keep Alive": "Tetap Hidup",
 	"Keyboard shortcuts": "Pintasan keyboard",
 	"Knowledge": "Pengetahuan",
+<<<<<<< HEAD
 	"Knowledge created successfully.": "",
 	"Knowledge deleted successfully.": "",
 	"Knowledge reset successfully.": "",
 	"Knowledge updated successfully": "",
 	"Landing Page Mode": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Language": "Bahasa",
 	"large language models, locally.": "",
 	"Last Active": "Terakhir Aktif",
@@ -396,7 +447,11 @@
 	"LLMs can make mistakes. Verify important information.": "LLM dapat membuat kesalahan. Verifikasi informasi penting.",
 	"Local Models": "Model Lokal",
 	"LTR": "LTR",
+<<<<<<< HEAD
 	"": "Dibuat oleh Komunitas OpenWebUI",
+=======
+	"Made by OpenWebUI Community": "Dibuat oleh Komunitas OpenWebUI",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Make sure to enclose them with": "Pastikan untuk melampirkannya dengan",
 	"Make sure to export a workflow.json file as API format from ComfyUI.": "",
 	"Manage": "Mengelola",
@@ -430,8 +485,11 @@
 	"Model {{modelId}} not found": "Model {{modelId}} tidak ditemukan",
 	"Model {{modelName}} is not vision capable": "Model {{modelName}} tidak dapat dilihat",
 	"Model {{name}} is now {{status}}": "Model {{name}} sekarang menjadi {{status}}",
+<<<<<<< HEAD
 	"Model {{name}} is now at the top": "",
 	"Model accepts image inputs": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Model created successfully!": "Model berhasil dibuat!",
 	"Model filesystem path detected. Model shortname is required for update, cannot continue.": "Jalur sistem berkas model terdeteksi. Nama pendek model diperlukan untuk pembaruan, tidak dapat dilanjutkan.",
 	"Model ID": "ID Model",
@@ -443,16 +501,24 @@
 	"Modelfile Content": "Konten File Model",
 	"Models": "Model",
 	"More": "Lainnya",
+<<<<<<< HEAD
 	"Move to Top": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Name": "Nama",
 	"Name Tag": "Label Nama",
 	"Name your model": "Beri nama model Anda",
 	"New Chat": "Obrolan Baru",
 	"New Password": "Kata Sandi Baru",
 	"No content to speak": "Tidak ada konten untuk dibicarakan",
+<<<<<<< HEAD
 	"No file selected": "Tidak ada file yang dipilih",
 	"No HTML, CSS, or JavaScript content found.": "",
 	"No knowledge found": "",
+=======
+	"No documents found": "Tidak ada dokumen yang ditemukan",
+	"No file selected": "Tidak ada file yang dipilih",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"No results found": "Tidak ada hasil yang ditemukan",
 	"No search query generated": "Tidak ada permintaan pencarian yang dibuat",
 	"No source available": "Tidak ada sumber yang tersedia",
@@ -477,15 +543,23 @@
 	"On": "Aktif",
 	"Only": "Hanya",
 	"Only alphanumeric characters and hyphens are allowed in the command string.": "Hanya karakter alfanumerik dan tanda hubung yang diizinkan dalam string perintah.",
+<<<<<<< HEAD
 	"Only collections can be edited, create a new knowledge base to edit/add documents.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Oops! Hold tight! Your files are still in the processing oven. We're cooking them up to perfection. Please be patient and we'll let you know once they're ready.": "Ups! Pegangan yang kuat! File Anda masih berada di dalam oven pemrosesan. Kami sedang memasaknya hingga sempurna. Mohon bersabar dan kami akan memberi tahu Anda jika sudah siap.",
 	"Oops! Looks like the URL is invalid. Please double-check and try again.": "Ups! Sepertinya URL tidak valid. Mohon periksa ulang dan coba lagi.",
 	"Oops! There was an error in the previous response. Please try again or contact admin.": "Ups! Ada kesalahan pada respons sebelumnya. Silakan coba lagi atau hubungi admin.",
 	"Oops! You're using an unsupported method (frontend only). Please serve the WebUI from the backend.": "Ups! Anda menggunakan metode yang tidak didukung (hanya untuk frontend). Silakan sajikan WebUI dari backend.",
+<<<<<<< HEAD
 	"Open file": "",
 	"Open in full screen": "",
 	"Open new chat": "Buka obrolan baru",
 	"Version prueba version (v{{version_prueba_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+=======
+	"Open new chat": "Buka obrolan baru",
+	"Version de prueba version (v{{OPEN_WEBUI_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"OpenAI": "OpenAI",
 	"OpenAI API": "API OpenAI",
 	"OpenAI API Config": "Konfigurasi API OpenAI",
@@ -493,9 +567,12 @@
 	"OpenAI URL/Key required.": "Diperlukan URL/Kunci OpenAI.",
 	"or": "atau",
 	"Other": "Lainnya",
+<<<<<<< HEAD
 	"Output format": "",
 	"Overview": "",
 	"page": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Password": "Kata sandi",
 	"PDF document (.pdf)": "Dokumen PDF (.pdf)",
 	"PDF Extract Images (OCR)": "Ekstrak Gambar PDF (OCR)",
@@ -514,12 +591,19 @@
 	"Plain text (.txt)": "Teks biasa (.txt)",
 	"Playground": "Taman bermain",
 	"Please carefully review the following warnings:": "",
+<<<<<<< HEAD
 	"Please fill in all fields.": "",
 	"Please select a reason": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Positive attitude": "Sikap positif",
 	"Previous 30 days": "30 hari sebelumnya",
 	"Previous 7 days": "7 hari sebelumnya",
 	"Profile Image": "Gambar Profil",
+<<<<<<< HEAD
+=======
+	"Prompt": "Permintaan",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Prompt (e.g. Tell me a fun fact about the Roman Empire)": "Permintaan (mis. Ceritakan sebuah fakta menarik tentang Kekaisaran Romawi)",
 	"Prompt Content": "Konten yang Diminta",
 	"Prompt suggestions": "Saran yang diminta",
@@ -559,18 +643,31 @@
 	"Save": "Simpan",
 	"Save & Create": "Simpan & Buat",
 	"Save & Update": "Simpan & Perbarui",
+<<<<<<< HEAD
 	"Save As Copy": "",
 	"Save Tag": "",
 	"Saved": "",
 	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Menyimpan log obrolan secara langsung ke penyimpanan browser Anda tidak lagi didukung. Mohon luangkan waktu sejenak untuk mengunduh dan menghapus log obrolan Anda dengan mengeklik tombol di bawah ini. Jangan khawatir, Anda dapat dengan mudah mengimpor kembali log obrolan Anda ke backend melalui",
+=======
+	"Save Tag": "",
+	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Menyimpan log obrolan secara langsung ke penyimpanan browser Anda tidak lagi didukung. Mohon luangkan waktu sejenak untuk mengunduh dan menghapus log obrolan Anda dengan mengeklik tombol di bawah ini. Jangan khawatir, Anda dapat dengan mudah mengimpor kembali log obrolan Anda ke backend melalui",
+	"Scan": "Pindai",
+	"Scan complete!": "Pindai selesai!",
+	"Scan for documents from {{path}}": "Memindai dokumen dari {{path}}",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Scroll to bottom when switching between branches": "",
 	"Search": "Cari",
 	"Search a model": "Mencari model",
 	"Search Chats": "Cari Obrolan",
+<<<<<<< HEAD
 	"Search Collection": "",
 	"Search Documents": "Cari Dokumen",
 	"Search Functions": "Fungsi Pencarian",
 	"Search Knowledge": "",
+=======
+	"Search Documents": "Cari Dokumen",
+	"Search Functions": "Fungsi Pencarian",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Search Models": "Cari Model",
 	"Search Prompts": "Perintah Pencarian",
 	"Search Query Generation Prompt": "Permintaan Pembuatan Kueri Pencarian",
@@ -594,29 +691,45 @@
 	"Select a pipeline url": "Pilih url saluran pipa",
 	"Select a tool": "Pilih alat",
 	"Select an Ollama instance": "Pilih contoh Ollama",
+<<<<<<< HEAD
 	"Select Engine": "",
 	"Select Knowledge": "",
 	"Select model": "Pilih model",
 	"Select only one model to call": "Pilih hanya satu model untuk dipanggil",
 	"Select/Add Files": "",
+=======
+	"Select Documents": "Pilih Dokumen",
+	"Select Engine": "",
+	"Select model": "Pilih model",
+	"Select only one model to call": "Pilih hanya satu model untuk dipanggil",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Selected model(s) do not support image inputs": "Model yang dipilih tidak mendukung input gambar",
 	"Send": "Kirim",
 	"Send a Message": "Kirim Pesan",
 	"Send message": "Kirim pesan",
+<<<<<<< HEAD
 	"Sends `stream_options: { include_usage: true }` in the request.\nSupported providers will return token usage information in the response when set.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"September": "September",
 	"Serper API Key": "Kunci API Serper",
 	"Serply API Key": "Kunci API Serply",
 	"Serpstack API Key": "Kunci API Serpstack",
 	"Server connection verified": "Koneksi server diverifikasi",
 	"Set as default": "Ditetapkan sebagai default",
+<<<<<<< HEAD
 	"Set CFG Scale": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Default Model": "Tetapkan Model Default",
 	"Set embedding model (e.g. {{model}})": "Tetapkan model penyematan (mis. {{model}})",
 	"Set Image Size": "Mengatur Ukuran Gambar",
 	"Set reranking model (e.g. {{model}})": "Tetapkan model pemeringkatan ulang (mis. {{model}})",
+<<<<<<< HEAD
 	"Set Sampler": "",
 	"Set Scheduler": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Steps": "Tetapkan Langkah",
 	"Set Task Model": "Tetapkan Model Tugas",
 	"Set Voice": "Mengatur Suara",
@@ -633,6 +746,7 @@
 	"Show your support!": "Tunjukkan dukungan Anda!",
 	"Showcased creativity": "Menampilkan kreativitas",
 	"Sign in": "Masuk",
+<<<<<<< HEAD
 	"Sign in to {{WEBUI_NAME}}": "",
 	"Sign Out": "Keluar",
 	"Sign up": "Daftar",
@@ -644,6 +758,15 @@
 	"Speech-to-Text Engine": "Mesin Pengenal Ucapan ke Teks",
 	"Stop Sequence": "Hentikan Urutan",
 	"Stream Chat Response": "",
+=======
+	"Sign Out": "Keluar",
+	"Sign up": "Daftar",
+	"Signing in": "Masuk",
+	"Source": "Sumber",
+	"Speech recognition error: {{error}}": "Kesalahan pengenalan suara: {{error}}",
+	"Speech-to-Text Engine": "Mesin Pengenal Ucapan ke Teks",
+	"Stop Sequence": "Hentikan Urutan",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"STT Model": "Model STT",
 	"STT Settings": "Pengaturan STT",
 	"Submit": "Kirim",
@@ -653,7 +776,10 @@
 	"Suggested": "Disarankan",
 	"Support": "",
 	"Support this plugin:": "",
+<<<<<<< HEAD
 	"Sync directory": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"System": "Sistem",
 	"System Prompt": "Permintaan Sistem",
 	"Tags": "Tag",
@@ -676,9 +802,13 @@
 	"This action cannot be undone. Do you wish to continue?": "Tindakan ini tidak dapat dibatalkan. Apakah Anda ingin melanjutkan?",
 	"This ensures that your valuable conversations are securely saved to your backend database. Thank you!": "Ini akan memastikan bahwa percakapan Anda yang berharga disimpan dengan aman ke basis data backend. Terima kasih!",
 	"This is an experimental feature, it may not function as expected and is subject to change at any time.": "Ini adalah fitur eksperimental, mungkin tidak berfungsi seperti yang diharapkan dan dapat berubah sewaktu-waktu.",
+<<<<<<< HEAD
 	"This option will delete all existing files in the collection and replace them with newly uploaded files.": "",
 	"This will delete": "Ini akan menghapus",
 	"This will reset the knowledge base and sync all files. Do you wish to continue?": "",
+=======
+	"This will delete": "Ini akan menghapus",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Thorough explanation": "Penjelasan menyeluruh",
 	"Tika": "",
 	"Tika Server URL required.": "",
@@ -688,10 +818,18 @@
 	"Title Auto-Generation": "Pembuatan Judul Secara Otomatis",
 	"Title cannot be an empty string.": "Judul tidak boleh berupa string kosong.",
 	"Title Generation Prompt": "Perintah Pembuatan Judul",
+<<<<<<< HEAD
 	"To access the available model names for downloading,": "Untuk mengakses nama model yang tersedia untuk diunduh,",
 	"To access the GGUF models available for downloading,": "Untuk mengakses model GGUF yang tersedia untuk diunduh,",
 	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "Untuk mengakses WebUI, hubungi administrator. Admin dapat mengelola status pengguna dari Panel Admin.",
 	"To attach knowledge base here, add them to the \"Knowledge\" workspace first.": "",
+=======
+	"to": "untuk",
+	"To access the available model names for downloading,": "Untuk mengakses nama model yang tersedia untuk diunduh,",
+	"To access the GGUF models available for downloading,": "Untuk mengakses model GGUF yang tersedia untuk diunduh,",
+	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "Untuk mengakses WebUI, hubungi administrator. Admin dapat mengelola status pengguna dari Panel Admin.",
+	"To add documents here, upload them to the \"Documents\" workspace first.": "Untuk menambahkan dokumen di sini, unggah dokumen ke ruang kerja \"Dokumen\" terlebih dahulu.",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"to chat input.": "Untuk memasukkan input obrolan.",
 	"To select actions here, add them to the \"Functions\" workspace first.": "",
 	"To select filters here, add them to the \"Functions\" workspace first.": "Untuk memilih filter di sini, tambahkan filter ke ruang kerja \"Fungsi\" terlebih dahulu.",
@@ -721,21 +859,34 @@
 	"Type Hugging Face Resolve (Download) URL": "Ketik Hugging Face Resolve (Unduh) URL",
 	"Uh-oh! There was an issue connecting to {{provider}}.": "Uh-oh! Ada masalah saat menyambung ke {{provider}}.",
 	"UI": "UI",
+<<<<<<< HEAD
 	"Unpin": "",
 	"Update": "Memperbarui",
 	"Update and Copy Link": "Perbarui dan Salin Tautan",
 	"Update for the latest features and improvements.": "",
+=======
+	"Unknown file type '{{file_type}}'. Proceeding with the file upload anyway.": "Jenis file tidak dikenal '{{file_type}}'. Tetap lanjutkan dengan mengunggah file.",
+	"Unpin": "",
+	"Update": "Memperbarui",
+	"Update and Copy Link": "Perbarui dan Salin Tautan",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Update password": "Perbarui kata sandi",
 	"Updated at": "Diperbarui di",
 	"Upload": "Unggah",
 	"Upload a GGUF model": "Unggah model GGUF",
+<<<<<<< HEAD
 	"Upload directory": "",
 	"Upload files": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Upload Files": "Unggah File",
 	"Upload Pipeline": "Unggah Pipeline",
 	"Upload Progress": "Kemajuan Unggah",
 	"URL Mode": "Mode URL",
+<<<<<<< HEAD
 	"Use '#' in the prompt input to load and include your knowledge.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Use '#' in the prompt input to load and select your documents.": "Gunakan '#' pada input prompt untuk memuat dan memilih dokumen Anda.",
 	"Use Gravatar": "Gunakan Gravatar",
 	"Use Initials": "Gunakan Inisial",
@@ -753,7 +904,10 @@
 	"variable": "variabel",
 	"variable to have them replaced with clipboard content.": "variabel untuk diganti dengan konten papan klip.",
 	"Version": "Versi",
+<<<<<<< HEAD
 	"Version {{selectedVersion}} of {{totalVersions}}": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Voice": "Suara",
 	"Warning": "Peringatan",
 	"Warning:": "",
@@ -782,7 +936,11 @@
 	"You're a helpful assistant.": "Anda adalah asisten yang membantu.",
 	"You're now logged in.": "Anda sekarang sudah masuk.",
 	"Your account status is currently pending activation.": "Status akun Anda saat ini sedang menunggu aktivasi.",
+<<<<<<< HEAD
 	"Your entire contribution will go directly to the plugin developer; Version prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+=======
+	"Your entire contribution will go directly to the plugin developer; Version de prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Youtube": "Youtube",
 	"Youtube Loader Settings": "Pengaturan Pemuat Youtube"
 }

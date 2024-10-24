@@ -1,13 +1,23 @@
 import katex from 'katex';
 
 const DELIMITER_LIST = [
+<<<<<<< HEAD
 	{ left: '$$', right: '$$', display: true },
+=======
+	{ left: '$$', right: '$$', display: false },
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	{ left: '$', right: '$', display: false },
 	{ left: '\\pu{', right: '}', display: false },
 	{ left: '\\ce{', right: '}', display: false },
 	{ left: '\\(', right: '\\)', display: false },
+<<<<<<< HEAD
 	{ left: '\\[', right: '\\]', display: true },
 	{ left: '\\begin{equation}', right: '\\end{equation}', display: true }
+=======
+	{ left: '( ', right: ' )', display: false },
+	{ left: '\\[', right: '\\]', display: true },
+	{ left: '[ ', right: ' ]', display: true }
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 ];
 
 // const DELIMITER_LIST = [
@@ -27,11 +37,16 @@ function escapeRegex(string) {
 
 function generateRegexRules(delimiters) {
 	delimiters.forEach((delimiter) => {
+<<<<<<< HEAD
 		const { left, right, display } = delimiter;
+=======
+		const { left, right } = delimiter;
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		// Ensure regex-safe delimiters
 		const escapedLeft = escapeRegex(left);
 		const escapedRight = escapeRegex(right);
 
+<<<<<<< HEAD
 		if (!display) {
 			// For inline delimiters, we match everyting
 			inlinePatterns.push(`${escapedLeft}((?:\\\\[^]|[^\\\\])+?)${escapedRight}`);
@@ -48,6 +63,21 @@ function generateRegexRules(delimiters) {
 		'u'
 	);
 	const blockRule = new RegExp(`^(${blockPatterns.join('|')})(?=[\\s?。，!-\/:-@[-\`{-~]|$)`, 'u');
+=======
+		// Inline pattern - Capture group $1, token content, followed by end delimiter and normal punctuation marks.
+		// Example: $text$
+		inlinePatterns.push(
+			`${escapedLeft}((?:\\\\.|[^\\\\\\n])*?(?:\\\\.|[^\\\\\\n${escapedRight}]))${escapedRight}`
+		);
+
+		// Block pattern - Starts and ends with the delimiter on new lines. Example:
+		// $$\ncontent here\n$$
+		blockPatterns.push(`${escapedLeft}\n((?:\\\\[^]|[^\\\\])+?)\n${escapedRight}`);
+	});
+
+	const inlineRule = new RegExp(`^(${inlinePatterns.join('|')})(?=[\\s?!.,:？！。，：]|$)`, 'u');
+	const blockRule = new RegExp(`^(${blockPatterns.join('|')})(?:\n|$)`, 'u');
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	return { inlineRule, blockRule };
 }
@@ -56,6 +86,7 @@ const { inlineRule, blockRule } = generateRegexRules(DELIMITER_LIST);
 
 export default function (options = {}) {
 	return {
+<<<<<<< HEAD
 		extensions: [inlineKatex(options), blockKatex(options)]
 	};
 }
@@ -126,10 +157,28 @@ function katexTokenizer(src, tokens, displayMode: boolean) {
 }
 
 function inlineKatex(options) {
+=======
+		extensions: [
+			inlineKatex(options, createRenderer(options, false)),
+			blockKatex(options, createRenderer(options, true))
+		]
+	};
+}
+
+function createRenderer(options, newlineAfter) {
+	return (token) =>
+		katex.renderToString(token.text, { ...options, displayMode: token.displayMode }) +
+		(newlineAfter ? '\n' : '');
+}
+
+function inlineKatex(options, renderer) {
+	const ruleReg = inlineRule;
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	return {
 		name: 'inlineKatex',
 		level: 'inline',
 		start(src) {
+<<<<<<< HEAD
 			return katexStart(src, false);
 		},
 		tokenizer(src, tokens) {
@@ -148,5 +197,68 @@ function blockKatex(options) {
 		tokenizer(src, tokens) {
 			return katexTokenizer(src, tokens, true);
 		}
+=======
+			let index;
+			let indexSrc = src;
+
+			while (indexSrc) {
+				index = indexSrc.indexOf('$');
+				if (index === -1) {
+					return;
+				}
+				const f = index === 0 || indexSrc.charAt(index - 1) === ' ';
+				if (f) {
+					const possibleKatex = indexSrc.substring(index);
+
+					if (possibleKatex.match(ruleReg)) {
+						return index;
+					}
+				}
+
+				indexSrc = indexSrc.substring(index + 1).replace(/^\$+/, '');
+			}
+		},
+		tokenizer(src, tokens) {
+			const match = src.match(ruleReg);
+
+			if (match) {
+				const text = match
+					.slice(2)
+					.filter((item) => item)
+					.find((item) => item.trim());
+
+				return {
+					type: 'inlineKatex',
+					raw: match[0],
+					text: text
+				};
+			}
+		},
+		renderer
+	};
+}
+
+function blockKatex(options, renderer) {
+	return {
+		name: 'blockKatex',
+		level: 'block',
+		tokenizer(src, tokens) {
+			const match = src.match(blockRule);
+
+			if (match) {
+				const text = match
+					.slice(2)
+					.filter((item) => item)
+					.find((item) => item.trim());
+
+				return {
+					type: 'blockKatex',
+					raw: match[0],
+					text: text
+				};
+			}
+		},
+		renderer
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	};
 }

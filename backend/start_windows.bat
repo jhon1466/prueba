@@ -30,4 +30,8 @@ IF "%WEBUI_SECRET_KEY%%WEBUI_JWT_SECRET_KEY%" == " " (
 
 :: Execute uvicorn
 SET "WEBUI_SECRET_KEY=%WEBUI_SECRET_KEY%"
+<<<<<<< HEAD
 uvicorn version_prueba.main:app --host "%HOST%" --port "%PORT%" --forwarded-allow-ips '*'
+=======
+uvicorn open_webui.main:app --host "%HOST%" --port "%PORT%" --forwarded-allow-ips '*'
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24

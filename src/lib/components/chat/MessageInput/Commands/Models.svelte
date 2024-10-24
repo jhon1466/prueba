@@ -1,6 +1,9 @@
 <script lang="ts">
+<<<<<<< HEAD
 	import Fuse from 'fuse.js';
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import { createEventDispatcher, onMount } from 'svelte';
 	import { tick, getContext } from 'svelte';
 
@@ -13,6 +16,7 @@
 	export let command = '';
 
 	let selectedIdx = 0;
+<<<<<<< HEAD
 	let filteredItems = [];
 
 	let fuse = new Fuse(
@@ -38,6 +42,15 @@
 				return e.item;
 			})
 		: $models.filter((model) => !model?.info?.meta?.hidden);
+=======
+	let filteredModels = [];
+
+	$: filteredModels = $models
+		.filter((p) =>
+			p.name.toLowerCase().includes(command.toLowerCase().split(' ')?.at(0)?.substring(1) ?? '')
+		)
+		.sort((a, b) => a.name.localeCompare(b.name));
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	$: if (command) {
 		selectedIdx = 0;
@@ -48,7 +61,11 @@
 	};
 
 	export const selectDown = () => {
+<<<<<<< HEAD
 		selectedIdx = Math.min(selectedIdx + 1, filteredItems.length - 1);
+=======
+		selectedIdx = Math.min(selectedIdx + 1, filteredModels.length - 1);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	};
 
 	const confirmSelect = async (model) => {
@@ -65,6 +82,7 @@
 	});
 </script>
 
+<<<<<<< HEAD
 {#if filteredItems.length > 0}
 	<div
 		id="commands-container"
@@ -73,13 +91,27 @@
 		<div class="flex w-full dark:border dark:border-gray-850 rounded-lg">
 			<div class=" bg-gray-50 dark:bg-gray-850 w-10 rounded-l-lg text-center">
 				<div class=" text-lg font-medium mt-2">@</div>
+=======
+{#if filteredModels.length > 0}
+	<div
+		id="commands-container"
+		class="pl-1 pr-12 mb-3 text-left w-full absolute bottom-0 left-0 right-0 z-10"
+	>
+		<div class="flex w-full dark:border dark:border-gray-850 rounded-lg">
+			<div class=" bg-gray-50 dark:bg-gray-850 w-10 rounded-l-lg text-center">
+				<div class=" text-lg font-semibold mt-2">@</div>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			</div>
 
 			<div
 				class="max-h-60 flex flex-col w-full rounded-r-lg bg-white dark:bg-gray-900 dark:text-gray-100"
 			>
 				<div class="m-1 overflow-y-auto p-1 rounded-r-lg space-y-0.5 scrollbar-hidden">
+<<<<<<< HEAD
 					{#each filteredItems as model, modelIdx}
+=======
+					{#each filteredModels as model, modelIdx}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						<button
 							class="px-3 py-1.5 rounded-xl w-full text-left {modelIdx === selectedIdx
 								? 'bg-gray-50 dark:bg-gray-850 selected-command-option-button'

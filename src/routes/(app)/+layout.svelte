@@ -3,6 +3,7 @@
 	import { onMount, tick, getContext } from 'svelte';
 	import { openDB, deleteDB } from 'idb';
 	import fileSaver from 'file-saver';
+<<<<<<< HEAD
 	const { saveAs } = fileSaver;
 	import mermaid from 'mermaid';
 
@@ -43,6 +44,47 @@
 	import ChangelogModal from '$lib/components/ChangelogModal.svelte';
 	import AccountPending from '$lib/components/layout/Overlay/AccountPending.svelte';
 	import UpdateInfoToast from '$lib/components/layout/UpdateInfoToast.svelte';
+=======
+	import mermaid from 'mermaid';
+
+	const { saveAs } = fileSaver;
+
+	import { goto } from '$app/navigation';
+
+	import { getModels as _getModels } from '$lib/apis';
+	import { getAllChatTags } from '$lib/apis/chats';
+
+	import { getPrompts } from '$lib/apis/prompts';
+	import { getDocs } from '$lib/apis/documents';
+	import { getTools } from '$lib/apis/tools';
+
+	import { getBanners } from '$lib/apis/configs';
+	import { getUserSettings } from '$lib/apis/users';
+
+	import {
+		user,
+		showSettings,
+		settings,
+		models,
+		prompts,
+		documents,
+		tags,
+		banners,
+		showChangelog,
+		config,
+		showCallOverlay,
+		tools,
+		functions,
+		temporaryChatEnabled
+	} from '$lib/stores';
+
+	import SettingsModal from '$lib/components/chat/SettingsModal.svelte';
+	import Sidebar from '$lib/components/layout/Sidebar.svelte';
+	import ChangelogModal from '$lib/components/ChangelogModal.svelte';
+	import AccountPending from '$lib/components/layout/Overlay/AccountPending.svelte';
+	import { getFunctions } from '$lib/apis/functions';
+	import { page } from '$app/stores';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	const i18n = getContext('i18n');
 
@@ -50,8 +92,11 @@
 	let DB = null;
 	let localDBChats = [];
 
+<<<<<<< HEAD
 	let version;
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	const getModels = async () => {
 		return _getModels(localStorage.token);
 	};
@@ -105,7 +150,11 @@
 					prompts.set(await getPrompts(localStorage.token));
 				})(),
 				(async () => {
+<<<<<<< HEAD
 					knowledge.set(await getKnowledgeItems(localStorage.token));
+=======
+					documents.set(await getDocs(localStorage.token));
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				})(),
 				(async () => {
 					tools.set(await getTools(localStorage.token));
@@ -194,6 +243,7 @@
 				temporaryChatEnabled.set(true);
 			}
 
+<<<<<<< HEAD
 			// Check for version updates
 			if ($user.role === 'admin') {
 				// Check if the user has dismissed the update toast in the last 24 hours
@@ -208,11 +258,14 @@
 					checkForVersionUpdates();
 				}
 			}
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			await tick();
 		}
 
 		loaded = true;
 	});
+<<<<<<< HEAD
 
 	const checkForVersionUpdates = async () => {
 		version = await getVersionUpdates(localStorage.token).catch((error) => {
@@ -222,17 +275,22 @@
 			};
 		});
 	};
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 </script>
 
 <SettingsModal bind:show={$showSettings} />
 <ChangelogModal bind:show={$showChangelog} />
 
+<<<<<<< HEAD
 {#if version && compareVersion(version.latest, version.current)}
 	<div class=" absolute bottom-8 right-8 z-50" in:fade={{ duration: 100 }}>
 		<UpdateInfoToast {version} />
 	</div>
 {/if}
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 <div class="app relative">
 	<div
 		class=" text-gray-700 dark:text-gray-100 bg-white dark:bg-gray-900 h-screen max-h-[100dvh] overflow-auto flex flex-row"

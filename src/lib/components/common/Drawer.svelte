@@ -3,8 +3,11 @@
 	import { flyAndScale } from '$lib/utils/transitions';
 	import { fade, fly, slide } from 'svelte/transition';
 
+<<<<<<< HEAD
 	const dispatch = createEventDispatcher();
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	export let show = false;
 	export let size = 'md';
 
@@ -44,6 +47,7 @@
 		window.addEventListener('keydown', handleKeyDown);
 		document.body.style.overflow = 'hidden';
 	} else if (modalElement) {
+<<<<<<< HEAD
 		dispatch('close');
 		window.removeEventListener('keydown', handleKeyDown);
 
@@ -51,15 +55,24 @@
 			document.body.removeChild(modalElement);
 			document.body.style.overflow = 'unset';
 		}
+=======
+		window.removeEventListener('keydown', handleKeyDown);
+		document.body.removeChild(modalElement);
+		document.body.style.overflow = 'unset';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	}
 
 	onDestroy(() => {
 		show = false;
 		if (modalElement) {
+<<<<<<< HEAD
 			if (document.body.contains(modalElement)) {
 				document.body.removeChild(modalElement);
 				document.body.style.overflow = 'unset';
 			}
+=======
+			document.body.removeChild(modalElement);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		}
 	});
 </script>

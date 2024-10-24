@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <div class="w-full mt-2 mb-2">
+=======
+<div class="w-full mt-2 mb-4">
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	<div class="animate-pulse flex w-full">
 		<div class="space-y-2 w-full">
 			<div class="h-2 bg-gray-200 dark:bg-gray-600 rounded mr-14" />

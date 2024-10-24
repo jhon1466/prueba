@@ -183,7 +183,11 @@ else
         export OLLAMA_DATA_DIR=$data_dir # Set OLLAMA_DATA_DIR environment variable
     fi
     if [[ -n $webui_port ]]; then
+<<<<<<< HEAD
         export version_prueba_PORT=$webui_port # Set version_prueba_PORT environment variable
+=======
+        export OPEN_WEBUI_PORT=$webui_port # Set OPEN_WEBUI_PORT environment variable
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
     fi
     DEFAULT_COMPOSE_COMMAND+=" up -d"
     DEFAULT_COMPOSE_COMMAND+=" --remove-orphans"

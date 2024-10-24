@@ -1,6 +1,9 @@
 <script lang="ts">
+<<<<<<< HEAD
 	import DOMPurify from 'dompurify';
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import { onDestroy } from 'svelte';
 	import { marked } from 'marked';
 
@@ -12,14 +15,18 @@
 	export let touch = true;
 	export let className = 'flex';
 	export let theme = '';
+<<<<<<< HEAD
 	export let allowHTML = true;
 	export let tippyOptions = {};
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	let tooltipElement;
 	let tooltipInstance;
 
 	$: if (tooltipElement && content) {
 		if (tooltipInstance) {
+<<<<<<< HEAD
 			tooltipInstance.setContent(DOMPurify.sanitize(content));
 		} else {
 			tooltipInstance = tippy(tooltipElement, {
@@ -31,6 +38,18 @@
 				arrow: false,
 				offset: [0, 4],
 				...tippyOptions
+=======
+			tooltipInstance.setContent(content);
+		} else {
+			tooltipInstance = tippy(tooltipElement, {
+				content: content,
+				placement: placement,
+				allowHTML: true,
+				touch: touch,
+				...(theme !== '' ? { theme } : { theme: 'dark' }),
+				arrow: false,
+				offset: [0, 4]
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			});
 		}
 	} else if (tooltipInstance && content === '') {
@@ -46,6 +65,10 @@
 	});
 </script>
 
+<<<<<<< HEAD
 <div bind:this={tooltipElement} aria-label={DOMPurify.sanitize(content)} class={className}>
+=======
+<div bind:this={tooltipElement} aria-label={content} class={className}>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	<slot />
 </div>

@@ -322,6 +322,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "bitarray"
 version = "2.9.2"
 source = { registry = "https://pypi.org/simple" }
@@ -360,6 +361,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 name = "black"
 version = "24.8.0"
 source = { registry = "https://pypi.org/simple" }
@@ -616,6 +619,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "colbert-ai"
 version = "0.2.21"
 source = { registry = "https://pypi.org/simple" }
@@ -637,6 +641,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 name = "colorama"
 version = "0.4.6"
 source = { registry = "https://pypi.org/simple" }
@@ -737,6 +743,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "datasets"
 version = "3.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -762,6 +769,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 name = "deepdiff"
 version = "7.0.1"
 source = { registry = "https://pypi.org/simple" }
@@ -795,6 +804,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "dill"
 version = "0.3.8"
 source = { registry = "https://pypi.org/simple" }
@@ -804,6 +814,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 name = "distro"
 version = "1.9.0"
 source = { registry = "https://pypi.org/simple" }
@@ -843,15 +855,25 @@ sdist = { url = "https://files.pythonhosted.org/packages/7d/7d/60ee3f2b16d9bfdfa
 
 [[package]]
 name = "duckduckgo-search"
+<<<<<<< HEAD
 version = "6.2.13"
+=======
+version = "6.2.11"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
     { name = "primp" },
 ]
+<<<<<<< HEAD
 sdist = { url = "https://files.pythonhosted.org/packages/55/2e/fe93c096b2b2bfcbd0a4f3a1de47d9a1c4b0dd4c7573d9f6c2b5c80ce6dc/duckduckgo_search-6.2.13.tar.gz", hash = "sha256:f89a9782f0f47d18c01a761c83453d0aef7a4335d1b6466fc47709652d5ca791", size = 33075 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e2/07/c0a6d0b1192790364ee9cf655c72c47ad13d68971570f19401f220cac50d/duckduckgo_search-6.2.13-py3-none-any.whl", hash = "sha256:a6618fb2744fa1d081b1bf2e47ef8051de993276a15c20f4e879a150726472de", size = 27468 },
+=======
+sdist = { url = "https://files.pythonhosted.org/packages/11/04/c76cd009653ace8d6a4a2a3d7851f5379911091d5d2104eef4bcb4c46c14/duckduckgo_search-6.2.11.tar.gz", hash = "sha256:6b6ef1b552c5e67f23e252025d2504caf6f9fc14f70e86c6dd512200f386c673", size = 32998 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f5/67/b1eb59a859717043b605eb16d4f3afe46ec3614804ac0fbe594339667866/duckduckgo_search-6.2.11-py3-none-any.whl", hash = "sha256:6fb7069b79e8928f487001de6859034ade19201bdcd257ec198802430e374bfe", size = 27429 },
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 ]
 
 [[package]]
@@ -884,6 +906,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "einops"
 version = "0.8.0"
 source = { registry = "https://pypi.org/simple" }
@@ -893,6 +916,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 name = "email-validator"
 version = "2.2.0"
 source = { registry = "https://pypi.org/simple" }
@@ -918,6 +943,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "environs"
 version = "9.5.0"
 source = { registry = "https://pypi.org/simple" }
@@ -931,6 +957,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 name = "et-xmlfile"
 version = "1.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1159,6 +1187,7 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/5e/44/73bea497ac69bafde2ee4269292fa3b41f1198f4bb7bbaaabde30ad29d4a/fsspec-2024.6.1-py3-none-any.whl", hash = "sha256:3cb443f8bcd2efb31295a5b9fdb02aee81d8452c80d28f97a6d0959e6cee101e", size = 177561 },
 ]
 
+<<<<<<< HEAD
 [package.optional-dependencies]
 http = [
     { name = "aiohttp" },
@@ -1200,6 +1229,8 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/e9/bd/cc3a402a6439c15c3d4294333e13042b915bbeab54edc457c723931fed3f/GitPython-3.1.43-py3-none-any.whl", hash = "sha256:eec7ec56b92aad751f9912a73404bc02ba212a23adb2c7098ee668417051a1ff", size = 207337 },
 ]
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 [[package]]
 name = "google-ai-generativelanguage"
 version = "0.6.6"
@@ -1919,6 +1950,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "milvus-lite"
 version = "2.4.10"
 source = { registry = "https://pypi.org/simple" }
@@ -1933,6 +1965,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 name = "mmh3"
 version = "4.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2043,6 +2077,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "multiprocess"
 version = "0.70.16"
 source = { registry = "https://pypi.org/simple" }
@@ -2056,6 +2091,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 name = "mypy-extensions"
 version = "1.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2083,6 +2120,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "ninja"
 version = "1.11.1.1"
 source = { registry = "https://pypi.org/simple" }
@@ -2105,6 +2143,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 name = "nltk"
 version = "3.9.1"
 source = { registry = "https://pypi.org/simple" }
@@ -2325,7 +2365,11 @@ wheels = [
 
 [[package]]
 name = "open-webui"
+<<<<<<< HEAD
 version = "0.3.29"
+=======
+version = "0.3.17.dev3"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 source = { editable = "." }
 dependencies = [
     { name = "aiohttp" },
@@ -2338,11 +2382,17 @@ dependencies = [
     { name = "black" },
     { name = "boto3" },
     { name = "chromadb" },
+<<<<<<< HEAD
     { name = "colbert-ai" },
     { name = "docker" },
     { name = "docx2txt" },
     { name = "duckduckgo-search" },
     { name = "einops" },
+=======
+    { name = "docker" },
+    { name = "docx2txt" },
+    { name = "duckduckgo-search" },
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
     { name = "extract-msg" },
     { name = "fake-useragent" },
     { name = "fastapi" },
@@ -2369,7 +2419,10 @@ dependencies = [
     { name = "pydantic" },
     { name = "pydub" },
     { name = "pyjwt", extra = ["crypto"] },
+<<<<<<< HEAD
     { name = "pymilvus" },
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
     { name = "pymongo" },
     { name = "pymysql" },
     { name = "pypandoc" },
@@ -2408,11 +2461,17 @@ requires-dist = [
     { name = "black", specifier = "==24.8.0" },
     { name = "boto3", specifier = "==1.35.0" },
     { name = "chromadb", specifier = "==0.5.5" },
+<<<<<<< HEAD
     { name = "colbert-ai", specifier = "==0.2.21" },
     { name = "docker", specifier = "~=7.1.0" },
     { name = "docx2txt", specifier = "==0.8" },
     { name = "duckduckgo-search", specifier = "~=6.2.11" },
     { name = "einops", specifier = "==0.8.0" },
+=======
+    { name = "docker", specifier = "~=7.1.0" },
+    { name = "docx2txt", specifier = "==0.8" },
+    { name = "duckduckgo-search", specifier = "~=6.2.11" },
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
     { name = "extract-msg" },
     { name = "fake-useragent", specifier = "==1.5.1" },
     { name = "fastapi", specifier = "==0.111.0" },
@@ -2439,7 +2498,10 @@ requires-dist = [
     { name = "pydantic", specifier = "==2.8.2" },
     { name = "pydub" },
     { name = "pyjwt", extras = ["crypto"], specifier = "==2.9.0" },
+<<<<<<< HEAD
     { name = "pymilvus", specifier = "==2.4.6" },
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
     { name = "pymongo" },
     { name = "pymysql", specifier = "==1.1.1" },
     { name = "pypandoc", specifier = "==1.13" },
@@ -2889,6 +2951,7 @@ wheels = [
 
 [[package]]
 name = "primp"
+<<<<<<< HEAD
 version = "0.6.3"
 source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/63/9c/10d2c7b734228021cf17d92b2872ed53535103d29a38a6ad4eee89a8ae1b/primp-0.6.3.tar.gz", hash = "sha256:17d30ebe26864defad5232dbbe1372e80483940012356e1f68846bb182282039", size = 78662 }
@@ -2900,6 +2963,19 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/74/a1/a626fb8d2f6499d3e05971b2dcd33d770244722ee52f7d2c4ab636c1157f/primp-0.6.3-cp38-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:d3cd9a22b97f3eae42b2a5fb99f00480daf4cd6d9b139e05b0ffb03f7cc037f3", size = 2900573 },
     { url = "https://files.pythonhosted.org/packages/09/55/c96cb510c9f7881fa01bc7b269e446d32635ab9f0adbd36918c69b45a140/primp-0.6.3-cp38-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:7732bec917e2d3c48a31cdb92e1250f4ad6203a1aa4f802bd9abd84f2286a1e0", size = 3058818 },
     { url = "https://files.pythonhosted.org/packages/98/de/5c1dab24c1bff7933d0e4e8f4d0f46b66fc23531258d8433789c4468cac3/primp-0.6.3-cp38-abi3-win_amd64.whl", hash = "sha256:1e4113c34b86c676ae321af185f03a372caef3ee009f1682c2d62e30ec87348c", size = 2757631 },
+=======
+version = "0.6.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/30/bf/6c09168d11467cac9104aaa486b916cfab3f3883d812088d59cdec412d2f/primp-0.6.1.tar.gz", hash = "sha256:64b3c12e3d463a887518811c46f3ec37cca02e6af1ddf1287e548342de436301", size = 79231 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/fc/00/98a0b612613902b4b5139da271786e586701d100f610b2a97b16b45e8783/primp-0.6.1-cp38-abi3-macosx_10_12_x86_64.whl", hash = "sha256:60cfe95e0bdf154b0f9036d38acaddc9aef02d6723ed125839b01449672d3946", size = 2708129 },
+    { url = "https://files.pythonhosted.org/packages/6e/fc/5894b24c5794a357697fd0d0f789a82ed941571739178ebd6fd93c37fe26/primp-0.6.1-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:e1e92433ecf32639f9e800bc3a5d58b03792bdec99421b7fb06500e2fae63c85", size = 2500377 },
+    { url = "https://files.pythonhosted.org/packages/06/cc/501c5becc8ebb7d2897e88ea1ba5619516016c9bf9f5e3c766537525ca8a/primp-0.6.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6e02353f13f07fb5a6f91df9e2f4d8ec9f41312de95088744dce1c9729a3865d", size = 2806351 },
+    { url = "https://files.pythonhosted.org/packages/c5/d4/33cf02d6e343e3d27e79fddb5898d84c26560f86f7b8952af6518be26770/primp-0.6.1-cp38-abi3-manylinux_2_34_aarch64.whl", hash = "sha256:c5a2ccfdf488b17be225a529a31e2b22724b2e22fba8e1ae168a222f857c2dc0", size = 2722920 },
+    { url = "https://files.pythonhosted.org/packages/0e/91/ec7aeeb9715bb9a9f355919163b25dde239c43738f2e31653113b52c09c5/primp-0.6.1-cp38-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:f335c2ace907800a23bbb7bc6e15acc7fff659b86a2d5858817f6ed79cea07cf", size = 2883301 },
+    { url = "https://files.pythonhosted.org/packages/e5/dd/262d646a981802035f585b369ee93cc5187d05eb3b0f41e1b81020f56da2/primp-0.6.1-cp38-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:5dc15bd9d47ded7bc356fcb5d8321972dcbeba18e7d3b7250e12bb7365447b2b", size = 3037325 },
+    { url = "https://files.pythonhosted.org/packages/e6/69/c30564f546dc2c1f118526d2f1dc17d8440b2fe2c574018333881450a860/primp-0.6.1-cp38-abi3-win_amd64.whl", hash = "sha256:eebf0412ebba4089547b16b97b765d83f69f1433d811bb02b02cdcdbca20f672", size = 2736167 },
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 ]
 
 [[package]]
@@ -2978,6 +3054,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "pyarrow"
 version = "17.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -3003,6 +3080,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 name = "pyasn1"
 version = "0.6.0"
 source = { registry = "https://pypi.org/simple" }
@@ -3146,6 +3225,7 @@ crypto = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "pymilvus"
 version = "2.4.6"
 source = { registry = "https://pypi.org/simple" }
@@ -3164,6 +3244,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 name = "pymongo"
 version = "4.8.0"
 source = { registry = "https://pypi.org/simple" }
@@ -3888,6 +3970,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "smmap"
 version = "5.0.1"
 source = { registry = "https://pypi.org/simple" }
@@ -3897,6 +3980,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 name = "sniffio"
 version = "1.3.1"
 source = { registry = "https://pypi.org/simple" }
@@ -4542,6 +4627,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "xxhash"
 version = "3.5.0"
 source = { registry = "https://pypi.org/simple" }
@@ -4595,6 +4681,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 name = "yarl"
 version = "1.9.4"
 source = { registry = "https://pypi.org/simple" }

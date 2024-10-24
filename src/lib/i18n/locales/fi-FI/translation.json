@@ -9,7 +9,10 @@
 	"{{user}}'s Chats": "{{user}}:n keskustelut",
 	"{{webUIName}} Backend Required": "{{webUIName}} backend vaaditaan",
 	"*Prompt node ID(s) are required for image generation": "",
+<<<<<<< HEAD
 	"A new version (v{{LATEST_VERSION}}) is now available.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"A task model is used when performing tasks such as generating titles for chats and web search queries": "Tehtävämallia käytetään tehtävien suorittamiseen, kuten otsikoiden luomiseen keskusteluille ja verkkohakukyselyille",
 	"a user": "käyttäjä",
 	"About": "Tietoja",
@@ -23,8 +26,11 @@
 	"Add a short description about what this model does": "Lisää lyhyt kuvaus siitä, mitä tämä malli tekee",
 	"Add a short title for this prompt": "Lisää lyhyt otsikko tälle kehotteelle",
 	"Add a tag": "Lisää tagi",
+<<<<<<< HEAD
 	"Add Content": "",
 	"Add content here": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add custom prompt": "Lisää mukautettu kehote",
 	"Add Docs": "Lisää asiakirjoja",
 	"Add Files": "Lisää tiedostoja",
@@ -33,7 +39,10 @@
 	"Add Model": "Lisää malli",
 	"Add Tag": "",
 	"Add Tags": "Lisää tageja",
+<<<<<<< HEAD
 	"Add text content": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add User": "Lisää käyttäjä",
 	"Adjusting these settings will apply changes universally to all users.": "Näiden asetusten säätäminen vaikuttaa kaikkiin käyttäjiin.",
 	"admin": "hallinta",
@@ -68,8 +77,11 @@
 	"Archived Chats": "Arkistoidut keskustelut",
 	"are allowed - Activate this command by typing": "ovat sallittuja - Aktivoi tämä komento kirjoittamalla",
 	"Are you sure?": "Oletko varma?",
+<<<<<<< HEAD
 	"Artifacts": "",
 	"Ask a question": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Attach file": "Liitä tiedosto",
 	"Attention to detail": "Huomio yksityiskohtiin",
 	"Audio": "Ääni",
@@ -79,10 +91,14 @@
 	"AUTOMATIC1111 Api Auth String": "",
 	"AUTOMATIC1111 Base URL": "AUTOMATIC1111-perus-URL",
 	"AUTOMATIC1111 Base URL is required.": "AUTOMATIC1111-perus-URL vaaditaan.",
+<<<<<<< HEAD
 	"Available list": "",
 	"available!": "saatavilla!",
 	"Azure AI Speech": "",
 	"Azure Region": "",
+=======
+	"available!": "saatavilla!",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Back": "Takaisin",
 	"Bad Response": "Epäkelpo vastaus",
 	"Banners": "Bannerit",
@@ -103,7 +119,10 @@
 	"Chat Bubble UI": "Keskustelu-pallojen käyttöliittymä",
 	"Chat Controls": "",
 	"Chat direction": "Keskustelun suunta",
+<<<<<<< HEAD
 	"Chat Overview": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Chats": "Keskustelut",
 	"Check Again": "Tarkista uudelleen",
 	"Check for updates": "Tarkista päivitykset",
@@ -152,13 +171,20 @@
 	"Copied shared chat URL to clipboard!": "Jaettu keskustelulinkki kopioitu leikepöydälle!",
 	"Copied to clipboard": "",
 	"Copy": "Kopioi",
+<<<<<<< HEAD
+=======
+	"Copy Code": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Copy last code block": "Kopioi viimeisin koodilohko",
 	"Copy last response": "Kopioi viimeisin vastaus",
 	"Copy Link": "Kopioi linkki",
 	"Copying to clipboard was successful!": "Kopioiminen leikepöydälle onnistui!",
 	"Create a model": "Mallin luominen",
 	"Create Account": "Luo tili",
+<<<<<<< HEAD
 	"Create Knowledge": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Create new key": "Luo uusi avain",
 	"Create new secret key": "Luo uusi salainen avain",
 	"Created at": "Luotu",
@@ -198,11 +224,19 @@
 	"Description": "Kuvaus",
 	"Didn't fully follow instructions": "Ei noudattanut ohjeita täysin",
 	"Disabled": "",
+<<<<<<< HEAD
 	"": "",
 	"": "Tutustu malliin",
 	"": "Löydä kehote",
 	"": "",
 	"": "",
+=======
+	"Discover a function": "",
+	"Discover a model": "Tutustu malliin",
+	"Discover a prompt": "Löydä kehote",
+	"Discover a tool": "",
+	"Discover, download, and explore custom functions": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Discover, download, and explore custom prompts": "Löydä ja lataa mukautettuja kehotteita",
 	"Discover, download, and explore custom tools": "",
 	"Discover, download, and explore model presets": "Löydä ja lataa mallien esiasetuksia",
@@ -248,7 +282,10 @@
 	"Enter a detail about yourself for your LLMs to recall": "Kirjoita tieto itseestäsi LLM:ien muistamiseksi",
 	"Enter api auth string (e.g. username:password)": "",
 	"Enter Brave Search API Key": "Anna Brave Search API -avain",
+<<<<<<< HEAD
 	"Enter CFG Scale (e.g. 7.0)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Chunk Overlap": "Syötä osien päällekkäisyys",
 	"Enter Chunk Size": "Syötä osien koko",
 	"Enter Github Raw URL": "Kirjoita Github Raw URL-osoite",
@@ -259,8 +296,11 @@
 	"Enter Model ID": "",
 	"Enter model tag (e.g. {{modelTag}})": "Syötä mallitagi (esim. {{modelTag}})",
 	"Enter Number of Steps (e.g. 50)": "Syötä askelien määrä (esim. 50)",
+<<<<<<< HEAD
 	"Enter Sampler (e.g. Euler a)": "",
 	"Enter Scheduler (e.g. Karras)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Score": "Syötä pisteet",
 	"Enter SearchApi API Key": "",
 	"Enter SearchApi Engine": "",
@@ -297,6 +337,7 @@
 	"Failed to create API Key.": "API-avaimen luonti epäonnistui.",
 	"Failed to read clipboard contents": "Leikepöydän sisällön lukeminen epäonnistui",
 	"Failed to update settings": "",
+<<<<<<< HEAD
 	"Failed to upload file.": "",
 	"February": "helmikuu",
 	"Feel free to add specific details": "Voit lisätä tarkempia tietoja",
@@ -306,6 +347,13 @@
 	"File Mode": "Tiedostotila",
 	"File not found.": "Tiedostoa ei löytynyt.",
 	"File removed successfully.": "",
+=======
+	"February": "helmikuu",
+	"Feel free to add specific details": "Voit lisätä tarkempia tietoja",
+	"File": "",
+	"File Mode": "Tiedostotila",
+	"File not found.": "Tiedostoa ei löytynyt.",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"File size should not exceed {{maxSize}} MB.": "",
 	"Files": "",
 	"Filter is now globally disabled": "",
@@ -380,11 +428,14 @@
 	"Keep Alive": "Pysy aktiivisena",
 	"Keyboard shortcuts": "Pikanäppäimet",
 	"Knowledge": "",
+<<<<<<< HEAD
 	"Knowledge created successfully.": "",
 	"Knowledge deleted successfully.": "",
 	"Knowledge reset successfully.": "",
 	"Knowledge updated successfully": "",
 	"Landing Page Mode": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Language": "Kieli",
 	"large language models, locally.": "",
 	"Last Active": "Viimeksi aktiivinen",
@@ -396,7 +447,11 @@
 	"LLMs can make mistakes. Verify important information.": "Kielimallit voivat tehdä virheitä. Varmista tärkeät tiedot.",
 	"Local Models": "",
 	"LTR": "LTR",
+<<<<<<< HEAD
 	"": "Tehnyt OpenWebUI-yhteisö",
+=======
+	"Made by OpenWebUI Community": "Tehnyt OpenWebUI-yhteisö",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Make sure to enclose them with": "Varmista, että suljet ne",
 	"Make sure to export a workflow.json file as API format from ComfyUI.": "",
 	"Manage": "",
@@ -430,8 +485,11 @@
 	"Model {{modelId}} not found": "Mallia {{modelId}} ei löytynyt",
 	"Model {{modelName}} is not vision capable": "Malli {{modelName}} ei kykene näkökykyyn",
 	"Model {{name}} is now {{status}}": "Malli {{name}} on nyt {{status}}",
+<<<<<<< HEAD
 	"Model {{name}} is now at the top": "",
 	"Model accepts image inputs": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Model created successfully!": "",
 	"Model filesystem path detected. Model shortname is required for update, cannot continue.": "Mallin tiedostojärjestelmäpolku havaittu. Mallin lyhytnimi vaaditaan päivitykseen, ei voi jatkaa.",
 	"Model ID": "Mallin tunnus",
@@ -443,16 +501,24 @@
 	"Modelfile Content": "Mallitiedoston sisältö",
 	"Models": "Mallit",
 	"More": "Lisää",
+<<<<<<< HEAD
 	"Move to Top": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Name": "Nimi",
 	"Name Tag": "Nimitagi",
 	"Name your model": "Mallin nimeäminen",
 	"New Chat": "Uusi keskustelu",
 	"New Password": "Uusi salasana",
 	"No content to speak": "",
+<<<<<<< HEAD
 	"No file selected": "",
 	"No HTML, CSS, or JavaScript content found.": "",
 	"No knowledge found": "",
+=======
+	"No documents found": "",
+	"No file selected": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"No results found": "Ei tuloksia",
 	"No search query generated": "Hakukyselyä ei luotu",
 	"No source available": "Ei lähdettä saatavilla",
@@ -477,15 +543,23 @@
 	"On": "Päällä",
 	"Only": "Vain",
 	"Only alphanumeric characters and hyphens are allowed in the command string.": "Vain kirjaimet, numerot ja väliviivat ovat sallittuja komentosarjassa.",
+<<<<<<< HEAD
 	"Only collections can be edited, create a new knowledge base to edit/add documents.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Oops! Hold tight! Your files are still in the processing oven. We're cooking them up to perfection. Please be patient and we'll let you know once they're ready.": "Hetki pieni, tiedostosi ovat yhä leivinuunissa. Odota kärsivällisesti, ja ilmoitamme, kun ne ovat valmiita.",
 	"Oops! Looks like the URL is invalid. Please double-check and try again.": "Hups! Näyttää siltä, että URL on virheellinen. Tarkista se ja yritä uudelleen.",
 	"Oops! There was an error in the previous response. Please try again or contact admin.": "",
 	"Oops! You're using an unsupported method (frontend only). Please serve the WebUI from the backend.": "Hupsista! Käytät ei-tuettua menetelmää. WebUI pitää palvella backendista.",
+<<<<<<< HEAD
 	"Open file": "",
 	"Open in full screen": "",
 	"Open new chat": "Avaa uusi keskustelu",
 	"Version prueba version (v{{version_prueba_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+=======
+	"Open new chat": "Avaa uusi keskustelu",
+	"Version de prueba version (v{{OPEN_WEBUI_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"OpenAI": "OpenAI",
 	"OpenAI API": "OpenAI API",
 	"OpenAI API Config": "OpenAI API -asetukset",
@@ -493,9 +567,12 @@
 	"OpenAI URL/Key required.": "OpenAI URL/ -avain vaaditaan.",
 	"or": "tai",
 	"Other": "Muu",
+<<<<<<< HEAD
 	"Output format": "",
 	"Overview": "",
 	"page": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Password": "Salasana",
 	"PDF document (.pdf)": "PDF-tiedosto (.pdf)",
 	"PDF Extract Images (OCR)": "PDF-tiedoston kuvien erottelu (OCR)",
@@ -514,12 +591,19 @@
 	"Plain text (.txt)": "Pelkkä teksti (.txt)",
 	"Playground": "Leikkipaikka",
 	"Please carefully review the following warnings:": "",
+<<<<<<< HEAD
 	"Please fill in all fields.": "",
 	"Please select a reason": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Positive attitude": "Positiivinen asenne",
 	"Previous 30 days": "Edelliset 30 päivää",
 	"Previous 7 days": "Edelliset 7 päivää",
 	"Profile Image": "Profiilikuva",
+<<<<<<< HEAD
+=======
+	"Prompt": "Kehote",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Prompt (e.g. Tell me a fun fact about the Roman Empire)": "Kehote (esim. Kerro hauska fakta Turusta)",
 	"Prompt Content": "Kehotteen sisältö",
 	"Prompt suggestions": "Kehotteen ehdotukset",
@@ -559,18 +643,31 @@
 	"Save": "Tallenna",
 	"Save & Create": "Tallenna ja luo",
 	"Save & Update": "Tallenna ja päivitä",
+<<<<<<< HEAD
 	"Save As Copy": "",
 	"Save Tag": "",
 	"Saved": "",
 	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Keskustelulokien tallentaminen suoraan selaimen tallennustilaan ei ole enää tuettua. Lataa ja poista keskustelulokit napsauttamalla alla olevaa painiketta. Älä huoli, voit helposti tuoda keskustelulokit takaisin backendiin",
+=======
+	"Save Tag": "",
+	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Keskustelulokien tallentaminen suoraan selaimen tallennustilaan ei ole enää tuettua. Lataa ja poista keskustelulokit napsauttamalla alla olevaa painiketta. Älä huoli, voit helposti tuoda keskustelulokit takaisin backendiin",
+	"Scan": "Skannaa",
+	"Scan complete!": "Skannaus valmis!",
+	"Scan for documents from {{path}}": "Skannaa asiakirjoja polusta {{path}}",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Scroll to bottom when switching between branches": "",
 	"Search": "Haku",
 	"Search a model": "Hae mallia",
 	"Search Chats": "Etsi chatteja",
+<<<<<<< HEAD
 	"Search Collection": "",
 	"Search Documents": "Hae asiakirjoja",
 	"Search Functions": "",
 	"Search Knowledge": "",
+=======
+	"Search Documents": "Hae asiakirjoja",
+	"Search Functions": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Search Models": "Hae malleja",
 	"Search Prompts": "Hae kehotteita",
 	"Search Query Generation Prompt": "",
@@ -594,29 +691,45 @@
 	"Select a pipeline url": "Valitse putken URL-osoite",
 	"Select a tool": "",
 	"Select an Ollama instance": "Valitse Ollama-instanssi",
+<<<<<<< HEAD
 	"Select Engine": "",
 	"Select Knowledge": "",
 	"Select model": "Valitse malli",
 	"Select only one model to call": "",
 	"Select/Add Files": "",
+=======
+	"Select Documents": "",
+	"Select Engine": "",
+	"Select model": "Valitse malli",
+	"Select only one model to call": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Selected model(s) do not support image inputs": "Valitut mallit eivät tue kuvasyötteitä",
 	"Send": "Lähetä",
 	"Send a Message": "Lähetä viesti",
 	"Send message": "Lähetä viesti",
+<<<<<<< HEAD
 	"Sends `stream_options: { include_usage: true }` in the request.\nSupported providers will return token usage information in the response when set.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"September": "syyskuu",
 	"Serper API Key": "Serper API -avain",
 	"Serply API Key": "",
 	"Serpstack API Key": "Serpstack API -avain",
 	"Server connection verified": "Palvelinyhteys varmennettu",
 	"Set as default": "Aseta oletukseksi",
+<<<<<<< HEAD
 	"Set CFG Scale": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Default Model": "Aseta oletusmalli",
 	"Set embedding model (e.g. {{model}})": "Aseta upotusmalli (esim. {{model}})",
 	"Set Image Size": "Aseta kuvan koko",
 	"Set reranking model (e.g. {{model}})": "Aseta uudelleenpisteytysmalli (esim. {{model}})",
+<<<<<<< HEAD
 	"Set Sampler": "",
 	"Set Scheduler": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Steps": "Aseta askelmäärä",
 	"Set Task Model": "Aseta tehtävämalli",
 	"Set Voice": "Aseta puheääni",
@@ -633,6 +746,7 @@
 	"Show your support!": "",
 	"Showcased creativity": "Näytti luovuutta",
 	"Sign in": "Kirjaudu sisään",
+<<<<<<< HEAD
 	"Sign in to {{WEBUI_NAME}}": "",
 	"Sign Out": "Kirjaudu ulos",
 	"Sign up": "Rekisteröidy",
@@ -644,6 +758,15 @@
 	"Speech-to-Text Engine": "Puheentunnistusmoottori",
 	"Stop Sequence": "Lopetussekvenssi",
 	"Stream Chat Response": "",
+=======
+	"Sign Out": "Kirjaudu ulos",
+	"Sign up": "Rekisteröidy",
+	"Signing in": "Kirjaudutaan sisään",
+	"Source": "Lähde",
+	"Speech recognition error: {{error}}": "Puheentunnistusvirhe: {{error}}",
+	"Speech-to-Text Engine": "Puheentunnistusmoottori",
+	"Stop Sequence": "Lopetussekvenssi",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"STT Model": "",
 	"STT Settings": "Puheentunnistusasetukset",
 	"Submit": "Lähetä",
@@ -653,7 +776,10 @@
 	"Suggested": "Suositeltu",
 	"Support": "",
 	"Support this plugin:": "",
+<<<<<<< HEAD
 	"Sync directory": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"System": "Järjestelmä",
 	"System Prompt": "Järjestelmäkehote",
 	"Tags": "Tagit",
@@ -676,9 +802,13 @@
 	"This action cannot be undone. Do you wish to continue?": "",
 	"This ensures that your valuable conversations are securely saved to your backend database. Thank you!": "Tämä varmistaa, että arvokkaat keskustelusi tallennetaan turvallisesti backend-tietokantaasi. Kiitos!",
 	"This is an experimental feature, it may not function as expected and is subject to change at any time.": "",
+<<<<<<< HEAD
 	"This option will delete all existing files in the collection and replace them with newly uploaded files.": "",
 	"This will delete": "",
 	"This will reset the knowledge base and sync all files. Do you wish to continue?": "",
+=======
+	"This will delete": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Thorough explanation": "Perusteellinen selitys",
 	"Tika": "",
 	"Tika Server URL required.": "",
@@ -688,10 +818,18 @@
 	"Title Auto-Generation": "Otsikon automaattinen luonti",
 	"Title cannot be an empty string.": "Otsikko ei voi olla tyhjä.",
 	"Title Generation Prompt": "Otsikon luontikehote",
+<<<<<<< HEAD
 	"To access the available model names for downloading,": "Päästäksesi käsiksi ladattavissa oleviin mallinimiin,",
 	"To access the GGUF models available for downloading,": "Päästäksesi käsiksi ladattavissa oleviin GGUF-malleihin,",
 	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "",
 	"To attach knowledge base here, add them to the \"Knowledge\" workspace first.": "",
+=======
+	"to": "->",
+	"To access the available model names for downloading,": "Päästäksesi käsiksi ladattavissa oleviin mallinimiin,",
+	"To access the GGUF models available for downloading,": "Päästäksesi käsiksi ladattavissa oleviin GGUF-malleihin,",
+	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "",
+	"To add documents here, upload them to the \"Documents\" workspace first.": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"to chat input.": "keskustelusyötteeseen.",
 	"To select actions here, add them to the \"Functions\" workspace first.": "",
 	"To select filters here, add them to the \"Functions\" workspace first.": "",
@@ -721,21 +859,34 @@
 	"Type Hugging Face Resolve (Download) URL": "Kirjoita Hugging Face -resolve-osoite",
 	"Uh-oh! There was an issue connecting to {{provider}}.": "Voi ei! Yhteysongelma {{provider}}:n kanssa.",
 	"UI": "",
+<<<<<<< HEAD
 	"Unpin": "",
 	"Update": "",
 	"Update and Copy Link": "Päivitä ja kopioi linkki",
 	"Update for the latest features and improvements.": "",
+=======
+	"Unknown file type '{{file_type}}'. Proceeding with the file upload anyway.": "",
+	"Unpin": "",
+	"Update": "",
+	"Update and Copy Link": "Päivitä ja kopioi linkki",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Update password": "Päivitä salasana",
 	"Updated at": "",
 	"Upload": "",
 	"Upload a GGUF model": "Lataa GGUF-malli",
+<<<<<<< HEAD
 	"Upload directory": "",
 	"Upload files": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Upload Files": "Lataa tiedostoja",
 	"Upload Pipeline": "",
 	"Upload Progress": "Latauksen eteneminen",
 	"URL Mode": "URL-tila",
+<<<<<<< HEAD
 	"Use '#' in the prompt input to load and include your knowledge.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Use '#' in the prompt input to load and select your documents.": "Käytä '#' syötteessä ladataksesi ja valitaksesi asiakirjoja.",
 	"Use Gravatar": "Käytä Gravataria",
 	"Use Initials": "Käytä alkukirjaimia",
@@ -753,7 +904,10 @@
 	"variable": "muuttuja",
 	"variable to have them replaced with clipboard content.": "muuttuja korvataan leikepöydän sisällöllä.",
 	"Version": "Versio",
+<<<<<<< HEAD
 	"Version {{selectedVersion}} of {{totalVersions}}": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Voice": "",
 	"Warning": "Varoitus",
 	"Warning:": "",
@@ -782,7 +936,11 @@
 	"You're a helpful assistant.": "Olet avulias apulainen.",
 	"You're now logged in.": "Olet nyt kirjautunut sisään.",
 	"Your account status is currently pending activation.": "",
+<<<<<<< HEAD
 	"Your entire contribution will go directly to the plugin developer; Version prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+=======
+	"Your entire contribution will go directly to the plugin developer; Version de prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Youtube": "Youtube",
 	"Youtube Loader Settings": "Youtube Loader-asetukset"
 }

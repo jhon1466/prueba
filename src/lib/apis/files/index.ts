@@ -30,6 +30,7 @@ export const uploadFile = async (token: string, file: File) => {
 	return res;
 };
 
+<<<<<<< HEAD
 export const uploadDir = async (token: string) => {
 	let error = null;
 
@@ -56,6 +57,8 @@ export const uploadDir = async (token: string) => {
 	return res;
 };
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 export const getFiles = async (token: string = '') => {
 	let error = null;
 
@@ -118,6 +121,7 @@ export const getFileById = async (token: string, id: string) => {
 	return res;
 };
 
+<<<<<<< HEAD
 export const updateFileDataContentById = async (token: string, id: string, content: string) => {
 	let error = null;
 
@@ -152,6 +156,8 @@ export const updateFileDataContentById = async (token: string, id: string, conte
 	return res;
 };
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 export const getFileContentById = async (id: string) => {
 	let error = null;
 

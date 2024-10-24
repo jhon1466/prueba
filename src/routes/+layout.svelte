@@ -38,20 +38,39 @@
 	let loaded = false;
 	const BREAKPOINT = 768;
 
+<<<<<<< HEAD
 	const setupSocket = () => {
+=======
+	const setupSocket = (websocket = true) => {
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		const _socket = io(`${WEBUI_BASE_URL}` || undefined, {
 			reconnection: true,
 			reconnectionDelay: 1000,
 			reconnectionDelayMax: 5000,
 			randomizationFactor: 0.5,
 			path: '/ws/socket.io',
+<<<<<<< HEAD
 			auth: { token: localStorage.token }
+=======
+			auth: { token: localStorage.token },
+			transports: websocket ? ['websocket'] : ['polling']
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		});
 
 		socket.set(_socket);
 
 		_socket.on('connect_error', (err) => {
+<<<<<<< HEAD
 			console.log('connect_error', err);
+=======
+			if (err.message.includes('websocket')) {
+				console.log('WebSocket connection failed, falling back to polling');
+				_socket.close();
+				setupSocket(false);
+			} else {
+				console.log('connect_error', err);
+			}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		});
 
 		_socket.on('connect', () => {
@@ -209,6 +228,7 @@
 	<slot />
 {/if}
 
+<<<<<<< HEAD
 <Toaster
 	theme={$theme.includes('dark')
 		? 'dark'
@@ -220,3 +240,6 @@
 	richColors
 	position="top-center"
 />
+=======
+<Toaster richColors position="top-center" />
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24

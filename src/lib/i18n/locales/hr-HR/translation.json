@@ -9,7 +9,10 @@
 	"{{user}}'s Chats": "Razgovori korisnika {{user}}",
 	"{{webUIName}} Backend Required": "{{webUIName}} Backend je potreban",
 	"*Prompt node ID(s) are required for image generation": "",
+<<<<<<< HEAD
 	"A new version (v{{LATEST_VERSION}}) is now available.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"A task model is used when performing tasks such as generating titles for chats and web search queries": "Model zadatka koristi se pri izvođenju zadataka kao što su generiranje naslova za razgovore i upite za pretraživanje weba",
 	"a user": "korisnik",
 	"About": "O aplikaciji",
@@ -23,8 +26,11 @@
 	"Add a short description about what this model does": "Dodajte kratak opis funkcija ovog modela",
 	"Add a short title for this prompt": "Dodajte kratki naslov za ovaj prompt",
 	"Add a tag": "Dodaj oznaku",
+<<<<<<< HEAD
 	"Add Content": "",
 	"Add content here": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add custom prompt": "Dodaj prilagođeni prompt",
 	"Add Docs": "Dodaj dokumente",
 	"Add Files": "Dodaj datoteke",
@@ -33,7 +39,10 @@
 	"Add Model": "Dodaj model",
 	"Add Tag": "",
 	"Add Tags": "Dodaj oznake",
+<<<<<<< HEAD
 	"Add text content": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add User": "Dodaj korisnika",
 	"Adjusting these settings will apply changes universally to all users.": "Podešavanje će se primijeniti univerzalno na sve korisnike.",
 	"admin": "administrator",
@@ -68,8 +77,11 @@
 	"Archived Chats": "Arhivirani razgovori",
 	"are allowed - Activate this command by typing": "su dopušteni - Aktivirajte ovu naredbu upisivanjem",
 	"Are you sure?": "Jeste li sigurni?",
+<<<<<<< HEAD
 	"Artifacts": "",
 	"Ask a question": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Attach file": "Priloži datoteku",
 	"Attention to detail": "Pažnja na detalje",
 	"Audio": "Audio",
@@ -79,10 +91,14 @@
 	"AUTOMATIC1111 Api Auth String": "",
 	"AUTOMATIC1111 Base URL": "AUTOMATIC1111 osnovni URL",
 	"AUTOMATIC1111 Base URL is required.": "Potreban je AUTOMATIC1111 osnovni URL.",
+<<<<<<< HEAD
 	"Available list": "",
 	"available!": "dostupno!",
 	"Azure AI Speech": "",
 	"Azure Region": "",
+=======
+	"available!": "dostupno!",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Back": "Natrag",
 	"Bad Response": "Loš odgovor",
 	"Banners": "Baneri",
@@ -103,7 +119,10 @@
 	"Chat Bubble UI": "Razgovor - Bubble UI",
 	"Chat Controls": "",
 	"Chat direction": "Razgovor - smijer",
+<<<<<<< HEAD
 	"Chat Overview": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Chats": "Razgovori",
 	"Check Again": "Provjeri ponovo",
 	"Check for updates": "Provjeri za ažuriranja",
@@ -152,13 +171,20 @@
 	"Copied shared chat URL to clipboard!": "URL dijeljenog razgovora kopiran u međuspremnik!",
 	"Copied to clipboard": "",
 	"Copy": "Kopiraj",
+<<<<<<< HEAD
+=======
+	"Copy Code": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Copy last code block": "Kopiraj zadnji blok koda",
 	"Copy last response": "Kopiraj zadnji odgovor",
 	"Copy Link": "Kopiraj vezu",
 	"Copying to clipboard was successful!": "Kopiranje u međuspremnik je uspješno!",
 	"Create a model": "Izradite model",
 	"Create Account": "Stvori račun",
+<<<<<<< HEAD
 	"Create Knowledge": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Create new key": "Stvori novi ključ",
 	"Create new secret key": "Stvori novi tajni ključ",
 	"Created at": "Stvoreno",
@@ -198,11 +224,19 @@
 	"Description": "Opis",
 	"Didn't fully follow instructions": "Nije u potpunosti slijedio upute",
 	"Disabled": "",
+<<<<<<< HEAD
 	"": "",
 	"": "Otkrijte model",
 	"": "Otkrijte prompt",
 	"": "",
 	"": "",
+=======
+	"Discover a function": "",
+	"Discover a model": "Otkrijte model",
+	"Discover a prompt": "Otkrijte prompt",
+	"Discover a tool": "",
+	"Discover, download, and explore custom functions": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Discover, download, and explore custom prompts": "Otkrijte, preuzmite i istražite prilagođene prompte",
 	"Discover, download, and explore custom tools": "",
 	"Discover, download, and explore model presets": "Otkrijte, preuzmite i istražite unaprijed postavljene modele",
@@ -248,7 +282,10 @@
 	"Enter a detail about yourself for your LLMs to recall": "Unesite pojedinosti o sebi da bi učitali memoriju u LLM",
 	"Enter api auth string (e.g. username:password)": "",
 	"Enter Brave Search API Key": "Unesite Brave Search API ključ",
+<<<<<<< HEAD
 	"Enter CFG Scale (e.g. 7.0)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Chunk Overlap": "Unesite preklapanje dijelova",
 	"Enter Chunk Size": "Unesite veličinu dijela",
 	"Enter Github Raw URL": "Unesite Github sirovi URL",
@@ -259,8 +296,11 @@
 	"Enter Model ID": "",
 	"Enter model tag (e.g. {{modelTag}})": "Unesite oznaku modela (npr. {{modelTag}})",
 	"Enter Number of Steps (e.g. 50)": "Unesite broj koraka (npr. 50)",
+<<<<<<< HEAD
 	"Enter Sampler (e.g. Euler a)": "",
 	"Enter Scheduler (e.g. Karras)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Score": "Unesite ocjenu",
 	"Enter SearchApi API Key": "",
 	"Enter SearchApi Engine": "",
@@ -297,6 +337,7 @@
 	"Failed to create API Key.": "Neuspješno stvaranje API ključa.",
 	"Failed to read clipboard contents": "Neuspješno čitanje sadržaja međuspremnika",
 	"Failed to update settings": "Greška kod ažuriranja postavki",
+<<<<<<< HEAD
 	"Failed to upload file.": "",
 	"February": "Veljača",
 	"Feel free to add specific details": "Slobodno dodajte specifične detalje",
@@ -306,6 +347,13 @@
 	"File Mode": "Način datoteke",
 	"File not found.": "Datoteka nije pronađena.",
 	"File removed successfully.": "",
+=======
+	"February": "Veljača",
+	"Feel free to add specific details": "Slobodno dodajte specifične detalje",
+	"File": "",
+	"File Mode": "Način datoteke",
+	"File not found.": "Datoteka nije pronađena.",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"File size should not exceed {{maxSize}} MB.": "",
 	"Files": "",
 	"Filter is now globally disabled": "",
@@ -380,11 +428,14 @@
 	"Keep Alive": "Održavanje živim",
 	"Keyboard shortcuts": "Tipkovnički prečaci",
 	"Knowledge": "Znanje",
+<<<<<<< HEAD
 	"Knowledge created successfully.": "",
 	"Knowledge deleted successfully.": "",
 	"Knowledge reset successfully.": "",
 	"Knowledge updated successfully": "",
 	"Landing Page Mode": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Language": "Jezik",
 	"large language models, locally.": "",
 	"Last Active": "Zadnja aktivnost",
@@ -396,7 +447,11 @@
 	"LLMs can make mistakes. Verify important information.": "LLM-ovi mogu pogriješiti. Provjerite važne informacije.",
 	"Local Models": "Lokalni modeli",
 	"LTR": "LTR",
+<<<<<<< HEAD
 	"": "Izradio OpenWebUI Community",
+=======
+	"Made by OpenWebUI Community": "Izradio OpenWebUI Community",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Make sure to enclose them with": "Provjerite da ih zatvorite s",
 	"Make sure to export a workflow.json file as API format from ComfyUI.": "",
 	"Manage": "Upravljaj",
@@ -430,8 +485,11 @@
 	"Model {{modelId}} not found": "Model {{modelId}} nije pronađen",
 	"Model {{modelName}} is not vision capable": "Model {{modelName}} ne čita vizualne impute",
 	"Model {{name}} is now {{status}}": "Model {{name}} sada je {{status}}",
+<<<<<<< HEAD
 	"Model {{name}} is now at the top": "",
 	"Model accepts image inputs": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Model created successfully!": "",
 	"Model filesystem path detected. Model shortname is required for update, cannot continue.": "Otkriven put datotečnog sustava modela. Kratko ime modela je potrebno za ažuriranje, nije moguće nastaviti.",
 	"Model ID": "ID modela",
@@ -443,16 +501,24 @@
 	"Modelfile Content": "Sadržaj datoteke modela",
 	"Models": "Modeli",
 	"More": "Više",
+<<<<<<< HEAD
 	"Move to Top": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Name": "Ime",
 	"Name Tag": "Naziv oznake",
 	"Name your model": "Dodijelite naziv modelu",
 	"New Chat": "Novi razgovor",
 	"New Password": "Nova lozinka",
 	"No content to speak": "",
+<<<<<<< HEAD
 	"No file selected": "",
 	"No HTML, CSS, or JavaScript content found.": "",
 	"No knowledge found": "",
+=======
+	"No documents found": "Dokumenti nisu pronađeni",
+	"No file selected": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"No results found": "Nema rezultata",
 	"No search query generated": "Nije generiran upit za pretraživanje",
 	"No source available": "Nema dostupnog izvora",
@@ -477,15 +543,23 @@
 	"On": "Uključeno",
 	"Only": "Samo",
 	"Only alphanumeric characters and hyphens are allowed in the command string.": "Samo alfanumerički znakovi i crtice su dopušteni u naredbenom nizu.",
+<<<<<<< HEAD
 	"Only collections can be edited, create a new knowledge base to edit/add documents.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Oops! Hold tight! Your files are still in the processing oven. We're cooking them up to perfection. Please be patient and we'll let you know once they're ready.": "Ups! Držite se! Vaše datoteke su još uvijek u procesu obrade. Pečemo ih do savršenstva. Molimo vas da budete strpljivi i obavijestit ćemo vas kada budu spremne.",
 	"Oops! Looks like the URL is invalid. Please double-check and try again.": "Ups! Izgleda da je URL nevažeći. Molimo provjerite ponovno i pokušajte ponovo.",
 	"Oops! There was an error in the previous response. Please try again or contact admin.": "",
 	"Oops! You're using an unsupported method (frontend only). Please serve the WebUI from the backend.": "Ups! Koristite nepodržanu metodu (samo frontend). Molimo poslužite WebUI s backend-a.",
+<<<<<<< HEAD
 	"Open file": "",
 	"Open in full screen": "",
 	"Open new chat": "Otvorite novi razgovor",
 	"Version prueba version (v{{version_prueba_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+=======
+	"Open new chat": "Otvorite novi razgovor",
+	"Version de prueba version (v{{OPEN_WEBUI_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"OpenAI": "OpenAI",
 	"OpenAI API": "OpenAI API",
 	"OpenAI API Config": "OpenAI API konfiguracija",
@@ -493,9 +567,12 @@
 	"OpenAI URL/Key required.": "Potreban je OpenAI URL/ključ.",
 	"or": "ili",
 	"Other": "Ostalo",
+<<<<<<< HEAD
 	"Output format": "",
 	"Overview": "",
 	"page": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Password": "Lozinka",
 	"PDF document (.pdf)": "PDF dokument (.pdf)",
 	"PDF Extract Images (OCR)": "PDF izdvajanje slika (OCR)",
@@ -514,12 +591,19 @@
 	"Plain text (.txt)": "Običan tekst (.txt)",
 	"Playground": "Igralište",
 	"Please carefully review the following warnings:": "",
+<<<<<<< HEAD
 	"Please fill in all fields.": "",
 	"Please select a reason": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Positive attitude": "Pozitivan stav",
 	"Previous 30 days": "Prethodnih 30 dana",
 	"Previous 7 days": "Prethodnih 7 dana",
 	"Profile Image": "Profilna slika",
+<<<<<<< HEAD
+=======
+	"Prompt": "Prompt",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Prompt (e.g. Tell me a fun fact about the Roman Empire)": "Prompt (npr. Reci mi zanimljivost o Rimskom carstvu)",
 	"Prompt Content": "Sadržaj prompta",
 	"Prompt suggestions": "Prijedlozi prompta",
@@ -559,18 +643,31 @@
 	"Save": "Spremi",
 	"Save & Create": "Spremi i stvori",
 	"Save & Update": "Spremi i ažuriraj",
+<<<<<<< HEAD
 	"Save As Copy": "",
 	"Save Tag": "",
 	"Saved": "",
 	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Spremanje zapisnika razgovora izravno u pohranu vašeg preglednika više nije podržano. Molimo vas da odvojite trenutak za preuzimanje i brisanje zapisnika razgovora klikom na gumb ispod. Ne brinite, možete lako ponovno uvesti zapisnike razgovora u backend putem",
+=======
+	"Save Tag": "",
+	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Spremanje zapisnika razgovora izravno u pohranu vašeg preglednika više nije podržano. Molimo vas da odvojite trenutak za preuzimanje i brisanje zapisnika razgovora klikom na gumb ispod. Ne brinite, možete lako ponovno uvesti zapisnike razgovora u backend putem",
+	"Scan": "Skeniraj",
+	"Scan complete!": "Skeniranje dovršeno!",
+	"Scan for documents from {{path}}": "Skeniraj dokumente s {{path}}",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Scroll to bottom when switching between branches": "",
 	"Search": "Pretraga",
 	"Search a model": "Pretraži model",
 	"Search Chats": "Pretraži razgovore",
+<<<<<<< HEAD
 	"Search Collection": "",
 	"Search Documents": "Pretraga dokumenata",
 	"Search Functions": "",
 	"Search Knowledge": "",
+=======
+	"Search Documents": "Pretraga dokumenata",
+	"Search Functions": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Search Models": "Pretražite modele",
 	"Search Prompts": "Pretraga prompta",
 	"Search Query Generation Prompt": "Upit za generiranje upita za pretraživanje",
@@ -595,29 +692,45 @@
 	"Select a pipeline url": "Odabir URL-a kanala",
 	"Select a tool": "",
 	"Select an Ollama instance": "Odaberite Ollama instancu",
+<<<<<<< HEAD
 	"Select Engine": "",
 	"Select Knowledge": "",
 	"Select model": "Odaberite model",
 	"Select only one model to call": "Odaberite samo jedan model za poziv",
 	"Select/Add Files": "",
+=======
+	"Select Documents": "Odaberite dokumente",
+	"Select Engine": "",
+	"Select model": "Odaberite model",
+	"Select only one model to call": "Odaberite samo jedan model za poziv",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Selected model(s) do not support image inputs": "Odabrani modeli ne podržavaju unose slika",
 	"Send": "Pošalji",
 	"Send a Message": "Pošaljite poruku",
 	"Send message": "Pošalji poruku",
+<<<<<<< HEAD
 	"Sends `stream_options: { include_usage: true }` in the request.\nSupported providers will return token usage information in the response when set.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"September": "Rujan",
 	"Serper API Key": "Serper API ključ",
 	"Serply API Key": "Serply API ključ",
 	"Serpstack API Key": "Serpstack API API ključ",
 	"Server connection verified": "Veza s poslužiteljem potvrđena",
 	"Set as default": "Postavi kao zadano",
+<<<<<<< HEAD
 	"Set CFG Scale": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Default Model": "Postavi zadani model",
 	"Set embedding model (e.g. {{model}})": "Postavi model za embedding (npr. {{model}})",
 	"Set Image Size": "Postavi veličinu slike",
 	"Set reranking model (e.g. {{model}})": "Postavi model za ponovno rangiranje (npr. {{model}})",
+<<<<<<< HEAD
 	"Set Sampler": "",
 	"Set Scheduler": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Steps": "Postavi korake",
 	"Set Task Model": "Postavite model zadatka",
 	"Set Voice": "Postavi glas",
@@ -634,6 +747,7 @@
 	"Show your support!": "",
 	"Showcased creativity": "Prikazana kreativnost",
 	"Sign in": "Prijava",
+<<<<<<< HEAD
 	"Sign in to {{WEBUI_NAME}}": "",
 	"Sign Out": "Odjava",
 	"Sign up": "Registracija",
@@ -645,6 +759,15 @@
 	"Speech-to-Text Engine": "Stroj za prepoznavanje govora",
 	"Stop Sequence": "Zaustavi sekvencu",
 	"Stream Chat Response": "",
+=======
+	"Sign Out": "Odjava",
+	"Sign up": "Registracija",
+	"Signing in": "Prijava",
+	"Source": "Izvor",
+	"Speech recognition error: {{error}}": "Pogreška prepoznavanja govora: {{error}}",
+	"Speech-to-Text Engine": "Stroj za prepoznavanje govora",
+	"Stop Sequence": "Zaustavi sekvencu",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"STT Model": "STT model",
 	"STT Settings": "STT postavke",
 	"Submit": "Pošalji",
@@ -654,7 +777,10 @@
 	"Suggested": "Predloženo",
 	"Support": "",
 	"Support this plugin:": "",
+<<<<<<< HEAD
 	"Sync directory": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"System": "Sustav",
 	"System Prompt": "Sistemski prompt",
 	"Tags": "Oznake",
@@ -677,9 +803,13 @@
 	"This action cannot be undone. Do you wish to continue?": "",
 	"This ensures that your valuable conversations are securely saved to your backend database. Thank you!": "Ovo osigurava da su vaši vrijedni razgovori sigurno spremljeni u bazu podataka. Hvala vam!",
 	"This is an experimental feature, it may not function as expected and is subject to change at any time.": "Ovo je eksperimentalna značajka, možda neće funkcionirati prema očekivanjima i podložna je promjenama u bilo kojem trenutku.",
+<<<<<<< HEAD
 	"This option will delete all existing files in the collection and replace them with newly uploaded files.": "",
 	"This will delete": "",
 	"This will reset the knowledge base and sync all files. Do you wish to continue?": "",
+=======
+	"This will delete": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Thorough explanation": "Detaljno objašnjenje",
 	"Tika": "",
 	"Tika Server URL required.": "",
@@ -689,10 +819,18 @@
 	"Title Auto-Generation": "Automatsko generiranje naslova",
 	"Title cannot be an empty string.": "Naslov ne može biti prazni niz.",
 	"Title Generation Prompt": "Prompt za generiranje naslova",
+<<<<<<< HEAD
 	"To access the available model names for downloading,": "Za pristup dostupnim nazivima modela za preuzimanje,",
 	"To access the GGUF models available for downloading,": "Za pristup GGUF modelima dostupnim za preuzimanje,",
 	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "Za pristup WebUI-u obratite se administratoru. Administratori mogu upravljati statusima korisnika s Admin panela.",
 	"To attach knowledge base here, add them to the \"Knowledge\" workspace first.": "",
+=======
+	"to": "do",
+	"To access the available model names for downloading,": "Za pristup dostupnim nazivima modela za preuzimanje,",
+	"To access the GGUF models available for downloading,": "Za pristup GGUF modelima dostupnim za preuzimanje,",
+	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "Za pristup WebUI-u obratite se administratoru. Administratori mogu upravljati statusima korisnika s Admin panela.",
+	"To add documents here, upload them to the \"Documents\" workspace first.": "Da biste ovdje dodali dokumente, prvo ih prenesite u radni prostor \"Dokumenti\".",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"to chat input.": "u unos razgovora.",
 	"To select actions here, add them to the \"Functions\" workspace first.": "",
 	"To select filters here, add them to the \"Functions\" workspace first.": "",
@@ -722,21 +860,34 @@
 	"Type Hugging Face Resolve (Download) URL": "Upišite Hugging Face Resolve (Download) URL",
 	"Uh-oh! There was an issue connecting to {{provider}}.": "Uh-oh! Pojavio se problem s povezivanjem na {{provider}}.",
 	"UI": "",
+<<<<<<< HEAD
 	"Unpin": "",
 	"Update": "",
 	"Update and Copy Link": "Ažuriraj i kopiraj vezu",
 	"Update for the latest features and improvements.": "",
+=======
+	"Unknown file type '{{file_type}}'. Proceeding with the file upload anyway.": "",
+	"Unpin": "",
+	"Update": "",
+	"Update and Copy Link": "Ažuriraj i kopiraj vezu",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Update password": "Ažuriraj lozinku",
 	"Updated at": "",
 	"Upload": "",
 	"Upload a GGUF model": "Učitaj GGUF model",
+<<<<<<< HEAD
 	"Upload directory": "",
 	"Upload files": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Upload Files": "Prijenos datoteka",
 	"Upload Pipeline": "Prijenos kanala",
 	"Upload Progress": "Napredak učitavanja",
 	"URL Mode": "URL način",
+<<<<<<< HEAD
 	"Use '#' in the prompt input to load and include your knowledge.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Use '#' in the prompt input to load and select your documents.": "Koristite '#' u unosu prompta za učitavanje i odabir vaših dokumenata.",
 	"Use Gravatar": "Koristi Gravatar",
 	"Use Initials": "Koristi inicijale",
@@ -754,7 +905,10 @@
 	"variable": "varijabla",
 	"variable to have them replaced with clipboard content.": "varijabla za zamjenu sadržajem međuspremnika.",
 	"Version": "Verzija",
+<<<<<<< HEAD
 	"Version {{selectedVersion}} of {{totalVersions}}": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Voice": "",
 	"Warning": "Upozorenje",
 	"Warning:": "",
@@ -783,7 +937,11 @@
 	"You're a helpful assistant.": "Vi ste korisni asistent.",
 	"You're now logged in.": "Sada ste prijavljeni.",
 	"Your account status is currently pending activation.": "Status vašeg računa trenutno čeka aktivaciju.",
+<<<<<<< HEAD
 	"Your entire contribution will go directly to the plugin developer; Version prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+=======
+	"Your entire contribution will go directly to the plugin developer; Version de prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Youtube": "YouTube",
 	"Youtube Loader Settings": "YouTube postavke učitavanja"
 }

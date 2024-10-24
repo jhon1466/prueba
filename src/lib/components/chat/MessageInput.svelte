@@ -12,6 +12,7 @@
 		config,
 		showCallOverlay,
 		tools,
+<<<<<<< HEAD
 		user as _user,
 		showControls
 	} from '$lib/stores';
@@ -20,6 +21,22 @@
 	import { uploadFile } from '$lib/apis/files';
 
 	import { WEBUI_BASE_URL, WEBUI_API_BASE_URL } from '$lib/constants';
+=======
+		user as _user
+	} from '$lib/stores';
+	import { blobToFile, findWordIndices } from '$lib/utils';
+
+	import { transcribeAudio } from '$lib/apis/audio';
+	import { processDocToVectorDB } from '$lib/apis/rag';
+	import { uploadFile } from '$lib/apis/files';
+
+	import {
+		SUPPORTED_FILE_TYPE,
+		SUPPORTED_FILE_EXTENSIONS,
+		WEBUI_BASE_URL,
+		WEBUI_API_BASE_URL
+	} from '$lib/constants';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	import Tooltip from '../common/Tooltip.svelte';
 	import InputMenu from './MessageInput/InputMenu.svelte';
@@ -34,7 +51,11 @@
 
 	export let transparentBackground = false;
 
+<<<<<<< HEAD
 	export let createMessagePair: Function;
+=======
+	export let submitPrompt: Function;
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	export let stopResponse: Function;
 
 	export let autoScroll = false;
@@ -42,6 +63,7 @@
 	export let atSelectedModel: Model | undefined;
 	export let selectedModels: [''];
 
+<<<<<<< HEAD
 	export let history;
 
 	export let prompt = '';
@@ -50,6 +72,8 @@
 	export let selectedToolIds = [];
 	export let webSearchEnabled = false;
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	let recording = false;
 
 	let chatTextAreaElement: HTMLTextAreaElement;
@@ -61,7 +85,20 @@
 	let dragged = false;
 
 	let user = null;
+<<<<<<< HEAD
 	export let placeholder = '';
+=======
+	let chatInputPlaceholder = '';
+
+	export let files = [];
+
+	export let availableToolIds = [];
+	export let selectedToolIds = [];
+	export let webSearchEnabled = false;
+
+	export let prompt = '';
+	export let messages = [];
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	let visionCapableModels = [];
 	$: visionCapableModels = [...(atSelectedModel ? [atSelectedModel] : selectedModels)].filter(
@@ -86,6 +123,7 @@
 	const uploadFileHandler = async (file) => {
 		console.log(file);
 
+<<<<<<< HEAD
 		const fileItem = {
 			type: 'file',
 			file: '',
@@ -101,6 +139,10 @@
 
 		// Check if the file is an audio file and transcribe/convert it to text file
 		if (['audio/mpeg', 'audio/wav', 'audio/ogg', 'audio/x-m4a'].includes(file['type'])) {
+=======
+		// Check if the file is an audio file and transcribe/convert it to text file
+		if (['audio/mpeg', 'audio/wav'].includes(file['type'])) {
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			const res = await transcribeAudio(localStorage.token, file).catch((error) => {
 				toast.error(error);
 				return null;
@@ -110,6 +152,7 @@
 				console.log(res);
 				const blob = new Blob([res.text], { type: 'text/plain' });
 				file = blobToFile(blob, `${file.name}.txt`);
+<<<<<<< HEAD
 
 				fileItem.name = file.name;
 				fileItem.size = file.size;
@@ -118,16 +161,55 @@
 
 		try {
 			// During the file upload, file content is automatically extracted.
+=======
+			}
+		}
+
+		const fileItem = {
+			type: 'file',
+			file: '',
+			id: null,
+			url: '',
+			name: file.name,
+			collection_name: '',
+			status: '',
+			size: file.size,
+			error: ''
+		};
+		files = [...files, fileItem];
+
+		try {
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			const uploadedFile = await uploadFile(localStorage.token, file);
 
 			if (uploadedFile) {
 				fileItem.status = 'uploaded';
 				fileItem.file = uploadedFile;
 				fileItem.id = uploadedFile.id;
+<<<<<<< HEAD
 				fileItem.collection_name = uploadedFile?.meta?.collection_name;
 				fileItem.url = `${WEBUI_API_BASE_URL}/files/${uploadedFile.id}`;
 
 				files = files;
+=======
+				fileItem.url = `${WEBUI_API_BASE_URL}/files/${uploadedFile.id}`;
+
+				// TODO: Check if tools & functions have files support to skip this step to delegate file processing
+				// Default Upload to VectorDB
+				if (
+					SUPPORTED_FILE_TYPE.includes(file['type']) ||
+					SUPPORTED_FILE_EXTENSIONS.includes(file.name.split('.').at(-1))
+				) {
+					processFileItem(fileItem);
+				} else {
+					toast.error(
+						$i18n.t(`Unknown file type '{{file_type}}'. Proceeding with the file upload anyway.`, {
+							file_type: file['type']
+						})
+					);
+					processFileItem(fileItem);
+				}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			} else {
 				files = files.filter((item) => item.status !== null);
 			}
@@ -137,6 +219,27 @@
 		}
 	};
 
+<<<<<<< HEAD
+=======
+	const processFileItem = async (fileItem) => {
+		try {
+			const res = await processDocToVectorDB(localStorage.token, fileItem.id);
+
+			if (res) {
+				fileItem.status = 'processed';
+				fileItem.collection_name = res.collection_name;
+				files = files;
+			}
+		} catch (e) {
+			// Remove the failed doc from the files array
+			// files = files.filter((f) => f.id !== fileItem.id);
+			toast.error(e);
+			fileItem.status = 'processed';
+			files = files;
+		}
+	};
+
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	const inputFilesHandler = async (inputFiles) => {
 		inputFiles.forEach((file) => {
 			console.log(file, file.name.split('.').at(-1));
@@ -233,9 +336,15 @@
 
 <div class="w-full font-primary">
 	<div class=" -mb-0.5 mx-auto inset-x-0 bg-transparent flex justify-center">
+<<<<<<< HEAD
 		<div class="flex flex-col px-2.5 max-w-6xl w-full">
 			<div class="relative">
 				{#if autoScroll === false && history?.currentId}
+=======
+		<div class="flex flex-col max-w-6xl px-2.5 md:px-6 w-full">
+			<div class="relative">
+				{#if autoScroll === false && messages.length > 0}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					<div
 						class=" absolute -top-12 left-0 right-0 flex justify-center z-30 pointer-events-none"
 					>
@@ -266,13 +375,21 @@
 			<div class="w-full relative">
 				{#if atSelectedModel !== undefined}
 					<div
+<<<<<<< HEAD
 						class="px-3 py-1 text-left w-full flex justify-between items-center absolute bottom-0 left-0 right-0 bg-gradient-to-t from-white dark:from-gray-900 z-10"
+=======
+						class="px-3 py-2.5 text-left w-full flex justify-between items-center absolute bottom-0.5 left-0 right-0 bg-gradient-to-t from-50% from-white dark:from-gray-900 z-10"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 					>
 						<div class="flex items-center gap-2 text-sm dark:text-gray-500">
 							<img
 								crossorigin="anonymous"
 								alt="model profile"
+<<<<<<< HEAD
 								class="size-4 max-w-[28px] object-cover rounded-full"
+=======
+								class="size-5 max-w-[28px] object-cover rounded-full"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 								src={$models.find((model) => model.id === atSelectedModel.id)?.info?.meta
 									?.profile_image_url ??
 									($i18n.language === 'dg-DG'
@@ -315,8 +432,13 @@
 	</div>
 
 	<div class="{transparentBackground ? 'bg-transparent' : 'bg-white dark:bg-gray-900'} ">
+<<<<<<< HEAD
 		<div class="max-w-6xl px-4 mx-auto inset-x-0">
 			<div class="">
+=======
+		<div class="max-w-6xl px-2.5 md:px-6 mx-auto inset-x-0">
+			<div class=" pb-2">
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				<input
 					bind:this={filesInputElement}
 					bind:files={inputFiles}
@@ -354,7 +476,11 @@
 							document.getElementById('chat-textarea')?.focus();
 
 							if ($settings?.speechAutoSend ?? false) {
+<<<<<<< HEAD
 								dispatch('submit', prompt);
+=======
+								submitPrompt(prompt);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 							}
 						}}
 					/>
@@ -363,7 +489,11 @@
 						class="w-full flex gap-1.5"
 						on:submit|preventDefault={() => {
 							// check if selectedModels support image input
+<<<<<<< HEAD
 							dispatch('submit', prompt);
+=======
+							submitPrompt(prompt);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 						}}
 					>
 						<div
@@ -429,6 +559,7 @@
 											</div>
 										{:else}
 											<FileItem
+<<<<<<< HEAD
 												item={file}
 												name={file.name}
 												type={file.type}
@@ -436,13 +567,23 @@
 												loading={file.status === 'uploading'}
 												dismissible={true}
 												edit={true}
+=======
+												name={file.name}
+												type={file.type}
+												size={file?.size}
+												status={file.status}
+												dismissible={true}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 												on:dismiss={() => {
 													files.splice(fileIdx, 1);
 													files = files;
 												}}
+<<<<<<< HEAD
 												on:click={() => {
 													console.log(file);
 												}}
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 											/>
 										{/if}
 									{/each}
@@ -495,7 +636,13 @@
 									id="chat-textarea"
 									bind:this={chatTextAreaElement}
 									class="scrollbar-hidden bg-gray-50 dark:bg-gray-850 dark:text-gray-100 outline-none w-full py-3 px-1 rounded-xl resize-none h-[48px]"
+<<<<<<< HEAD
 									placeholder={placeholder ? placeholder : $i18n.t('Send a Message')}
+=======
+									placeholder={chatInputPlaceholder !== ''
+										? chatInputPlaceholder
+										: $i18n.t('Send a Message')}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 									bind:value={prompt}
 									on:keypress={(e) => {
 										if (
@@ -513,7 +660,11 @@
 
 											// Submit the prompt when Enter key is pressed
 											if (prompt !== '' && e.key === 'Enter' && !e.shiftKey) {
+<<<<<<< HEAD
 												dispatch('submit', prompt);
+=======
+												submitPrompt(prompt);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 											}
 										}
 									}}
@@ -521,12 +672,15 @@
 										const isCtrlPressed = e.ctrlKey || e.metaKey; // metaKey is for Cmd key on Mac
 										const commandsContainerElement = document.getElementById('commands-container');
 
+<<<<<<< HEAD
 										// Command/Ctrl + Shift + Enter to submit a message pair
 										if (isCtrlPressed && e.key === 'Enter' && e.shiftKey) {
 											e.preventDefault();
 											createMessagePair(prompt);
 										}
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 										// Check if Ctrl + R is pressed
 										if (prompt === '' && isCtrlPressed && e.key.toLowerCase() === 'r') {
 											e.preventDefault();
@@ -664,7 +818,11 @@
 								/>
 
 								<div class="self-end mb-2 flex space-x-1 mr-1">
+<<<<<<< HEAD
 									{#if !history?.currentId || history.messages[history.currentId]?.done == true}
+=======
+									{#if messages.length == 0 || messages.at(-1).done == true}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 										<Tooltip content={$i18n.t('Record voice')}>
 											<button
 												id="voice-input-button"
@@ -716,7 +874,11 @@
 							</div>
 						</div>
 						<div class="flex items-end w-10">
+<<<<<<< HEAD
 							{#if !history.currentId || history.messages[history.currentId]?.done == true}
+=======
+							{#if messages.length == 0 || messages.at(-1).done == true}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 								{#if prompt === ''}
 									<div class=" flex items-center mb-1">
 										<Tooltip content={$i18n.t('Call')}>
@@ -750,7 +912,11 @@
 														stream = null;
 
 														showCallOverlay.set(true);
+<<<<<<< HEAD
 														showControls.set(true);
+=======
+														dispatch('call');
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 													} catch (err) {
 														// If the user denies the permission or an error occurs, show an error message
 														toast.error($i18n.t('Permission denied when accessing media devices'));
@@ -815,7 +981,28 @@
 						</div>
 					</form>
 				{/if}
+<<<<<<< HEAD
+=======
+
+				<div class="mt-1.5 text-xs text-gray-500 text-center line-clamp-1">
+					{$i18n.t('LLMs can make mistakes. Verify important information.')}
+				</div>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			</div>
 		</div>
 	</div>
 </div>
+<<<<<<< HEAD
+=======
+
+<style>
+	.scrollbar-hidden:active::-webkit-scrollbar-thumb,
+	.scrollbar-hidden:focus::-webkit-scrollbar-thumb,
+	.scrollbar-hidden:hover::-webkit-scrollbar-thumb {
+		visibility: visible;
+	}
+	.scrollbar-hidden::-webkit-scrollbar-thumb {
+		visibility: hidden;
+	}
+</style>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24

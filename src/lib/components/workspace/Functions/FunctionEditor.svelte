@@ -1,5 +1,9 @@
 <script>
+<<<<<<< HEAD
 	import { getContext, createEventDispatcher, onMount, tick } from 'svelte';
+=======
+	import { getContext, createEventDispatcher, onMount } from 'svelte';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import { goto } from '$app/navigation';
 
 	const dispatch = createEventDispatcher();
@@ -21,6 +25,7 @@
 		description: ''
 	};
 	export let content = '';
+<<<<<<< HEAD
 	let _content = '';
 
 	$: if (content) {
@@ -30,6 +35,8 @@
 	const updateContent = () => {
 		_content = content;
 	};
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	$: if (name && !edit && !clone) {
 		id = name.replace(/\s+/g, '_').toLowerCase();
@@ -263,6 +270,7 @@ class Pipe:
 
 	const submitHandler = async () => {
 		if (codeEditor) {
+<<<<<<< HEAD
 			content = _content;
 			await tick();
 
@@ -275,6 +283,12 @@ class Pipe:
 			if (res) {
 				console.log('Code formatted successfully');
 
+=======
+			const res = await codeEditor.formatPythonCodeHandler();
+
+			if (res) {
+				console.log('Code formatted successfully');
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				saveHandler();
 			}
 		}
@@ -353,6 +367,7 @@ class Pipe:
 
 				<div class="mb-2 flex-1 overflow-auto h-0 rounded-lg">
 					<CodeEditor
+<<<<<<< HEAD
 						bind:this={codeEditor}
 						value={content}
 						lang="python"
@@ -361,6 +376,12 @@ class Pipe:
 							_content = e.detail.value;
 						}}
 						on:save={async () => {
+=======
+						bind:value={content}
+						bind:this={codeEditor}
+						{boilerplate}
+						on:save={() => {
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 							if (formElement) {
 								formElement.requestSubmit();
 							}

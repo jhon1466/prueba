@@ -8,7 +8,11 @@
 		mobile,
 		settings,
 		showArchivedChats,
+<<<<<<< HEAD
 		showControls,
+=======
+		showSettings,
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		showSidebar,
 		user
 	} from '$lib/stores';
@@ -22,7 +26,10 @@
 	import UserMenu from './Sidebar/UserMenu.svelte';
 	import MenuLines from '../icons/MenuLines.svelte';
 	import AdjustmentsHorizontal from '../icons/AdjustmentsHorizontal.svelte';
+<<<<<<< HEAD
 	import Map from '../icons/Map.svelte';
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	const i18n = getContext('i18n');
 
@@ -32,13 +39,20 @@
 
 	export let chat;
 	export let selectedModels;
+<<<<<<< HEAD
 	export let showModelSelector = true;
+=======
+
+	export let showModelSelector = true;
+	export let showControls = false;
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	let showShareChatModal = false;
 	let showDownloadChatModal = false;
 </script>
 
 <ShareChatModal bind:show={showShareChatModal} chatId={$chatId} />
+<<<<<<< HEAD
 
 <div class="sticky top-0 z-30 w-full px-1 py-2 -mb-8 flex items-center">
 	<div
@@ -46,6 +60,10 @@
 	></div>
 
 	<div class=" flex max-w-full w-full mx-auto px-5 pt-0.5 md:px-[1rem] bg-transparen">
+=======
+<nav id="nav" class=" sticky py-2.5 top-0 flex flex-row justify-center z-10">
+	<div class=" flex max-w-full w-full mx-auto px-5 pt-0.5 md:px-[1rem]">
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		<div class="flex items-center w-full max-w-full">
 			<div
 				class="{$showSidebar
@@ -87,7 +105,11 @@
 						}}
 					>
 						<button
+<<<<<<< HEAD
 							class="flex cursor-pointer px-2 py-2 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-850 transition"
+=======
+							class="hidden md:flex cursor-pointer px-2 py-2 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-850 transition"
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 							id="chat-context-menu-button"
 						>
 							<div class=" m-auto self-center">
@@ -110,6 +132,7 @@
 					</Menu>
 				{/if}
 
+<<<<<<< HEAD
 				{#if !$mobile}
 					<Tooltip content={$i18n.t('Controls')}>
 						<button
@@ -125,6 +148,21 @@
 						</button>
 					</Tooltip>
 				{/if}
+=======
+				<Tooltip content={$i18n.t('Controls')}>
+					<button
+						class=" flex cursor-pointer px-2 py-2 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-850 transition"
+						on:click={() => {
+							showControls = !showControls;
+						}}
+						aria-label="Controls"
+					>
+						<div class=" m-auto self-center">
+							<AdjustmentsHorizontal className=" size-5" strokeWidth="0.5" />
+						</div>
+					</button>
+				</Tooltip>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 				<Tooltip content={$i18n.t('New Chat')}>
 					<button
@@ -183,4 +221,8 @@
 			</div>
 		</div>
 	</div>
+<<<<<<< HEAD
 </div>
+=======
+</nav>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24

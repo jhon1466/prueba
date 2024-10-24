@@ -9,7 +9,10 @@
 	"{{user}}'s Chats": "{{user}}'s Chats",
 	"{{webUIName}} Backend Required": "{{webUIName}} Backend Verlpicht",
 	"*Prompt node ID(s) are required for image generation": "",
+<<<<<<< HEAD
 	"A new version (v{{LATEST_VERSION}}) is now available.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"A task model is used when performing tasks such as generating titles for chats and web search queries": "Een taakmodel wordt gebruikt bij het uitvoeren van taken zoals het genereren van titels voor chats en zoekopdrachten op internet",
 	"a user": "een gebruiker",
 	"About": "Over",
@@ -23,8 +26,11 @@
 	"Add a short description about what this model does": "Voeg een korte beschrijving toe over wat dit model doet",
 	"Add a short title for this prompt": "Voeg een korte titel toe voor deze prompt",
 	"Add a tag": "Voeg een tag toe",
+<<<<<<< HEAD
 	"Add Content": "",
 	"Add content here": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add custom prompt": "Voeg een aangepaste prompt toe",
 	"Add Docs": "Voeg Docs toe",
 	"Add Files": "Voege Bestanden toe",
@@ -33,7 +39,10 @@
 	"Add Model": "Voeg Model toe",
 	"Add Tag": "",
 	"Add Tags": "voeg tags toe",
+<<<<<<< HEAD
 	"Add text content": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Add User": "Voeg Gebruiker toe",
 	"Adjusting these settings will apply changes universally to all users.": "Het aanpassen van deze instellingen zal universeel worden toegepast op alle gebruikers.",
 	"admin": "admin",
@@ -68,8 +77,11 @@
 	"Archived Chats": "chatrecord",
 	"are allowed - Activate this command by typing": "zijn toegestaan - Activeer deze commando door te typen",
 	"Are you sure?": "Zeker weten?",
+<<<<<<< HEAD
 	"Artifacts": "",
 	"Ask a question": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Attach file": "Voeg een bestand toe",
 	"Attention to detail": "Attention to detail",
 	"Audio": "Audio",
@@ -79,10 +91,14 @@
 	"AUTOMATIC1111 Api Auth String": "",
 	"AUTOMATIC1111 Base URL": "AUTOMATIC1111 Base URL",
 	"AUTOMATIC1111 Base URL is required.": "AUTOMATIC1111 Basis URL is verplicht",
+<<<<<<< HEAD
 	"Available list": "",
 	"available!": "beschikbaar!",
 	"Azure AI Speech": "",
 	"Azure Region": "",
+=======
+	"available!": "beschikbaar!",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Back": "Terug",
 	"Bad Response": "Ongeldig antwoord",
 	"Banners": "Banners",
@@ -103,7 +119,10 @@
 	"Chat Bubble UI": "Chat Bubble UI",
 	"Chat Controls": "",
 	"Chat direction": "Chat Richting",
+<<<<<<< HEAD
 	"Chat Overview": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Chats": "Chats",
 	"Check Again": "Controleer Opnieuw",
 	"Check for updates": "Controleer op updates",
@@ -152,13 +171,20 @@
 	"Copied shared chat URL to clipboard!": "URL van gedeelde gesprekspagina gekopieerd naar klembord!",
 	"Copied to clipboard": "",
 	"Copy": "Kopieer",
+<<<<<<< HEAD
+=======
+	"Copy Code": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Copy last code block": "Kopieer laatste code blok",
 	"Copy last response": "Kopieer laatste antwoord",
 	"Copy Link": "Kopieer Link",
 	"Copying to clipboard was successful!": "Kopiëren naar klembord was succesvol!",
 	"Create a model": "Een model maken",
 	"Create Account": "Maak Account",
+<<<<<<< HEAD
 	"Create Knowledge": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Create new key": "Maak nieuwe sleutel",
 	"Create new secret key": "Maak nieuwe geheim sleutel",
 	"Created at": "Gemaakt op",
@@ -198,11 +224,19 @@
 	"Description": "Beschrijving",
 	"Didn't fully follow instructions": "Ik heb niet alle instructies volgt",
 	"Disabled": "",
+<<<<<<< HEAD
 	"": "",
 	"": "Ontdek een model",
 	"": "Ontdek een prompt",
 	"": "",
 	"": "",
+=======
+	"Discover a function": "",
+	"Discover a model": "Ontdek een model",
+	"Discover a prompt": "Ontdek een prompt",
+	"Discover a tool": "",
+	"Discover, download, and explore custom functions": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Discover, download, and explore custom prompts": "Ontdek, download en verken aangepaste prompts",
 	"Discover, download, and explore custom tools": "",
 	"Discover, download, and explore model presets": "Ontdek, download en verken model presets",
@@ -248,7 +282,10 @@
 	"Enter a detail about yourself for your LLMs to recall": "Voer een detail over jezelf in voor je LLMs om het her te onthouden",
 	"Enter api auth string (e.g. username:password)": "",
 	"Enter Brave Search API Key": "Voer de Brave Search API-sleutel in",
+<<<<<<< HEAD
 	"Enter CFG Scale (e.g. 7.0)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Chunk Overlap": "Voeg Chunk Overlap toe",
 	"Enter Chunk Size": "Voeg Chunk Size toe",
 	"Enter Github Raw URL": "Voer de Github Raw-URL in",
@@ -259,8 +296,11 @@
 	"Enter Model ID": "",
 	"Enter model tag (e.g. {{modelTag}})": "Voeg model tag toe (Bijv. {{modelTag}})",
 	"Enter Number of Steps (e.g. 50)": "Voeg aantal stappen toe (Bijv. 50)",
+<<<<<<< HEAD
 	"Enter Sampler (e.g. Euler a)": "",
 	"Enter Scheduler (e.g. Karras)": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Enter Score": "Voeg score toe",
 	"Enter SearchApi API Key": "",
 	"Enter SearchApi Engine": "",
@@ -297,6 +337,7 @@
 	"Failed to create API Key.": "Kan API Key niet aanmaken.",
 	"Failed to read clipboard contents": "Kan klembord inhoud niet lezen",
 	"Failed to update settings": "",
+<<<<<<< HEAD
 	"Failed to upload file.": "",
 	"February": "Februarij",
 	"Feel free to add specific details": "Voeg specifieke details toe",
@@ -306,6 +347,13 @@
 	"File Mode": "Bestandsmodus",
 	"File not found.": "Bestand niet gevonden.",
 	"File removed successfully.": "",
+=======
+	"February": "Februarij",
+	"Feel free to add specific details": "Voeg specifieke details toe",
+	"File": "",
+	"File Mode": "Bestandsmodus",
+	"File not found.": "Bestand niet gevonden.",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"File size should not exceed {{maxSize}} MB.": "",
 	"Files": "",
 	"Filter is now globally disabled": "",
@@ -380,11 +428,14 @@
 	"Keep Alive": "Houd Actief",
 	"Keyboard shortcuts": "Toetsenbord snelkoppelingen",
 	"Knowledge": "",
+<<<<<<< HEAD
 	"Knowledge created successfully.": "",
 	"Knowledge deleted successfully.": "",
 	"Knowledge reset successfully.": "",
 	"Knowledge updated successfully": "",
 	"Landing Page Mode": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Language": "Taal",
 	"large language models, locally.": "",
 	"Last Active": "Laatst Actief",
@@ -396,7 +447,11 @@
 	"LLMs can make mistakes. Verify important information.": "LLMs kunnen fouten maken. Verifieer belangrijke informatie.",
 	"Local Models": "",
 	"LTR": "LTR",
+<<<<<<< HEAD
 	"": "Gemaakt door OpenWebUI Community",
+=======
+	"Made by OpenWebUI Community": "Gemaakt door OpenWebUI Community",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Make sure to enclose them with": "Zorg ervoor dat je ze omringt met",
 	"Make sure to export a workflow.json file as API format from ComfyUI.": "",
 	"Manage": "",
@@ -430,8 +485,11 @@
 	"Model {{modelId}} not found": "Model {{modelId}} niet gevonden",
 	"Model {{modelName}} is not vision capable": "Model {{modelName}} is niet geschikt voor visie",
 	"Model {{name}} is now {{status}}": "Model {{name}} is nu {{status}}",
+<<<<<<< HEAD
 	"Model {{name}} is now at the top": "",
 	"Model accepts image inputs": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Model created successfully!": "",
 	"Model filesystem path detected. Model shortname is required for update, cannot continue.": "Model filesystem path gedetecteerd. Model shortname is vereist voor update, kan niet doorgaan.",
 	"Model ID": "Model-ID",
@@ -443,16 +501,24 @@
 	"Modelfile Content": "Modelfile Inhoud",
 	"Models": "Modellen",
 	"More": "Meer",
+<<<<<<< HEAD
 	"Move to Top": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Name": "Naam",
 	"Name Tag": "Naam Tag",
 	"Name your model": "Geef uw model een naam",
 	"New Chat": "Nieuwe Chat",
 	"New Password": "Nieuw Wachtwoord",
 	"No content to speak": "",
+<<<<<<< HEAD
 	"No file selected": "",
 	"No HTML, CSS, or JavaScript content found.": "",
 	"No knowledge found": "",
+=======
+	"No documents found": "",
+	"No file selected": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"No results found": "Geen resultaten gevonden",
 	"No search query generated": "Geen zoekopdracht gegenereerd",
 	"No source available": "Geen bron beschikbaar",
@@ -477,15 +543,23 @@
 	"On": "Aan",
 	"Only": "Alleen",
 	"Only alphanumeric characters and hyphens are allowed in the command string.": "Alleen alfanumerieke karakters en streepjes zijn toegestaan in de commando string.",
+<<<<<<< HEAD
 	"Only collections can be edited, create a new knowledge base to edit/add documents.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Oops! Hold tight! Your files are still in the processing oven. We're cooking them up to perfection. Please be patient and we'll let you know once they're ready.": "Oops! Houd vast! Je bestanden zijn nog steeds in de verwerkingsoven. We zijn ze aan het bereiden tot perfectie. Wees geduldig en we laten je weten wanneer ze klaar zijn.",
 	"Oops! Looks like the URL is invalid. Please double-check and try again.": "Oops! Het lijkt erop dat de URL ongeldig is. Controleer het nogmaals en probeer opnieuw.",
 	"Oops! There was an error in the previous response. Please try again or contact admin.": "",
 	"Oops! You're using an unsupported method (frontend only). Please serve the WebUI from the backend.": "Oops! Je gebruikt een niet-ondersteunde methode (alleen frontend). Serveer de WebUI vanuit de backend.",
+<<<<<<< HEAD
 	"Open file": "",
 	"Open in full screen": "",
 	"Open new chat": "Open nieuwe chat",
 	"Version prueba version (v{{version_prueba_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+=======
+	"Open new chat": "Open nieuwe chat",
+	"Version de prueba version (v{{OPEN_WEBUI_VERSION}}) is lower than required version (v{{REQUIRED_VERSION}})": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"OpenAI": "OpenAI",
 	"OpenAI API": "OpenAI API",
 	"OpenAI API Config": "OpenAI API Config",
@@ -493,9 +567,12 @@
 	"OpenAI URL/Key required.": "OpenAI URL/Sleutel vereist.",
 	"or": "of",
 	"Other": "Andere",
+<<<<<<< HEAD
 	"Output format": "",
 	"Overview": "",
 	"page": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Password": "Wachtwoord",
 	"PDF document (.pdf)": "PDF document (.pdf)",
 	"PDF Extract Images (OCR)": "PDF Extract Afbeeldingen (OCR)",
@@ -514,12 +591,19 @@
 	"Plain text (.txt)": "Platte tekst (.txt)",
 	"Playground": "Speeltuin",
 	"Please carefully review the following warnings:": "",
+<<<<<<< HEAD
 	"Please fill in all fields.": "",
 	"Please select a reason": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Positive attitude": "Positieve positie",
 	"Previous 30 days": "Vorige 30 dagen",
 	"Previous 7 days": "Vorige 7 dagen",
 	"Profile Image": "Profielafbeelding",
+<<<<<<< HEAD
+=======
+	"Prompt": "Prompt",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Prompt (e.g. Tell me a fun fact about the Roman Empire)": "Prompt (bijvoorbeeld: vertel me een leuke gebeurtenis over het Romeinse eeuw)",
 	"Prompt Content": "Prompt Inhoud",
 	"Prompt suggestions": "Prompt suggesties",
@@ -559,18 +643,31 @@
 	"Save": "Opslaan",
 	"Save & Create": "Opslaan & Creëren",
 	"Save & Update": "Opslaan & Bijwerken",
+<<<<<<< HEAD
 	"Save As Copy": "",
 	"Save Tag": "",
 	"Saved": "",
 	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Chat logs direct opslaan in de opslag van je browser wordt niet langer ondersteund. Neem even de tijd om je chat logs te downloaden en te verwijderen door op de knop hieronder te klikken. Maak je geen zorgen, je kunt je chat logs eenvoudig opnieuw importeren naar de backend via",
+=======
+	"Save Tag": "",
+	"Saving chat logs directly to your browser's storage is no longer supported. Please take a moment to download and delete your chat logs by clicking the button below. Don't worry, you can easily re-import your chat logs to the backend through": "Chat logs direct opslaan in de opslag van je browser wordt niet langer ondersteund. Neem even de tijd om je chat logs te downloaden en te verwijderen door op de knop hieronder te klikken. Maak je geen zorgen, je kunt je chat logs eenvoudig opnieuw importeren naar de backend via",
+	"Scan": "Scan",
+	"Scan complete!": "Scan voltooid!",
+	"Scan for documents from {{path}}": "Scan voor documenten van {{path}}",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Scroll to bottom when switching between branches": "",
 	"Search": "Zoeken",
 	"Search a model": "Zoek een model",
 	"Search Chats": "Chats zoeken",
+<<<<<<< HEAD
 	"Search Collection": "",
 	"Search Documents": "Zoek Documenten",
 	"Search Functions": "",
 	"Search Knowledge": "",
+=======
+	"Search Documents": "Zoek Documenten",
+	"Search Functions": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Search Models": "Modellen zoeken",
 	"Search Prompts": "Zoek Prompts",
 	"Search Query Generation Prompt": "",
@@ -594,29 +691,45 @@
 	"Select a pipeline url": "Selecteer een pijplijn-URL",
 	"Select a tool": "",
 	"Select an Ollama instance": "Selecteer een Ollama instantie",
+<<<<<<< HEAD
 	"Select Engine": "",
 	"Select Knowledge": "",
 	"Select model": "Selecteer een model",
 	"Select only one model to call": "",
 	"Select/Add Files": "",
+=======
+	"Select Documents": "",
+	"Select Engine": "",
+	"Select model": "Selecteer een model",
+	"Select only one model to call": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Selected model(s) do not support image inputs": "Geselecteerde modellen ondersteunen geen beeldinvoer",
 	"Send": "Verzenden",
 	"Send a Message": "Stuur een Bericht",
 	"Send message": "Stuur bericht",
+<<<<<<< HEAD
 	"Sends `stream_options: { include_usage: true }` in the request.\nSupported providers will return token usage information in the response when set.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"September": "September",
 	"Serper API Key": "Serper API-sleutel",
 	"Serply API Key": "",
 	"Serpstack API Key": "Serpstack API-sleutel",
 	"Server connection verified": "Server verbinding geverifieerd",
 	"Set as default": "Stel in als standaard",
+<<<<<<< HEAD
 	"Set CFG Scale": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Default Model": "Stel Standaard Model in",
 	"Set embedding model (e.g. {{model}})": "Stel embedding model in (bv. {{model}})",
 	"Set Image Size": "Stel Afbeelding Grootte in",
 	"Set reranking model (e.g. {{model}})": "Stel reranking model in (bv. {{model}})",
+<<<<<<< HEAD
 	"Set Sampler": "",
 	"Set Scheduler": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Set Steps": "Stel Stappen in",
 	"Set Task Model": "Taakmodel instellen",
 	"Set Voice": "Stel Stem in",
@@ -633,6 +746,7 @@
 	"Show your support!": "",
 	"Showcased creativity": "Tooncase creativiteit",
 	"Sign in": "Inloggen",
+<<<<<<< HEAD
 	"Sign in to {{WEBUI_NAME}}": "",
 	"Sign Out": "Uitloggen",
 	"Sign up": "Registreren",
@@ -644,6 +758,15 @@
 	"Speech-to-Text Engine": "Spraak-naar-tekst Engine",
 	"Stop Sequence": "Stop Sequentie",
 	"Stream Chat Response": "",
+=======
+	"Sign Out": "Uitloggen",
+	"Sign up": "Registreren",
+	"Signing in": "Aanmelden",
+	"Source": "Bron",
+	"Speech recognition error: {{error}}": "Spraakherkenning fout: {{error}}",
+	"Speech-to-Text Engine": "Spraak-naar-tekst Engine",
+	"Stop Sequence": "Stop Sequentie",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"STT Model": "",
 	"STT Settings": "STT Instellingen",
 	"Submit": "Verzenden",
@@ -653,7 +776,10 @@
 	"Suggested": "Suggestie",
 	"Support": "",
 	"Support this plugin:": "",
+<<<<<<< HEAD
 	"Sync directory": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"System": "Systeem",
 	"System Prompt": "Systeem Prompt",
 	"Tags": "Tags",
@@ -676,9 +802,13 @@
 	"This action cannot be undone. Do you wish to continue?": "",
 	"This ensures that your valuable conversations are securely saved to your backend database. Thank you!": "Dit zorgt ervoor dat je waardevolle gesprekken veilig worden opgeslagen in je backend database. Dank je wel!",
 	"This is an experimental feature, it may not function as expected and is subject to change at any time.": "",
+<<<<<<< HEAD
 	"This option will delete all existing files in the collection and replace them with newly uploaded files.": "",
 	"This will delete": "",
 	"This will reset the knowledge base and sync all files. Do you wish to continue?": "",
+=======
+	"This will delete": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Thorough explanation": "Gevorderde uitleg",
 	"Tika": "",
 	"Tika Server URL required.": "",
@@ -688,10 +818,18 @@
 	"Title Auto-Generation": "Titel Auto-Generatie",
 	"Title cannot be an empty string.": "Titel kan niet leeg zijn.",
 	"Title Generation Prompt": "Titel Generatie Prompt",
+<<<<<<< HEAD
 	"To access the available model names for downloading,": "Om de beschikbare modelnamen voor downloaden te openen,",
 	"To access the GGUF models available for downloading,": "Om toegang te krijgen tot de GGUF modellen die beschikbaar zijn voor downloaden,",
 	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "",
 	"To attach knowledge base here, add them to the \"Knowledge\" workspace first.": "",
+=======
+	"to": "naar",
+	"To access the available model names for downloading,": "Om de beschikbare modelnamen voor downloaden te openen,",
+	"To access the GGUF models available for downloading,": "Om toegang te krijgen tot de GGUF modellen die beschikbaar zijn voor downloaden,",
+	"To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.": "",
+	"To add documents here, upload them to the \"Documents\" workspace first.": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"to chat input.": "naar chat input.",
 	"To select actions here, add them to the \"Functions\" workspace first.": "",
 	"To select filters here, add them to the \"Functions\" workspace first.": "",
@@ -721,21 +859,34 @@
 	"Type Hugging Face Resolve (Download) URL": "Type Hugging Face Resolve (Download) URL",
 	"Uh-oh! There was an issue connecting to {{provider}}.": "Uh-oh! Er was een probleem met verbinden met {{provider}}.",
 	"UI": "",
+<<<<<<< HEAD
 	"Unpin": "",
 	"Update": "",
 	"Update and Copy Link": "Update en Kopieer Link",
 	"Update for the latest features and improvements.": "",
+=======
+	"Unknown file type '{{file_type}}'. Proceeding with the file upload anyway.": "",
+	"Unpin": "",
+	"Update": "",
+	"Update and Copy Link": "Update en Kopieer Link",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Update password": "Wijzig wachtwoord",
 	"Updated at": "",
 	"Upload": "",
 	"Upload a GGUF model": "Upload een GGUF model",
+<<<<<<< HEAD
 	"Upload directory": "",
 	"Upload files": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Upload Files": "Bestanden uploaden",
 	"Upload Pipeline": "",
 	"Upload Progress": "Upload Voortgang",
 	"URL Mode": "URL Modus",
+<<<<<<< HEAD
 	"Use '#' in the prompt input to load and include your knowledge.": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Use '#' in the prompt input to load and select your documents.": "Gebruik '#' in de prompt input om je documenten te laden en te selecteren.",
 	"Use Gravatar": "Gebruik Gravatar",
 	"Use Initials": "Gebruik Initials",
@@ -753,7 +904,10 @@
 	"variable": "variabele",
 	"variable to have them replaced with clipboard content.": "variabele om ze te laten vervangen door klembord inhoud.",
 	"Version": "Versie",
+<<<<<<< HEAD
 	"Version {{selectedVersion}} of {{totalVersions}}": "",
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Voice": "",
 	"Warning": "Waarschuwing",
 	"Warning:": "",
@@ -782,7 +936,11 @@
 	"You're a helpful assistant.": "Jij bent een behulpzame assistent.",
 	"You're now logged in.": "Je bent nu ingelogd.",
 	"Your account status is currently pending activation.": "",
+<<<<<<< HEAD
 	"Your entire contribution will go directly to the plugin developer; Version prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+=======
+	"Your entire contribution will go directly to the plugin developer; Version de prueba does not take any percentage. However, the chosen funding platform might have its own fees.": "",
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	"Youtube": "Youtube",
 	"Youtube Loader Settings": "Youtube-laderinstellingen"
 }

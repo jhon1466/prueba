@@ -106,6 +106,7 @@
 
 		<hr class=" dark:border-gray-850" />
 
+<<<<<<< HEAD
 		<div class="flex space-x-1">
 			<a href="" target="_blank">
 				<img
@@ -131,13 +132,23 @@
 
 		<div class="mt-2 text-xs text-gray-400 dark:text-gray-500">
 			{#if !$WEBUI_NAME.includes('Version prueba')}
+=======
+		
+
+		<div class="mt-2 text-xs text-gray-400 dark:text-gray-500">
+			{#if !$WEBUI_NAME.includes('Version de prueba')}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				<span class=" text-gray-500 dark:text-gray-300 font-medium">{$WEBUI_NAME}</span> -
 			{/if}
 			{$i18n.t('Created by')}
 			<a
 				class=" text-gray-500 dark:text-gray-300 font-medium"
 				href=""
+<<<<<<< HEAD
 				target="_blank">jhon rios</a
+=======
+				target="_blank">Jhon</a
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			>
 		</div>
 	</div>

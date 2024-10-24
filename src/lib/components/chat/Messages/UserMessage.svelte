@@ -1,5 +1,6 @@
 <script lang="ts">
 	import dayjs from 'dayjs';
+<<<<<<< HEAD
 	import { toast } from 'svelte-sonner';
 	import { tick, createEventDispatcher, getContext, onMount } from 'svelte';
 
@@ -15,11 +16,27 @@
 	import ProfileImage from './ProfileImage.svelte';
 	import Tooltip from '$lib/components/common/Tooltip.svelte';
 	import FileItem from '$lib/components/common/FileItem.svelte';
+=======
+
+	import { tick, createEventDispatcher, getContext } from 'svelte';
+	import Name from './Name.svelte';
+	import ProfileImage from './ProfileImage.svelte';
+	import { models, settings } from '$lib/stores';
+	import Tooltip from '$lib/components/common/Tooltip.svelte';
+
+	import { user as _user } from '$lib/stores';
+	import { getFileContentById } from '$lib/apis/files';
+	import FileItem from '$lib/components/common/FileItem.svelte';
+	import { marked } from 'marked';
+	import { processResponseContent, replaceTokens } from '$lib/utils';
+	import MarkdownTokens from './Markdown/MarkdownTokens.svelte';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	import Markdown from './Markdown.svelte';
 
 	const i18n = getContext('i18n');
 
 	const dispatch = createEventDispatcher();
+<<<<<<< HEAD
 	export let user;
 
 	export let history;
@@ -53,6 +70,23 @@
 		}
 	};
 
+=======
+
+	export let user;
+	export let message;
+	export let siblings;
+	export let isFirstMessage: boolean;
+	export let readOnly: boolean;
+
+	export let confirmEditMessage: Function;
+	export let showPreviousMessage: Function;
+	export let showNextMessage: Function;
+	export let copyToClipboard: Function;
+
+	let edit = false;
+	let editedContent = '';
+	let messageEditTextAreaElement: HTMLTextAreaElement;
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	const editMessageHandler = async () => {
 		edit = true;
 		editedContent = message.content;
@@ -66,7 +100,11 @@
 	};
 
 	const editMessageConfirmHandler = async (submit = true) => {
+<<<<<<< HEAD
 		editMessage(message.id, editedContent, submit);
+=======
+		confirmEditMessage(message.id, editedContent, submit);
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 		edit = false;
 		editedContent = '';
@@ -80,6 +118,7 @@
 	const deleteMessageHandler = async () => {
 		dispatch('delete', message.id);
 	};
+<<<<<<< HEAD
 
 	onMount(() => {
 		console.log('UserMessage mounted');
@@ -87,6 +126,11 @@
 </script>
 
 <div class=" flex w-full user-message" dir={$settings.chatDirection} id="message-{message.id}">
+=======
+</script>
+
+<div class=" flex w-full user-message" dir={$settings.chatDirection}>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	{#if !($settings?.chatBubble ?? true)}
 		<ProfileImage
 			src={message.user
@@ -94,7 +138,11 @@
 				: (user?.profile_image_url ?? '/user.png')}
 		/>
 	{/if}
+<<<<<<< HEAD
 	<div class="w-full w-0 pl-1">
+=======
+	<div class="w-full overflow-hidden pl-1">
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 		{#if !($settings?.chatBubble ?? true)}
 			<div>
 				<Name>
@@ -127,7 +175,10 @@
 								<img src={file.url} alt="input" class=" max-h-96 rounded-lg" draggable="false" />
 							{:else}
 								<FileItem
+<<<<<<< HEAD
 									item={file}
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 									url={file.url}
 									name={file.name}
 									type={file.type}

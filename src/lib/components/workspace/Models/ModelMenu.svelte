@@ -12,7 +12,10 @@
 	import ArchiveBox from '$lib/components/icons/ArchiveBox.svelte';
 	import DocumentDuplicate from '$lib/components/icons/DocumentDuplicate.svelte';
 	import ArrowDownTray from '$lib/components/icons/ArrowDownTray.svelte';
+<<<<<<< HEAD
 	import ArrowUpCircle from '$lib/components/icons/ArrowUpCircle.svelte';
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	const i18n = getContext('i18n');
 
@@ -22,7 +25,10 @@
 	export let cloneHandler: Function;
 	export let exportHandler: Function;
 
+<<<<<<< HEAD
 	export let moveToTopHandler: Function;
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	export let hideHandler: Function;
 	export let deleteHandler: Function;
 	export let onClose: Function;
@@ -83,6 +89,7 @@
 			</DropdownMenu.Item>
 
 			<DropdownMenu.Item
+<<<<<<< HEAD
 				class="flex gap-2 items-center px-3 py-2 text-sm  font-medium cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md"
 				on:click={() => {
 					moveToTopHandler();
@@ -94,6 +101,8 @@
 			</DropdownMenu.Item>
 
 			<DropdownMenu.Item
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				class="flex  gap-2  items-center px-3 py-2 text-sm  font-medium cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md"
 				on:click={() => {
 					hideHandler();

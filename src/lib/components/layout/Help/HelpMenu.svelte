@@ -38,7 +38,11 @@
 				class="flex gap-2 items-center px-3 py-2 text-sm  cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md"
 				id="chat-share-button"
 				on:click={() => {
+<<<<<<< HEAD
 					window.open('https://docs.google.com/document/d/1uBTpAoY-I5s7Fu7dec9ZOZTj0VEUhTk29Wk8VdJ7DOE/edit?usp=sharing', '_blank');
+=======
+					window.open('https://docs.openwebui.com', '_blank');
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 				}}
 			>
 				<QuestionMarkCircle className="size-5" />

@@ -30,9 +30,12 @@ export default {
 						'code::after': false
 					}
 				}
+<<<<<<< HEAD
 			},
 			padding: {
 				'safe-bottom': 'env(safe-area-inset-bottom)'
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 			}
 		}
 	},

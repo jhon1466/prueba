@@ -1,5 +1,6 @@
 <script lang="ts">
 	import DOMPurify from 'dompurify';
+<<<<<<< HEAD
 	import { createEventDispatcher, onMount } from 'svelte';
 	import { marked, type Token } from 'marked';
 	import { revertSanitizedResponseContent, unescapeHtml } from '$lib/utils';
@@ -12,20 +13,37 @@
 	import Collapsible from '$lib/components/common/Collapsible.svelte';
 
 	const dispatch = createEventDispatcher();
+=======
+	import { onMount } from 'svelte';
+	import { marked, type Token } from 'marked';
+	import { revertSanitizedResponseContent, unescapeHtml } from '$lib/utils';
+
+	import CodeBlock from '$lib/components/chat/Messages/CodeBlock.svelte';
+	import MarkdownInlineTokens from '$lib/components/chat/Messages/Markdown/MarkdownInlineTokens.svelte';
+	import KatexRenderer from './KatexRenderer.svelte';
+	import { WEBUI_BASE_URL } from '$lib/constants';
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 
 	export let id: string;
 	export let tokens: Token[];
 	export let top = true;
 
+<<<<<<< HEAD
 	export let save = false;
 
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	const headerComponent = (depth: number) => {
 		return 'h' + depth;
 	};
 </script>
 
 <!-- {JSON.stringify(tokens)} -->
+<<<<<<< HEAD
 {#each tokens as token, tokenIdx (tokenIdx)}
+=======
+{#each tokens as token, tokenIdx}
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	{#if token.type === 'hr'}
 		<hr />
 	{:else if token.type === 'heading'}
@@ -33,6 +51,7 @@
 			<MarkdownInlineTokens id={`${id}-${tokenIdx}-h`} tokens={token.tokens} />
 		</svelte:element>
 	{:else if token.type === 'code'}
+<<<<<<< HEAD
 		{#if token.raw.includes('```')}
 			<CodeBlock
 				id={`${id}-${tokenIdx}`}
@@ -85,6 +104,43 @@
 				</tbody>
 			</table>
 		</div>
+=======
+		<CodeBlock
+			id={`${id}-${tokenIdx}`}
+			{token}
+			lang={token?.lang ?? ''}
+			code={revertSanitizedResponseContent(token?.text ?? '')}
+		/>
+	{:else if token.type === 'table'}
+		<table>
+			<thead>
+				<tr>
+					{#each token.header as header, headerIdx}
+						<th style={token.align[headerIdx] ? '' : `text-align: ${token.align[headerIdx]}`}>
+							<MarkdownInlineTokens
+								id={`${id}-${tokenIdx}-header-${headerIdx}`}
+								tokens={header.tokens}
+							/>
+						</th>
+					{/each}
+				</tr>
+			</thead>
+			<tbody>
+				{#each token.rows as row, rowIdx}
+					<tr>
+						{#each row ?? [] as cell, cellIdx}
+							<td style={token.align[cellIdx] ? '' : `text-align: ${token.align[cellIdx]}`}>
+								<MarkdownInlineTokens
+									id={`${id}-${tokenIdx}-row-${rowIdx}-${cellIdx}`}
+									tokens={cell.tokens}
+								/>
+							</td>
+						{/each}
+					</tr>
+				{/each}
+			</tbody>
+		</table>
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	{:else if token.type === 'blockquote'}
 		<blockquote>
 			<svelte:self id={`${id}-${tokenIdx}`} tokens={token.tokens} />
@@ -115,12 +171,15 @@
 				{/each}
 			</ul>
 		{/if}
+<<<<<<< HEAD
 	{:else if token.type === 'details'}
 		<Collapsible title={token.summary} className="w-fit space-y-1">
 			<div class=" mb-1.5" slot="content">
 				<svelte:self id={`${id}-${tokenIdx}-d`} tokens={marked.lexer(token.text)} />
 			</div>
 		</Collapsible>
+=======
+>>>>>>> 1bfc1be0c8a242212d2b3944ec9970f3c9acab24
 	{:else if token.type === 'html'}
 		{@const html = DOMPurify.sanitize(token.text)}
 		{#if html && html.includes('<video')}
